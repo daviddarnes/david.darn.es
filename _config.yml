@@ -1,0 +1,26 @@
+# Excluded files
+exclude:
+- README.md
+- LICENSE
+- CNAME
+
+# Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
+
+jekyll-mentions: https://twitter.com
+
+# Site info
+url: "http://david.darn.es"
+title: "David Darnes Blog"
+description: "Articles, tutorials and other ramblings from [David Darnes](https://darn.es)"
+avatar: "https://avatars1.githubusercontent.com/u/1177460?s=144"
+
+# Networks
+networks:
+  Twitter: http://twitter.com/daviddarnes
+  GitHub: http://github.com/daviddarnes
+  CodePen: http://codepen.io/daviddarnes
+  Dribbble: https://dribbble.com/daviddarnes

@@ -2,11 +2,24 @@
 exclude:
 - README.md
 - LICENSE
+- bower_components
+- bower.json
+- gulpfile.js
+- node_modules
+- package.json
 - CNAME
+
+# SCSS
+sass:
+  style: :compressed
+
+# Permalinks
+permalink: pretty
 
 # Gems
 gems:
 - jekyll-sitemap
+- jekyll-redirect-from
 - jekyll-mentions
 - jemoji
 

@@ -1,0 +1,32 @@
+{
+  "name": "david.darn.es",
+  "description": "My personal blog listing articles, tutorials and other ramblings",
+  "main": "_site/index.html",
+  "authors": [
+    "David Darnes (me@daviddarnes.com)"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "jekyll",
+    "simple",
+    "blog"
+  ],
+  "homepage": "https://github.com/daviddarnes/david.darn.es",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sassline": "~2.1.0"
+  },
+  "overrides": {
+    "sassline": {
+      "main": "assets/sass/base/*.scss"
+    }
+  }
+}

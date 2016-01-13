@@ -8,3 +8,16 @@ layout: stylesheet
 @import "mixins";
 @import "typography";
 @import "layouts";
+
+html {
+	background: $backgroundColour;
+}
+
+.main {
+	position: relative;
+	width: 90%;
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 7rem 0 1.5rem;
+	min-height: 100vh;
+}

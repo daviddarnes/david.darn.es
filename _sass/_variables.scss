@@ -56,7 +56,7 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'Georgia, serif',
+  font-family: 'Vollkorn, serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -64,7 +64,7 @@ $bodytype: (
 );
 
 $headingtype: (
-  font-family: 'Helvetica, sans-serif',
+  font-family: 'Open Sans, sans-serif',
   regular: 400,
   bold: 700,
   cap-height: 0.65
@@ -85,12 +85,12 @@ $monospacetype: (
 
 // Text colours. British English.
 $headingColour: #2E2E2E;
-$bodyColour: #494949;
-$linkColour: #0E58F5;
-$hoverColour: #0B348B;
-$captionColour: #BDC8CC;
+$bodyColour: #9D9D9D;
+$linkColour: #c90707;
+$hoverColour: darken($linkColour, 10%);
+$captionColour: #9D9D9D;
 $white: #FFFFFF;
 
 // Background colours.
-$backgroundColour: #FCFCFC;
-$codeBackgroundColour: #F5F4F2;
+$backgroundColour: #fcfaf2;
+$codeBackgroundColour: #FFFFFF;

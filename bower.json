@@ -22,11 +22,16 @@
     "tests"
   ],
   "dependencies": {
-    "sassline": "~2.1.0"
+    "sassline": "~2.1.1"
   },
   "overrides": {
     "sassline": {
-      "main": "assets/sass/base/*.scss"
+      "main": [
+        "assets/sass/base/*.scss"
+      ],
+      "ignore": [
+        "assets/sass/base/_variables.scss"
+      ]
     }
   }
 }

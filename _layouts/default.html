@@ -2,42 +2,14 @@
 <head>
 	<title>{{ site.title }}</title>
 	<link href="/css/styles.css" media="all" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,700,400italic|Open+Sans:400,400italic,700,700italic|Source+Code+Pro' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic|Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
 	<meta charset="utf8">
 </head>
 <body>
 
 	<main class="main" role="main">
 
-			{% if site.posts %}
-				<ul class="list  list--unstyled">
-
-					{% for post in site.posts %}
-
-						{% if post.link %}
-							{% assign link = post.link %}
-						{% else %}
-							{% assign link = post.url %}
-						{% endif %}
-
-						<li class="item">
-							<article class="article  typeset">
-
-								<header class="header  header--article">
-									<h2 class="title">
-										<a href="{{ link }}" title="{{ post.title }}">
-											{{ post.title }}
-										</a>
-									</h2>
-									<p class="excerpt">{{ post.excerpt }}</p>
-								</header>
-
-							</article>
-						</li>
-					{% endfor %}
-
-				</ul>
-			{% endif %}
+		{{ content }}
 
 	</main>
 

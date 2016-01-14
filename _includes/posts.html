@@ -1,0 +1,24 @@
+{% if site.posts %}
+	<ul class="posts">
+
+		{% for post in site.posts %}
+
+			{% if post.link %}
+				{% assign link = post.link %}
+			{% else %}
+				{% assign link = post.url %}
+			{% endif %}
+
+			<li class="postitem">
+				<article class="article  typeset">
+						<h2 class="title">
+							<a href="{{ link }}" title="{{ post.title }}">{{ post.title }}</a>
+						</h2>
+						<p class="excerpt">{{ post.excerpt }}</p>
+					</header>
+				</article>
+			</li>
+		{% endfor %}
+
+	</ul>
+{% endif %}

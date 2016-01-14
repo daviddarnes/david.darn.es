@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/daviddarnes/david.darn.es#readme",
   "dependencies": {
-    "bower": "^1.6.5",
+    "bower": "^1.7.2",
     "gulp": "^3.9.0",
     "gulp-filter": "^3.0.1",
     "gulp-rename": "^1.2.2",

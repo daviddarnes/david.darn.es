@@ -56,7 +56,7 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'Vollkorn, serif',
+  font-family: 'Source Sans Pro, sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -64,7 +64,7 @@ $bodytype: (
 );
 
 $headingtype: (
-  font-family: 'Open Sans, sans-serif',
+  font-family: 'Source Serif Pro, serif',
   regular: 400,
   bold: 700,
   cap-height: 0.65
@@ -84,8 +84,8 @@ $monospacetype: (
 // Proxima Nova: 0.57, Museo Slab: 0.66, JAF Facit: 0.7, Brandon Grotesque: 0.65, Clavo: 0.7, Adelle: 0.66, FF Tisa Pro: 0.82, Jubilat: 0.66, Futura PT: 0.66, Chaparral Pro: 0.5, Minion Pro: 0.66, Myriad Pro: 0.66, Adobe Caslon Pro: 0.36
 
 // Text colours. British English.
-$headingColour: #2E2E2E;
-$bodyColour: #9D9D9D;
+$headingColour: #3D3D3D;
+$bodyColour: #3D3D3D;
 $linkColour: #c90707;
 $hoverColour: darken($linkColour, 10%);
 $captionColour: #9D9D9D;

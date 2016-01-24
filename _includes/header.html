@@ -1,0 +1,30 @@
+
+<header class="header">
+
+	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
+
+		{% if page.colour %}
+			{% assign colour = page.colour %}
+		{% else %}
+			{% assign colour = "#c90707" %}
+		{% endif %}
+
+		{% if page.icon %}
+			<svg class="icon  icon--site  icon--large">
+				<use xlink:href="#{{ page.icon }}" fill="{{ colour }}"></use>
+			</svg>
+		{% else %}
+			<img class="avatar" src="{{ site.avatar }}" alt="{{ site.title }}"/>
+		{% endif %}
+
+	</a>
+
+	<div class="content  content--header">
+
+		<h1>{{ page.title }}</h1>
+
+		<h2>{{ page.excerpt }}</h2>
+
+	</div>
+
+</header>

@@ -1,9 +1,7 @@
 ---
-layout: index
-title: David Darnes Blog
-excerpt: "Articles, tutorials and other ramblings from David Darnes"
+layout: front
+title: "Dave's Blog"
+excerpt: "Articles, tutorials and other ramblings"
 ---
 
-# {{ site.title }}
-
-{{ site.description }}
+Articles about web design, development and some personal ones thrown in. Check out [my portfolio](https://darn.es).

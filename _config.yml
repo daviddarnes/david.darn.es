@@ -2,12 +2,13 @@
 exclude:
 - README.md
 - LICENSE
-- bower_components
-- bower.json
-- gulpfile.js
-- node_modules
-- package.json
 - CNAME
+
+# Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
 
 # SCSS
 sass:
@@ -16,20 +17,13 @@ sass:
 # Permalinks
 permalink: pretty
 
-# Gems
-gems:
-- jekyll-sitemap
-- jekyll-redirect-from
-- jekyll-mentions
-- jemoji
-
 jekyll-mentions: https://twitter.com
 
 # Site info
 url: "http://david.darn.es"
-title: "David Darnes Blog"
+title: "Dave's Blog"
 description: "Articles, tutorials and other ramblings from [David Darnes](https://darn.es)"
-avatar: "https://avatars1.githubusercontent.com/u/1177460?s=144"
+avatar: "http://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=144"
 
 # Networks
 networks:

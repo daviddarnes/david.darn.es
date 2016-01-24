@@ -2,8 +2,26 @@
 layout: default
 ---
 
-<article class="post  typeset">
+<div class="container">
 
-	{{ content }}
+	<article class="article">
 
-</article>
+	{% include header.html %}
+
+		<div class="content  content--main">
+
+			{{ content }}
+
+		</div>
+
+		<aside class="content  content--aside">
+
+					<p>Written by <a href="/">David Darnes</a></p>
+
+		</aside>
+
+	</article>
+
+	{% include footer.html %}
+
+</div>

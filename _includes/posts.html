@@ -1,24 +1,46 @@
 {% if site.posts %}
-	<ul class="posts">
+        <div class="content">
+                <h3>Articles</h3>
+        </div>
+        <ul class="list  list--posts" id="posts">
+                {% for item in site.posts %}
 
-		{% for post in site.posts %}
+								        {% if item.link %}
+												        {% assign link = item.link %}
+								        {% else %}
+								                {% assign link = item.url %}
+								        {% endif %}
 
-			{% if post.link %}
-				{% assign link = post.link %}
-			{% else %}
-				{% assign link = post.url %}
-			{% endif %}
+                        {% if item.colour %}
+												        {% assign colour = item.colour %}
+								        {% else %}
+								                {% assign colour = "#c90707" %}
+								        {% endif %}
 
-			<li class="postitem">
-				<article class="article  typeset">
-						<h2 class="title">
-							<a href="{{ link }}" title="{{ post.title }}">{{ post.title }}</a>
-						</h2>
-						<p class="excerpt">{{ post.excerpt }}</p>
-					</header>
-				</article>
-			</li>
-		{% endfor %}
+                        {% if item.icon %}
+                                {% assign icon = item.icon %}
+                        {% else %}
+                                {% assign icon = "article" %}
+                        {% endif %}
 
-	</ul>
+                        <li class="item  item--post">
+
+												        <a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
+                                        <svg class="icon  icon--post">
+						                                    <use xlink:href="#{{ icon }}" fill="{{ colour }}"></use>
+				                                </svg>
+				                        </a>
+
+                               	<article class="content  content--post  content--{{ item.title | slugify }}">
+                                        <style scoped>.content--{{ item.title | slugify }} a { color: {{ colour }}; border-color: {{ colour }}; }</style>
+
+					                              <h2>
+						                                    <a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
+					                              </h2>
+
+					                              {{ item.excerpt | markdownify }}
+                                </article>
+                        </li>
+                {% endfor %}
+        </ul>
 {% endif %}

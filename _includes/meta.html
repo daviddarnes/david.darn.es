@@ -1,36 +1,57 @@
-	<!-- General meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- General meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	{% if page.excerpt %}
-		{% assign description = page.excerpt %}
-	{% else %}
-		{% assign description = site.description %}
-	{% endif %}
-	
-	<!-- Title meta -->
-	<title>{{ page.title }} - {{ description }}</title>
-	<meta property="og:title" content="{{ site.title }}">
-	<meta name="twitter:title" content="{{ site.title }}">
-	
-	{% if description %}
-		<!-- Description meta -->
-		<meta name="description" content="{{ description }}">
-		<meta property="og:description" content="{{ description }}">
-		<meta name="twitter:description" content="{{ description }}">
-	{% endif %}
+<!-- Title meta -->
+{% if page.url == "/" %}
+	<title>{{ page.title }}</title>
+{% else %}
+	<title>{{ page.title }} - {{ site.title }}</title>
+{% endif %}
+<meta property="og:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title }}">
 
-	<!-- Author meta -->
-	<meta property="og:site_name" content="{{ site.title }}">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="{{ site.meta.twitter }}">
+{% if page.excerpt %}
+	<!-- Description meta -->
+	<meta name="description" content="{{ page.excerpt }}">
+	<meta property="og:description" content="{{ page.excerpt }}">
+	<meta name="twitter:description" content="{{ page.excerpt }}">
+{% endif %}
 
-	<!-- Domain meta -->
-	<meta name="twitter:domain" content="{{ site.url }}">
-	<meta name="robots" content="index, follow">
+<!-- Author meta -->
+<meta property="og:site_name" content="{{ site.title }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="{{ site.meta.twitter }}">
 
-	{% if site.avatar %}
-		<!-- Image meta -->
-		<meta property="og:image" content="{{ site.avatar }}">
-		<meta name="twitter:image" content="{{ site.avatar }}">
-	{% endif %}
+<!-- Domain meta -->
+<meta name="twitter:domain" content="{{ site.url }}">
+<meta name="robots" content="index, follow">
+
+{% if page.url == "/index.html" %}
+	<!-- URL meta -->
+	<meta property="og:url" content="{{ site.url }}">
+	<meta name="twitter:url" content="{{ site.url }}">
+{% else %}
+	<!-- URL meta -->
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+
+{% if page.url contains 'articles' %}
+	<!-- Article meta -->
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="https://www.facebook.com/{{ site.meta.facebook }}" />
+	<meta name="twitter:creator" content="{{ site.meta.twitter }}">
+{% else %}
+	<meta property="og:type" content="website">
+{% endif %}
+
+{% if page.image %}
+	<!-- Image meta -->
+	<meta property="og:image" content="{{ page.image }}">
+	<meta name="twitter:image:src" content="{{ page.image }}">
+{% else %}
+	<!-- Image meta -->
+	<meta property="og:image" content="{{ site.avatar }}">
+	<meta name="twitter:image:src" content="{{ site.avatar }}">
+{% endif %}

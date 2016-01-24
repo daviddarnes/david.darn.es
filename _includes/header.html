@@ -3,15 +3,9 @@
 
 	<a class="link  link--circle" href="{% if page.url == "/index.html" %}/{% else %}{{ page.url }}{% endif %}" title="{{ page.title }}">
 
-		{% if page.colour %}
-			{% assign colour = page.colour %}
-		{% else %}
-			{% assign colour = "#c90707" %}
-		{% endif %}
-
 		{% if page.icon %}
 			<svg class="icon  icon--site  icon--large">
-				<use xlink:href="#{{ page.icon }}" fill="{{ colour }}"></use>
+				<use xlink:href="#{{ page.icon }}" {% if page.colour %}fill="{{ page.colour }}"{% endif %}></use>
 			</svg>
 		{% else %}
 			<img class="avatar" src="{{ site.avatar }}" alt="{{ site.title }}"/>

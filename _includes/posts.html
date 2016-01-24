@@ -11,12 +11,6 @@
 								                {% assign link = item.url %}
 								        {% endif %}
 
-                        {% if item.colour %}
-												        {% assign colour = item.colour %}
-								        {% else %}
-								                {% assign colour = "#c90707" %}
-								        {% endif %}
-
                         {% if item.icon %}
                                 {% assign icon = item.icon %}
                         {% else %}
@@ -27,12 +21,12 @@
 
 												        <a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
                                         <svg class="icon  icon--post">
-						                                    <use xlink:href="#{{ icon }}" fill="{{ colour }}"></use>
+						                                    <use xlink:href="#{{ icon }}" fill="{{ item.colour }}"></use>
 				                                </svg>
 				                        </a>
 
                                	<article class="content  content--post  content--{{ item.title | slugify }}">
-                                        <style scoped>.content--{{ item.title | slugify }} a { color: {{ colour }}; border-color: {{ colour }}; }</style>
+                                        <style scoped>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
 
 					                              <h2>
 						                                    <a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>

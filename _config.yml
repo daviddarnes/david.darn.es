@@ -33,3 +33,21 @@ networks:
   GitHub: http://github.com/daviddarnes
   CodePen: http://codepen.io/daviddarnes
   Dribbble: https://dribbble.com/daviddarnes
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      is_page: true
+      layout: default
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+      layout: post
+      icon: article

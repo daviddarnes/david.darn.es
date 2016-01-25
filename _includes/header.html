@@ -3,12 +3,22 @@
 
 	<a class="link  link--circle" href="{{ page.url }}" title="{{ page.title }}">
 
-		{% if page.icon %}
-			<svg class="icon  icon--site  icon--large">
-				<use xlink:href="#{{ page.icon }}" {% if page.colour %}fill="{{ page.colour }}"{% endif %}></use>
-			</svg>
+		{% if item.icon %}
+			{% assign icon = item.icon %}
 		{% else %}
+			{% assign icon = "article" %}
+		{% endif %}
+
+		{% if page.is_post %}
+
+			<svg class="icon  icon--site  icon--large">
+				<use xlink:href="#{{ icon }}" {% if page.colour %}fill="{{ page.colour }}"{% endif %}></use>
+			</svg>
+
+		{% else %}
+
 			<img class="avatar" src="{{ site.avatar }}" alt="{{ site.title }}"/>
+
 		{% endif %}
 
 	</a>

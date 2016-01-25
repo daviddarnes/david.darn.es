@@ -176,6 +176,7 @@ img {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+            color: $color--keyline;
         }
     }
 
@@ -211,7 +212,7 @@ img {
 }
 
 .pagination {
-    margin: 0 .6rem;
+    margin: 0 1.4rem 0 0;
 }
 
 // Links

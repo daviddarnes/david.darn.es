@@ -19,6 +19,8 @@ sass:
 permalink: pretty
 paginate: 8
 
+excerpt_separator: <!-- more -->
+
 jekyll-mentions: https://twitter.com
 
 # Site info
@@ -42,7 +44,7 @@ defaults:
       type: pages
     values:
       is_page: true
-      layout: default
+      layout: page
   -
     scope:
       path: ""

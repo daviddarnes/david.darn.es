@@ -160,7 +160,9 @@ img {
         width: 2.4rem;
         height: 2.45rem;
         @media (max-width: 500px) {
-            margin: .55rem;
+            margin: .75rem;
+            width: 2rem;
+            height: 2rem;
         }
     }
 }
@@ -278,7 +280,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     line-height: 1.8rem;
-    padding-bottom: .5rem;
+    padding-bottom: .65rem;
     margin-bottom: 0;
     color: $color--subheading;
 }

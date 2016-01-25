@@ -13,17 +13,11 @@
 				{% assign link = item.url %}
 			{% endif %}
 
-			{% if item.icon %}
-				{% assign icon = item.icon %}
-			{% else %}
-				{% assign icon = "article" %}
-			{% endif %}
-
 			<li class="item  item--post">
 
 				<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
 					<svg class="icon  icon--post">
-						<use xlink:href="#{{ icon }}" fill="{{ item.colour }}"></use>
+						<use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
 					</svg>
 				</a>
 

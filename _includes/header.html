@@ -1,18 +1,11 @@
-
 <header class="header">
 
 	<a class="link  link--circle" href="{{ page.url }}" title="{{ page.title }}">
 
-		{% if item.icon %}
-			{% assign icon = item.icon %}
-		{% else %}
-			{% assign icon = "article" %}
-		{% endif %}
-
-		{% if page.is_post %}
+		{% if page.is_post or page.icon %}
 
 			<svg class="icon  icon--site  icon--large">
-				<use xlink:href="#{{ icon }}" {% if page.colour %}fill="{{ page.colour }}"{% endif %}></use>
+				<use xlink:href="#{{ page.icon }}"{% if page.colour %} fill="{{ page.colour }}"{% endif %}></use>
 			</svg>
 
 		{% else %}
@@ -26,8 +19,6 @@
 	<div class="content  content--header">
 
 		<h1>{{ page.title }}</h1>
-
-		<h2>{{ page.excerpt }}</h2>
 
 	</div>
 

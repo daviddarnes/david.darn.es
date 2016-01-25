@@ -102,6 +102,9 @@ body {
         margin-bottom: 3rem;
         padding-top: .35rem;
     }
+    &--aside {
+        color: $color--footnote;
+    }
 }
 
 // Graphics
@@ -169,6 +172,11 @@ img {
     padding: 0;
     &--posts {
         flex: 1 0 auto;
+        h2 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
     }
 
     // Opacity hover transition
@@ -200,6 +208,10 @@ img {
         display: inline-block;
         margin-right: .6rem;
     }
+}
+
+.pagination {
+    margin: 0 .6rem;
 }
 
 // Links
@@ -265,7 +277,8 @@ h1 {
 h2 {
     font-size: 1.5rem;
     line-height: 1.8rem;
-    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
     color: $color--subheading;
 }
 

@@ -9,6 +9,7 @@ gems:
 - jekyll-sitemap
 - jekyll-mentions
 - jemoji
+- jekyll-paginate
 
 # SCSS
 sass:
@@ -16,6 +17,7 @@ sass:
 
 # Permalinks
 permalink: pretty
+paginate: 8
 
 jekyll-mentions: https://twitter.com
 

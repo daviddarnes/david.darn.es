@@ -1,14 +1,9 @@
 ---
 title: "New Site Structure: Phase One Complete"
-layout: post
-category: article
-icon: article
-excerpt: "The first step to reorganising my presonal sites"
 ---
 
-# New Site Structure: Phase One Complete
-
 When I say phase one I mean [darn.es](https://darn.es/), and when I say new site structure I mean [this plan I wrote up](http://daviddarnes.github.io/articles/new-site-structure/).
+<!-- more -->
 
 ## The design & development
 

@@ -1,13 +1,10 @@
 ---
 title: Tracking Time
-layout: post
 redirect_from: /productivity/tracking-time/
-excerpt: "Options for tracking your time when you're designin' solo"
 ---
 
-# Tracking Time
-
 Not long ago I asked my Twitter followers what they suggest for a single person to track their time with. I was worried it might open up a can of worms, but I got an excellent response. Here&#8217;s what people suggested:
+<!-- more -->
 
   * [Freeagent][1] suggested by [@alanhornedotcom][2] &#8211; Excellent not only for single users but also agencies, currently using this at work. Very good and seems to cover everything, my only issue is there&#8217;s no search in the contacts section
   * [Freshbooks][3] suggested by [@pealo86][4] &#8211; Looks very similar to [Freeagent][1], which can only be a good thing. Matt is a full time freelancer and he highly recommends this, so it seems this works really well for a solo designer/developer

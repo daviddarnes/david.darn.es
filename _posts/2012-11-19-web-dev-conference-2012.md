@@ -1,13 +1,13 @@
 ---
 title: 'Web Dev Conference 2012: Look Back'
-layout: post
 redirect_from: /conferences/web-dev-conference-2012/
-excerpt: "An overview of what I gained from my visit to WDC2012"
+excerpt: "A week or so ago I attended WDC 2012 (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you’ll see why in the following. At the conference we were treated to a number of speakers. Without blabbing on too much, I’d like to explain who they are, what they do, and what I thought about them."
 ---
 
-# Web Dev Conference 2012: Look Back
+<img class="size-full wp-image-602 alignright" title="lanyard" src="http://david.darn.es/wp-content/uploads/2012/11/lanyard.jpg" alt="" width="400" height="843" />
 
-<img class="size-full wp-image-602 alignright" title="lanyard" src="http://david.darn.es/wp-content/uploads/2012/11/lanyard.jpg" alt="" width="400" height="843" />A week or so ago I attended [WDC 2012][1] (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you&#8217;ll see why in the following. At the conference we were treated to a number of speakers. Without blabbing on too much, I&#8217;d like to explain who they are, what they do, and what I thought about them:
+A week or so ago I attended [WDC 2012][1] (Web Development Conference 2012), which was my first web design & development conference. And yes, I did put design, and you&#8217;ll see why in the following. At the conference we were treated to a number of speakers. Without blabbing on too much, I&#8217;d like to explain who they are, what they do, and what I thought about them:
+<!-- more -->
 
 ### First speaker: [David Burton][2]
 
@@ -29,7 +29,9 @@ Shane works for Mozilla on the [Mozilla Persona][20] project. He explained abou
 
 *Lunch: <a title="Subway - Hot Hot" href="http://youtu.be/lDKCbXTlrP4?t=14s" target="_blank">Subway</a>*
 
-### <img class="wp-image-601 alignright" title="badge" src="http://david.darn.es/wp-content/uploads/2012/11/badge.jpg" alt="" width="390" height="274" />Fifth speaker: [Syd Lawrence][23]
+<img class="wp-image-601 alignright" title="badge" src="http://david.darn.es/wp-content/uploads/2012/11/badge.jpg" alt="" width="390" height="274" />
+
+### Fifth speaker: [Syd Lawrence][23]
 
 This guy was full of energy from the very beginning. He currently works (and founded) [We Make Awesome Sh.it][24], which does what it says on the tin. The work he does reminds me so much of when I was doing my Interactive Design degree at Lincoln, it really makes me wish I had more coding knowledge back then. Syd&#8217;s talk was simply &#8220;play with code, try something out and make something cool&#8221;, which is exactly what he does. For example [Instac.at][25], which uses the Instagram API to pull out any picture tagged with &#8216;#cat&#8217;. This experiment has now been used for clients such as [Professor Green][26] and [Cannes Lions][27]. Super inspiring, makes me want to go & make awesome shi…
 
@@ -39,7 +41,9 @@ This guy was full of energy from the very beginning. He currently works (and f
 
 Andrew was positive and fun speaker, his jokes weren&#8217;t the best but I chuckled anyway. He talked about the research for Windows 8, such as the concept of hinting and natural sound within UX. To go with this he showed us some great [videos that expanded his points][30], they featured interviews with experts such as [Gareth Jones][31] & [Erik Spiekermann][32]. I was really enjoying Andrew&#8217;s talk, however about two thirds in Andrew suddenly started talking about APIs & Apps for Windows 8. It was all sounding like a sales pitch to me, and when his machine crashed it only made it worse. This was the fly in the ointment for me.
 
-### <img style="width: 100%;" title="briefing-card" src="http://david.darn.es/wp-content/uploads/2012/11/briefing-card.jpg" alt="" width="950" height="300" />Seventh speaker: [Robbie Manson][33]
+<img style="width: 100%;" title="briefing-card" src="http://david.darn.es/wp-content/uploads/2012/11/briefing-card.jpg" alt="" width="950" height="300" />
+
+### Seventh speaker: [Robbie Manson][33]
 
 This may have been my favourite talk from the whole event. Robbie is a designer & front end developer at [Freeagent][34]. His talk focused on the relationship between the design and the person. He likes to incorporate films into his talks, in ours he spoke about a [scene from Jaws][35]. I could tell that Robbie is not only passionate about design, but that he also the thinking behind it. This might be a trivial comment but, even his slides were designed beautifully. Someone in the crowd asked what fonts he used, &#8220;Glad you asked that, [Abril Fatface][36] & [Gentium Book Basic][37]&#8221; he replied. This is the guy I&#8217;d want to have a chat with over a pint. Check out [his portfolio site][38] if you have a moment.
 
@@ -47,7 +51,7 @@ This may have been my favourite talk from the whole event. Robbie is a designer 
 
 This event was what I expected and more. All the speakers gave brilliant talks that opened my mind, not only in terms of development but also in design. They all came from such a wide range of backgrounds within the industry, and hearing from all those different angles was really a great deal of interest to me. I&#8217;ll take a lot from this conference. I&#8217;ve found new drive towards learning new languages, I&#8217;ve learnt that playing with ideas really can bare truly fruitful avenues, and that I&#8217;m not the only one that gets really passionate about their work. All I need to do now is to put this new found knowledge to good use!
 
-WDC is held every year in the city of Bristol, and organised by [Alex Older][39]. I&#8217;d like to thank him for putting the show together and allowing me, and all the other attendees, the opporitunity to hear from professionals in the field of Web Design & Development.
+WDC is held every year in the city of Bristol, and organised by [Alex Older][39]. I&#8217;d like to thank him for putting the show together and allowing me, and all the other attendees, the opportunity to hear from professionals in the field of Web Design & Development.
 
 Cheers, Dave
 

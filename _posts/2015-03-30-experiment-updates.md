@@ -1,13 +1,9 @@
 ---
 title: Experiment & Project Updates
-layout: post
-category: article
-excerpt: Updates to my experiments and personal projects
 ---
 
-# Experiment & Project Updates
-
 I've been working on a few of my personal projects and experiments this weekend and thought it might be worth rounding them up in a short-ish article. That way I can show new features or changes, plus give you a chance to check out some of my older stuff.
+<!-- more -->
 
 ## Bit Podcast
 

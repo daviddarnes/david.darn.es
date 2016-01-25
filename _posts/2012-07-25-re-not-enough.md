@@ -1,13 +1,10 @@
 ---
 title: 'Re: Not Enough In The Day'
-layout: post
 redirect_from: /methods/re-not-enough/
-excerpt: "Feedback on the subject of my daily routine"
 ---
 
-# Re: Not Enough In The Day
-
-[Recently I wrote an article][1] about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I&#8217;d like to thank everyone who replied. I received a few [tweets][2], couple of [Google+][3] messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
+[Recently I wrote an article](http://david.darn.es/methods/not-enough-in-the-day/ "Not Enough In The Day") about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I&#8217;d like to thank everyone who replied. I received a few [tweets](http://twitter.com/daviddarnes "David Darnes on Twitter"), couple of [Google+](https://plus.google.com/100895260126547897177/posts "David Darnes on Google+") messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
+<!-- more -->
 
 I&#8217;d like to kick off with an email from college friend and web developer [Benjamin Reid][4], who emailed me with a very detailed schedule of his average weekday:
 
@@ -49,9 +46,6 @@ So in review I need to 1. work less and 2. if I am working more than usual make 
 
 Cheers, Dave
 
- [1]: http://david.darn.es/methods/not-enough-in-the-day/ "Not Enough In The Day"
- [2]: http://twitter.com/daviddarnes "David Darnes on Twitter"
- [3]: https://plus.google.com/100895260126547897177/posts "David Darnes on Google+"
  [4]: http://www.benjaminreid.me/ "Benjamin Reid"
  [5]: http://www.instapaper.com/ "Instapaper - Save interesting web pages for reading later"
  [6]: http://www.youtube.com/watch?v=4cSpQKpz75E "Cover of Survival by Muse"

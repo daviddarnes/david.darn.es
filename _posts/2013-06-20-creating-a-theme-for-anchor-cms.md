@@ -1,6 +1,5 @@
 ---
 title: Creating a Theme for Anchor CMS
-layout: post
 category: tutorial
 icon: tutorial
 colour: "#196E76"

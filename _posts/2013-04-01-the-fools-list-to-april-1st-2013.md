@@ -3,7 +3,7 @@ title: The Fools List To April 1st 2013
 redirect_from: /humor/the-fools-list-to-april-1st-2013/
 ---
 
-The internet has been abundant with trolls today. What I&#8217;ve attempted to do is amalgamate them all into singular list for you to chuckle, confuse and disappoint yourself with. Enjoy:
+The internet has been abundant with trolls today. What I've attempted to do is amalgamate them all into singular list for you to chuckle, confuse and disappoint yourself with. Enjoy:
 <!-- more -->
 
 ### Google
@@ -21,13 +21,13 @@ The internet has been abundant with trolls today. What I&#8217;ve attempted to d
 
 ### Social and News
 
-  * [Twttr &#8211; Twitter starts charging for the use of vowels][12]
+  * [Twttr – Twitter starts charging for the use of vowels][12]
   * [Da Vinci Invented Google Glass][13]
   * [Universal Japan teases a 4th Back To The Future movie][14]
   * [Mirror produces a surprisingly clever set of filters for their readers][15]
   * [Soundclouds new Dropometer][16]
   * [Metro goes all fool-ception on us][17]
-  * [Pirate Bay move to the US, changing their name to &#8220;Freedom Bay&#8221;][18]
+  * [Pirate Bay move to the US, changing their name to "Freedom Bay"][18]
   * [RunKeeper is released for iPad][19]
 
 ### Consumer
@@ -38,7 +38,7 @@ The internet has been abundant with trolls today. What I&#8217;ve attempted to d
   * [Redbull Japan expands its product line][23]
   * [Dominos Japan introduces canned pizza][24]
   * [WestJet eases restrictions on pets in the cabin][25]
-  * [American Eagle & College Humor pranks customers with &#8220;Skinny Skinny&#8221; jean][26]
+  * [American Eagle & College Humor pranks customers with "Skinny Skinny" jean][26]
   * [Play-Doh 3D Printer][27]
   * [First flat pack lawnmower from Ikea][28]
   * [Samsung releases Eco Trees][29]
@@ -46,7 +46,7 @@ The internet has been abundant with trolls today. What I&#8217;ve attempted to d
 
 ### Gaming
 
-  * [Mojang presents Minecraft 2.0 with a new &#8220;hostile&#8221; mode][31]
+  * [Mojang presents Minecraft 2.0 with a new "hostile" mode][31]
   * [The Adventure Time Interactive Buddy][32]
   * [Football Manager 1888 Edition][33]
   * [Farcry 3: Blood Dragon][34]
@@ -64,7 +64,7 @@ The internet has been abundant with trolls today. What I&#8217;ve attempted to d
   * [53 go even simpler with their update to Paper][43]
   * [Love with Food create a spoof version of their site, Love with Weed][44]
 
-Oh and finally [My Google Chrome Post][45]. If I&#8217;ve missed any it&#8217;s due to me either not seeing it or it wasn&#8217;t good enough. I hope you find these fun, or even inspirational. It&#8217;s amazing what people can create with no limits and a fun brief.
+Oh and finally [My Google Chrome Post][45]. If I've missed any it's due to me either not seeing it or it wasn't good enough. I hope you find these fun, or even inspirational. It's amazing what people can create with no limits and a fun brief.
 
 Cheers, Dave
 

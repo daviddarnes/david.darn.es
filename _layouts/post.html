@@ -8,19 +8,21 @@ layout: default
 
 	{% include header.html %}
 
-		<div class="content  content--main">
+		<main class="content  content--main">
 
 			{{ content }}
 
-		</div>
-
-		<aside class="content  content--aside">
-
-			<p><a href="/">&larr; Back to blog</a></p>
-
-		</aside>
+		</main>
 
 	</article>
+
+	{% include related.html %}
+
+	<aside class="content  content--aside">
+
+		<p><a href="/">&larr; Back to blog</a></p>
+
+	</aside>
 
 	{% include footer.html %}
 

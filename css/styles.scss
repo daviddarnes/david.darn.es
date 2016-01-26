@@ -302,6 +302,7 @@ a {
     position: relative;
     border-color: $color--link;
     white-space: nowrap;
+    transition: .2s;
     &:after {
         content: "";
         position: absolute;
@@ -316,6 +317,16 @@ a {
     &:hover:after {
         opacity: 0.75;
     }
+    @media (max-width: 500px) {
+		white-space: normal;
+		text-decoration: underline;
+		&:after {
+			display: none;
+		}
+		&:hover {
+			color: darken($color--link, 10%);
+		}
+	}
 }
 
 small {

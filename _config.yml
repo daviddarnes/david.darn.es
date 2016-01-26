@@ -18,7 +18,6 @@ sass:
 # Permalinks
 permalink: pretty
 paginate: 8
-timezone: Europe/Paris
 
 excerpt_separator: <!-- more -->
 

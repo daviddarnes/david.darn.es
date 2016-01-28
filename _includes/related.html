@@ -1,11 +1,11 @@
 {% if site.posts %}
 
 	<div class="content">
-		<h3>Articles</h3>
+		<h3>Related Articles</h3>
 	</div>
 
 	<ul class="list  list--posts" id="posts">
-		{% for item in paginator.posts %}
+		{% for item in site.related_posts limit:3 %}
 
 			{% if item.link %}
 				{% assign link = item.link %}
@@ -33,8 +33,6 @@
 					<small class="small">
 						<time datetime="{{ item.date | date_to_xmlschema }}" class="time">{{ item.date | date_to_string }}</time>
 					</small>
-
-					{{ item.excerpt | markdownify }}
 
 				</article>
 			</li>

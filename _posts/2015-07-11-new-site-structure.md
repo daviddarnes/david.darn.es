@@ -1,16 +1,9 @@
 ---
 title: New Site Structure Plans
-layout: post
-category: article
-icon: article
-excerpt: "I'm currently in the process of shifting things over from old to new with regards to my personal site"
-published: true
 ---
 
-
-# New Site Structure Plans
-
 I'm currently in the process of shifting things over from old to new with regards to my personal site. As many others, I also suffer from "leaving personal work until last". [In my last article related to this](https://github.com/daviddarnes/daviddarnes.github.io/blob/master/_posts/2015-03-24-hello-github.md) I said I'd be switching my WordPress content over from it to this site. Currently I've only transferred the articles and they are sitting in drafts. This is mainly because I've yet to style some elements on this site, such as images in articles. Plus I'm avoiding the dreaded domain transfer process, which shouldn't be hard now [I've documented it](http://daviddarnes.github.io/articles/github-pages-custom-domains/).
+<!-- more -->
 
 ## The structure
 

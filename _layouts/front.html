@@ -4,25 +4,19 @@ layout: default
 
 <div class="container">
 
-	<article class="article">
-
 	{% include header.html %}
 
 		<main class="content  content--main">
 
 			{{ content }}
 
+			{% include networks.html %}
+
 		</main>
 
-	</article>
+	{% include posts.html %}
 
-	{% include related.html %}
-
-	<aside class="content  content--aside">
-
-		<p><a href="/">&larr; Back to blog</a></p>
-
-	</aside>
+	{% include pagination.html %}
 
 	{% include footer.html %}
 

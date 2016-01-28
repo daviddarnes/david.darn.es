@@ -1,13 +1,9 @@
 ---
 title: I Listen To Too Many Podcasts
-layout: post
-category: article
-excerpt: "Not really a surprise, I've mentioned a few on Twitter"
 ---
 
-# I Listen To Too Many Podcasts
-
 I've had to take a break from listening to podcasts as all I've been doing in playing catch up with every single episode of them, rather than listening to episodes I actually want to hear.
+<!-- more -->
 
 ## The list
 

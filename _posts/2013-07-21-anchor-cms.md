@@ -1,8 +1,7 @@
 ---
 title: Anchor CMS - What is it?
-layout: post
 category: tools
 colour: "#FFA64D"
 link: http://everydaydesigner.net/development/anchor-cms
-excerpt: In this article I'm going to run through what Anchor is and why you might want to use it
+excerpt: "Anchor is a lightweight CMS designed to be simple but effective. It was originally created by the mysterious web designer & developer Visual Idiot. It was born out of his frustration with current CMS platforms. They either had a complicated admin interface, a bloated codebase, or in some cases both. Anchor is now mainly developed by Kieron Wilson, with Idiot covering the front-end design and development."
 ---

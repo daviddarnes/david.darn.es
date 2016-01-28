@@ -1,16 +1,10 @@
 ---
 title: Oi, GitHub.io
-layout: post
-category: article
-excerpt: Switching from WordPress to GitHub Pages
 redirect_from: /website/hi-world/
 ---
 
-# Oi, GitHub.io
-
-### Switching from WordPress to GitHub Pages
-
 I've decided to follow the cool kids and start up a proper [github.io](https://pages.github.com/) site. For the time being I'll be leaving it at [daviddarnes.github.io](http://daviddarnes.github.io). However I'd like to slowly transfer the articles from my current WordPress site to this one, with the plan to eventually move entirely over to this system and archive the WordPress site. The switch to this was inevitable really. I dabbled with the idea, thinking it was pretty cool that I could not only have my whole site open source, but also be able to host it from the same place as well.
+<!-- more -->
 
 ### To Do
 - **Transfer articles from the WordPress site to here:**

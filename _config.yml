@@ -28,7 +28,7 @@ url: "http://david.darn.es"
 title: "Dave's Blog"
 name: "David Darnes"
 description: "Articles about web design, development and some personal ones thrown in"
-avatar: "http://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
+avatar: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
 # Networks
 networks:

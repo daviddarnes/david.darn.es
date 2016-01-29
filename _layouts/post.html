@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="container">
 
 	<article class="article">
@@ -10,6 +9,10 @@ layout: default
 
 		<main class="content  content--main">
 
+			{% if item.colour %}
+				<style scoped>.content--main a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
+			{% endif %}
+			
 			{{ content }}
 
 		</main>

@@ -9,8 +9,8 @@ layout: default
 
 		<main class="content  content--main">
 
-			{% if item.colour %}
-				<style scoped>.content--main a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
+			{% if post.colour %}
+				<style scoped>.content--main a { color: {{ post.colour }}; border-color: {{ post.colour }}; }</style>
 			{% endif %}
 			
 			{{ content }}

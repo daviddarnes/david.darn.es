@@ -1,6 +1,5 @@
 ---
 title: Listing GitHub Repos on GitHub Pages
-draft: true
 ---
 
 {% highlight liquid %}

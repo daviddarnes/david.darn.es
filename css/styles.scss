@@ -2,6 +2,8 @@
 layout: none
 ---
 
+@import "syntax";
+
 // Variables
 $color--background: #fcfaf2;
 $color--link: #c90707;
@@ -334,4 +336,14 @@ small {
     font-size: .85rem;
     font-weight: 400;
     color: $color--footnote;
+}
+
+code {
+  display: inline-block;
+  width: 100%;
+  overflow-x: scroll;
+  border: 1px solid $color--keyline;
+  border-radius: 3px;
+  padding: 0 .4rem;
+  background: lighten($color--background, 10%);
 }

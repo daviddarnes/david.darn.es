@@ -340,7 +340,7 @@ small {
 
 code {
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
   overflow-x: scroll;
   border: 1px solid $color--keyline;
   border-radius: 3px;

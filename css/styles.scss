@@ -342,6 +342,7 @@ code {
   display: inline-block;
   max-width: 100%;
   overflow-x: scroll;
+  vertical-align: bottom;
   border: 1px solid $color--keyline;
   border-radius: 3px;
   padding: 0 .4rem;

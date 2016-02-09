@@ -2,7 +2,7 @@
 title: "New Site Structure: Phase One Complete"
 ---
 
-When I say phase one I mean [darn.es](https://darn.es/), and when I say new site structure I mean [this plan I wrote up](http://daviddarnes.github.io/articles/new-site-structure/).
+When I say phase one I mean [darn.es](https://darn.es/), and when I say new site structure I mean [this plan I wrote up](https://david.darn.es/2015/07/11/new-site-structure/).
 <!-- more -->
 
 ## The design & development

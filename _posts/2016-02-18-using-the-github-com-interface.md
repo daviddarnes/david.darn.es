@@ -1,7 +1,7 @@
 ---
 title: "Building a Site Entirely on Github.com"
 colour: "#4078c0"
-image: "https://david.darn.es/images/github-editor/new-repo.png"
+image: "https://david.darn.es/images/github-editor/feature-image.jpg"
 ---
 
 Have you ever thought:

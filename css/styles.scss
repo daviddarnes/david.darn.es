@@ -14,6 +14,7 @@ $color--blockquote: #5D5D5D;
 $color--keyline: darken($color--background, 10%);
 $color--footnote: #ADADAD;
 $width--keyline: .5rem;
+$border--radius: 3px;
 
 // Globals & resets
 html, body {
@@ -338,16 +339,31 @@ small {
     color: $color--footnote;
 }
 
+blockquote,
+code,
+.content--main img {
+    background: lighten($color--background, 10%);
+    border-radius: $border--radius;
+    border-color: $color--keyline;
+    border-style: solid;
+    border-width: 0;
+}
+
+code,
+.content--main img {
+    border-width: 1px;
+}
+
 blockquote {
     position: relative;
     margin: 0;
-    padding: .4rem 1.8rem .4rem 1rem;
-    border-left: $width--keyline solid $color--keyline;
-    background: lighten($color--background, 10%);
+    padding: .6rem 1.8rem .6rem .8rem;
+    line-height: 1.6rem;
     color: $color--blockquote;
-    margin-bottom: 1rem;
+    border-left-width: $width--keyline;
+    margin-bottom: 1.4rem;
     &:after {
-	    color: darken($color--keyline, 5%);
+      color: darken($color--keyline, 5%);
         content: "\201D";
         font-size: 2em;
         position: absolute;
@@ -355,7 +371,7 @@ blockquote {
         right: .8rem;
     }
     p {
-	    margin: 0;
+      margin: 0;
     }
 }
 
@@ -367,14 +383,5 @@ code {
     max-width: 100%;
     overflow-x: scroll;
     vertical-align: bottom;
-    border: 1px solid $color--keyline;
-    border-radius: 3px;
     padding: 0 .3rem;
-    background: lighten($color--background, 10%);
-}
-
-.content--main img {
-    border: 1px solid $color--keyline;
-    border-radius: 3px;
-    background: lighten($color--background, 10%);
 }

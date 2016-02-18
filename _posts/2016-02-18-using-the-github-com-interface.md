@@ -32,7 +32,7 @@ The setup process was easy. I find it kind of exciting when creating a new GitHu
 
 Because I'm not working locally, I can't preview my changes and approve them before applying them to the live url (the live url being the very helpful one that GitHub gives you automatically: `username.github.io/your-repo-name/`). So, I removed the `master` branch entirely and just started committing straight to the live `gh-pages` branch. Needs must.
 
-Despite doing this, the process of making a change and then previewing it was taxing. I understand that **a lot** has to happen before my website updates: Jekyll builds, then flush the cache and push to their servers. This might have been more of an issue if I wasn't someone who enjoys front-end development; however, because I do, I don't need to check the result that often. I'm quite happy to write a ton of HTML and CSS, and then look at the outcome way further down the line.
+Despite doing this, the process of making a change and then previewing it was taxing. I understand that **a lot** has to happen before my site updates: Jekyll builds, then flush the cache and push to their servers. This might have been more of an issue if I wasn't someone who enjoys front-end development; however, because I do, I don't need to check the result that often. I'm quite happy to write a ton of HTML and CSS, and then look at the outcome way further down the line.
 
 ## HTML, CSS & JS
 Writing front-end code in the GitHub.com interface is a pretty good experience for a web-based editor. It provides relevant syntax highlighting and it even automatically self closes HTML elements and CSS selectors. When I tested the code completion for this article, I was impressed to find that it'll quite happily help you finish your code even when switching between HTML and CSS in the same file.
@@ -86,8 +86,16 @@ Due to this hurdle, I had to get smart, so in stepped SVGs. I collated them toge
 
 The workarounds have caused me to use techniques that actually make the site better. I still think GitHub.com needs a way to upload images and general graphics. I'd put it at number 1 on my list, but I'm pleased it forced me to get smart with my site.
 
+## Update!
+
+Hours from me posting this article GitHub drops the bomb that is [file uploading](https://github.com/blog/2105-upload-files-to-your-repositories). I know! The one biggest gripe of this project has now been solved. Nice job GitHub! Look at it, isn't it glorious:
+
+![file upload]({{ site.url }}/images/github-editor/file-upload.gif "file upload")
+
 ## Conclusion
 
-**Building a site using GitHub.com was fun, but I wouldn't advise it.** I learnt a lot about their UI: the really good things and the oddly bad things. GitHub.com just needs some time to grow. Let's not forget that the web interface isn't designed for this. It's there to make minor tweaks and changes that you just want to dip into. Hopefully, GitHub will tackle these problems over time. I'm still extremely impressed and grateful I was even able to achieve it, so thanks to Octocat and the rest of the gang.
+**Building a site using GitHub.com was fun, but I wouldn't advise it.** I learnt a lot about their UI: the really good things and the oddly bad things. GitHub.com just needs some time to grow. With the addition of file uploading it shows that they are keen to grow as well.
+
+Let's not forget that the web interface isn't designed for this. It's there to make minor tweaks and changes that you just want to dip into. I'm still extremely impressed and grateful I was even able to achieve it, so thanks to Octocat and the rest of the gang.
 
 Cheers, Dave

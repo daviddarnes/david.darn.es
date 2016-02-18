@@ -23,7 +23,7 @@ I know, you're right. That's why I did this bit in Sketch before I got stuck int
 
 Things started off great, but as I progressed further with the build I realised that GitHub.com falls slightly short of what I really needed for the task at hand. I think the best way to describe it is by breaking things down a bit.
 
-![new repo creation]({{ site.url }}/images/new-repo.png "new repo creation")
+![new repo creation]({{ site.url }}/images/github-editor/new-repo.png "new repo creation")
 
 ### Configuration
 
@@ -36,7 +36,8 @@ Despite doing this, the process of making a change and then previewing it was ta
 ## HTML, CSS & JS
 Writing front-end code in the GitHub.com editor is pretty good for a web-based editor. It provides relevant syntax highlighting, it even automatically self closes HTML elements and CSS selectors. When I tested code completion again for this article I was impressed to find that it'll quite happily help you finish your code even when switching between HTML and CSS in the same file.
 
-// gif of code completion
+![code completion]({{ site.url }}/images/github-editor/code-completion.gif "code completion")
+
 
 However none of this works when you first create the file, the editor is dumb to it's file name at point of creation. So you have to create a blank file and then open it up again to benefit from even just the syntax highlighting. If you're wondering GitHub uses [ace editor](https://ace.c9.io/#nav=about), which is somewhat new to me as most of the time I see [code mirror](https://codemirror.net/) being used.
 
@@ -46,7 +47,7 @@ Any gripes I've mentioned pale into existence compared to the **annoying locked 
 
 Alright, rant over, lets talk about something good again… erm… I like that I can change the indent size in the top right. You don't have to select anything either, the code just moves in and out. Wrapping is kinda useful… I guess. You can also change between using spaces or tabs for indenting. However it doesn't change any existing code, not even if you select a line of code, it just applies when you write something new.
 
-> gif of indenting size
+![code indenting]({{ site.url }}/images/github-editor/indenting.gif "code indenting")
 
 ## Markdown
 
@@ -54,11 +55,11 @@ I'm big fan of markdown, especially since it stops people putting a single line 
 
 Surely they could think of a way to make writing markdown easier…? Oh, wait here it is in the **damn comment box in issues!**
 
-// screenshot of the comments formatting controls
+![comment formatting]({{ site.url }}/images/github-editor/comment-formatting.png "comment formatting")
 
 > But Dave, they only just implemented that into comments...
 
-// screenshot of the wiki formatting controls
+![wiki formatting]({{ site.url }}/images/github-editor/wiki-formatting.png "wiki formatting")
 
 Nope. Try creating new wiki page, that markdown editor [has been there for ages](https://github.com/blog/774-git-powered-wikis-improved). If that was in the code editing area then they'd be on the road to making a damn fine writing space for Jekyll bloggers. Of course I'm being way too harsh, writing markdown isn't that hard. I just think GitHub isn't making the most of it, they seem to be [using md files more and more](https://github.com/blog/2111-issue-and-pull-request-templates).
 
@@ -66,7 +67,7 @@ Nope. Try creating new wiki page, that markdown editor [has been there for ages]
 
 YML files are a clean crisp pillow against the rough worn out and tassel stitched cushion that is JSON. I'm sure JSON has it's place in the dev world, but using YML to manage data on a Jekyll site is tons easier than it could've been. GitHub.com provides almost nothing to help edit YML data. The only aid I've seen is that front matter, the small piece of YML data at the top of Jekyll markdown pages, get's transformed into a table layout for slightly more readable view. I'm not going to complain about the lack of tools when YML allows me to manipulate complex data with ease.
 
-// gif of yml front matter
+![front matter]({{ site.url }}/images/github-editor/front-matter.gif "front matter")
 
 ## Graphics
 
@@ -74,7 +75,7 @@ This was nearly the end for my endeavour. The other issues were just user experi
 
 > Wait a minute Dave, wasn't there a way to upload images in the wiki markdown editor?
 
-// gif of image url option in wiki
+![image url]({{ site.url }}/images/github-editor/image-url.gif "image url")
 
 Haha nope, that's a clever joke one from GitHub. It only allows you to use a url, another inconsistency with the comments markdown editor.
 

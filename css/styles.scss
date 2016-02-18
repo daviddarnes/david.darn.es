@@ -10,6 +10,7 @@ $color--link: #c90707;
 $color--heading: #5D5D5D;
 $color--subheading: #9D9D9D;
 $color--paragraph: #3D3D3D;
+$color--blockquote: #5D5D5D;
 $color--keyline: darken($color--background, 10%);
 $color--footnote: #ADADAD;
 $width--keyline: .5rem;
@@ -180,7 +181,6 @@ img {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            color: $color--keyline;
         }
     }
 
@@ -338,13 +338,43 @@ small {
     color: $color--footnote;
 }
 
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: .4rem 1.8rem .4rem 1rem;
+    border-left: $width--keyline solid $color--keyline;
+    background: lighten($color--background, 10%);
+    color: $color--blockquote;
+    margin-bottom: 1rem;
+    &:after {
+	    color: darken($color--keyline, 5%);
+        content: "\201D";
+        font-size: 2em;
+        position: absolute;
+        top: 1rem;
+        right: .8rem;
+    }
+    p {
+	    margin: 0;
+    }
+}
+
 code {
-  display: inline-block;
-  max-width: 100%;
-  overflow-x: scroll;
-  vertical-align: bottom;
-  border: 1px solid $color--keyline;
-  border-radius: 3px;
-  padding: 0 .4rem;
-  background: lighten($color--background, 10%);
+    font-size: .9rem;
+    line-height: 1.3rem;
+    vertical-align: text-bottom;
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: scroll;
+    vertical-align: bottom;
+    border: 1px solid $color--keyline;
+    border-radius: 3px;
+    padding: 0 .3rem;
+    background: lighten($color--background, 10%);
+}
+
+.content--main img {
+    border: 1px solid $color--keyline;
+    border-radius: 3px;
+    background: lighten($color--background, 10%);
 }

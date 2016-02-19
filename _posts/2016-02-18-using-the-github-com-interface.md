@@ -96,6 +96,6 @@ Hours from me posting this article GitHub drops the bomb that is [file uploading
 
 **Building a site using GitHub.com was fun, but I wouldn't advise it.** I learnt a lot about their UI: the really good things and the oddly bad things. GitHub.com just needs some time to grow. With the addition of file uploading it shows that they are keen to grow as well.
 
-Let's not forget that the web interface isn't designed for this. It's there to make minor tweaks and changes that you just want to dip into. I'm still extremely impressed and grateful I was even able to achieve it, so thanks to Octocat and the rest of the gang.
+Let's not forget that the web interface isn't designed for this. It's there to make minor tweaks and changes that you just want to dip into. I'm still extremely impressed and grateful I was even able to achieve it, so thanks to Octocat and the rest of the gang. If you want to snoop around the code, you can [checkout the repo on GitHub](https://github.com/daviddarnes/darn.es).
 
 Cheers, Dave

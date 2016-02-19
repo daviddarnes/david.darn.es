@@ -69,9 +69,10 @@ body {
         width: 100%;
         border: none;
         animation: none;
-        background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 99%);
+        background: linear-gradient(to top, rgba($color--background, 1) 0%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 100%);
         @media (max-width: 500px) {
             position: absolute;
+            background: linear-gradient(to top, rgba($color--background, 1) 0%, rgba($color--background, 0) 1%,  rgba($color--background, 0) 99%, rgba($color--background, 1) 100%);
         }
     }
 }

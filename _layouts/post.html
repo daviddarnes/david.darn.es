@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="container">
+<main class="container">
 
 	<article class="article">
 
 	{% include header.html %}
 
-		<main class="content  content--main">
+		<div class="content  content--main">
 
 			{% if page.colour %}
 				<style scoped>.content--main a { color: {{ page.colour }}; border-color: {{ page.colour }}; }</style>
@@ -15,7 +15,7 @@ layout: default
 			
 			{{ content }}
 
-		</main>
+		</div>
 
 	</article>
 
@@ -29,4 +29,4 @@ layout: default
 
 	{% include footer.html %}
 
-</div>
+</main>

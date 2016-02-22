@@ -11,17 +11,20 @@ Following on from [my previous article](https://david.darn.es/2016/02/18/using-t
 
 ## Who?
 
-Well, Github of course. That was easy... Actually, let's use this opportunity to look at who else has made a CMS for GitHub (or at least integrates with GitHub repos):
+Well, GitHub of course. That was easy... Actually, let's use this opportunity to look at who else has made a CMS for GitHub Pages:
 
-- **[CloudCannon](http://cloudcannon.com/):** It ticks all the boxes of what you'd expect from a CMS that works with Jekyll & GitHub Pages. [Posts](http://docs.cloudcannon.com/editing/blogging/), [pages](http://docs.cloudcannon.com/editing/content-editor/), [metadata](http://docs.cloudcannon.com/editing/front-matter/), everything is available in their UI. In addition you can use an `editable` class name to give control over that content in the UI.
+- ![cloudcannon]({{ site.url }}/images/github-cms/cloudcannon.png "cloudcannon")
+  **[CloudCannon](http://cloudcannon.com/):** CloudCannon ticks all the boxes of what you'd expect from a CMS that works with Jekyll & GitHub Pages. [Posts](http://docs.cloudcannon.com/editing/blogging/), [pages](http://docs.cloudcannon.com/editing/content-editor/), [metadata](http://docs.cloudcannon.com/editing/front-matter/), everything is available in their UI. In addition you can use an `editable` class name to give control over that content in the UI.
 
-- **[Siteleaf](http://www.siteleaf.com/):** This is a CMS that can publish to GitHub Pages, however it doesn't use Jekyll. The content editor has some [really nice features](http://www.siteleaf.com/blog/markdown-in-siteleaf/). What interests me most is [v2 of it](http://v2.siteleaf.com/), which brings it right inline with the full GitHub ecosystem.
+- ![siteleaf]({{ site.url }}/images/github-cms/siteleaf.jpg "siteleaf")
+  **[Siteleaf](http://www.siteleaf.com/):** This is a CMS that can publish to GitHub Pages, however it doesn't use Jekyll. The content editor has some [really nice features](http://www.siteleaf.com/blog/markdown-in-siteleaf/). What interests me most is [v2 of the CMS](http://v2.siteleaf.com/), which brings it right inline with the full GitHub ecosystem.
 
-- **[prose.io](http://prose.io/):** Prose is an extremely clever [JavaScript project on Github](https://github.com/prose/prose). You simply authorise it with your GitHub account and you're off.
+- ![prose]({{ site.url }}/images/github-cms/prose.png "prose")
+  **[prose.io](http://prose.io/):** Prose is an extremely clever [JavaScript project on Github](https://github.com/prose/prose). You simply authorise it with your GitHub account and you're off.
 
 - **[DIY](https://pages.github.com/):** Well you know the score. Clone your site down, edit your content with whatever application you like, and then push it back up. Simple, works but not the experience you're looking for.
 
-So these are what GitHub would be sort of contending with. They would take nods from prose mostly, as it's more like an web editor mask over the underlying code. They could take from CloudCannon as well, in the ways they present front matter as page options. Siteleaf has something they'd definitely want, drag and drop content adding. GitHub already implemented file uploading with drag and drop, but Siteleaf takes it a step further by allowing text files to be dragged straight into the main text area of posts and pages.
+So these are what GitHub would be sort of contending with. There's lots of interesting features in all of these CMSs. Prose has quite a sparse UI, allowing you to focus on what you're writing. I like how CloudCannon presents front matter, essentially turning it into custom fields for your pages and posts. The drag and drop feature in Siteleaf is really clever, which conveniently lines up with their new drag and drop feature.
 
 ## What
 
@@ -29,7 +32,9 @@ Now that we've done a bit of competitor research we can start to piece together 
 
 I don't feel like it would be overly complex in execution. They could create something completely independent, but that would be a waste of what they've already implemented into the main product. They have a web interface, markdown editing and now file upload, so why start over?
 
-We're now thinking of something more like an expansion and improvement on the current editor. Less a CMS, more of an enhanced writing experience. The drawback to this is that it's not easy for say a client to pick up, which is what other CMSs mentioned above do a lot better. Lets not forget though, this environment is designed for more regular users of GitHub. It would be easier to focus on helping GitHub users to write, rather than chasing users that are better off using those systems.
+We're now thinking of something more like an expansion and improvement on the current editor. Less a CMS, more of an **enhanced writing experience**. The drawback to this is that it's not easy for say a client to pick up, which is what other CMSs mentioned above do a lot better.
+
+Lets not forget though, this environment is designed for more regular users of GitHub. It would be easier to focus on helping GitHub users to write, rather than chasing users that are better off using those systems.
 
 ## Where
 

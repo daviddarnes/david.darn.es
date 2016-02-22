@@ -48,7 +48,7 @@ Lets not forget though, this environment is designed for more regular users of G
 
 So where would this enhanced editing experience go? Well as mentioned above, it would be mixed into GitHub.com. But where? I've put together some examples that they could implement:
 
-![file markdown editor]({{ site.url }}/images/github-cms/markdown-editor.png "file markdown editor")
+![file markdown editor]({{ site.url }}/images/github-cms/markdown-editor.png "file markdown editor")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/markdown-editor.png)
 
 Here a new "md" file has triggered the appearance of a markdown editor at the top. Note the file name as well, this could be autofilled when the user creates a new file. This would be based on if the file being created is inside the `_posts` or `_drafts` directory.
 

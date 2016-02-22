@@ -18,3 +18,21 @@ Well, Github of course. That was easy... Actually, let's use this opportunity to
 - [prose.io](http://prose.io/): Prose is an extremely clever [JavaScript project on Github](https://github.com/prose/prose). You simply authorise it with your GitHub account and you're off.
 
 - [DIY](https://pages.github.com/): Well you know the score. Clone your site down, edit your content with whatever application you like, and then push it back up. Simple, works but not the experience you're looking for.
+
+So these are what GitHub would be sort of contending with. They would take nods from prose mostly, as it's more like an web editor mask over the underlying code. They could take from CloudCannon as well, in the ways they present front matter as page options. Siteleaf has something they'd definitely want, drag and drop content adding. GitHub already implemented file uploading with drag and drop, but Siteleaf takes it a step further by allowing text files to be dragged straight into the main text area of posts and pages.
+
+## What
+
+Now that we've done a bit of competitor research we can start to piece together what the CMS might be like.
+
+## Where
+
+A good question really, would they add it into the mix on GitHub.com? Or would they try to do what prose.io has done, and split it off to it's own product that links with your GitHub account?
+
+## When
+
+How far down the roadmap is this feature, if at all.
+
+## Why
+
+Why would they make it? I'm not sure if they even would.

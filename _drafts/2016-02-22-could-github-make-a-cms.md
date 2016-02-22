@@ -11,7 +11,9 @@ Following on from [my previous article](https://david.darn.es/2016/02/18/using-t
 
 ## Who?
 
-Well, GitHub of course. That was easy...Actually, let's use this opportunity to look at who else has made a CMS for GitHub Pages:
+Well, GitHub of course. That was easy...
+
+Actually, let's use this opportunity to look at who else has made a CMS for GitHub Pages:
 
 ### [CloudCannon](http://cloudcannon.com/)
 
@@ -52,11 +54,11 @@ So, where would this enhanced editing experience go? Well, as mentioned above, i
 
 Here a new "md" file has triggered the appearance of a markdown editor at the top. Note the file name, as well. This could be autofilled when the user creates a new file, based on if the file being created is inside the `_posts` or `_drafts` directory.
 
-// Image of a drag and drop state of an image to the page
+![editor drag and drop images]({{ site.url }}/images/github-cms/editor-drag-drop.png "editor drag and drop images")
 
 The editor could be smart with images, too. Mimicking the drag and drop technique from Siteleaf, when the user drags an image onto the page, the image could be uploaded and and the relevant markdown could be inserted to the page.
 
-// gif of Use Canvas
+![canvas markdown editor]({{ site.url }}/images/github-cms/use-canvas.gif "canvas markdown editor")
 
 What about improving the markdown presentation? I've been using [Canvas](https://usecanvas.com/) a lot recently and the way it presents markdown content is really clever; this allows full markdown editing, but still shows the resulting copy.
 

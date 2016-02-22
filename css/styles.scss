@@ -270,7 +270,7 @@ html {
     }
 }
 
-h1, h2, h3, a {
+h1, h2, h3, p {
     margin-top: 0;
     font-weight: 400;
 }
@@ -302,6 +302,7 @@ p {
 }
 
 a {
+    font-weight: inherit;
     color: $color--link;
     text-decoration: none;
     position: relative;

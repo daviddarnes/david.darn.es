@@ -377,13 +377,22 @@ blockquote {
     }
 }
 
+.emoji {
+	border: none;
+	background: none;
+}
+
 code {
     font-size: .9rem;
     line-height: 1.3rem;
     vertical-align: text-bottom;
     display: inline-block;
     max-width: 100%;
-    overflow-x: scroll;
-    vertical-align: bottom;
+    vertical-align: middle;
     padding: 0 .3rem;
 }
+
+pre > code {
+    overflow-x: scroll;
+}
+

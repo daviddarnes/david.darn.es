@@ -1,6 +1,6 @@
 ---
 title: "Could GitHub Make a CMS?"
-colour: "#4078c0"
+colour: "#d26911"
 ---
 
 Following on from [my previous article](https://david.darn.es/2016/02/18/using-the-github-com-interface/), I wanted to explore the idea of GitHub making a CMS. What would it be? How would it work? Why would they even do it?

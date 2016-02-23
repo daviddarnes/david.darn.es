@@ -55,7 +55,7 @@ So, where would this enhanced editing experience go? Well, as mentioned above, i
 
 Here a new "md" file has triggered the appearance of a markdown editor at the top. Note the file name, as well. This could be autofilled when the user creates a new file, based on if the file being created is inside the `_posts` or `_drafts` directory.
 
-![editor drag and drop images]({{ site.url }}/images/github-cms/editor-drag-drop.png "editor drag and drop images")
+![editor drag and drop images]({{ site.url }}/images/github-cms/editor-drag-drop.png "editor drag and drop images")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/editor-drag-dro.png)
 
 The editor could be smart with images, too. Mimicking the drag and drop technique from Siteleaf, when the user drags an image onto the page, the image could be uploaded and and the relevant markdown could be inserted to the page.
 

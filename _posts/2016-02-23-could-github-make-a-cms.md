@@ -64,7 +64,7 @@ What about improving the markdown presentation? I've been using [Canvas](https:/
 
 ## When
 
-Um, well, now? I sadly can't see GitHub's internal roadmap, but their feature additions seem to be few and far between. That is, until recently. Their [blog has been a bit more active lately](https://github.com/blog/) with adding more features.
+Um, well, now? I sadly can't see GitHub's internal roadmap, but their feature additions seem to be few and far between. That is, until recently. [Their blog](https://github.com/blog/) has been a bit more active lately with adding more features.
 
 I would imagine if they did do this, it would be one step at a time, adding a feature and then gradually rolling it out. Some might see it as slow development, but with a site of this scale, you can't play it safe enough.
 

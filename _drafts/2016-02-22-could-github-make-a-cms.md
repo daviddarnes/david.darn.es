@@ -64,13 +64,13 @@ What about improving the markdown presentation? I've been using [Canvas](https:/
 
 ## When
 
-Um, well, now? I sadly can't see GitHub's internal roadmap, but their feature additions seem to be few and far between. That is, until recently. Their blog has been a bit more active lately with adding more features.
+Um, well, now? I sadly can't see GitHub's internal roadmap, but their feature additions seem to be few and far between. That is, until recently. Their [blog has been a bit more active lately](https://github.com/blog/) with adding more features.
 
 I would imagine if they did do this, it would be one step at a time, adding a feature and then gradually rolling it out. Some might see it as slow development, but with a site of this scale, you can't play it safe enough.
 
 ## Why
 
-Good question. Why bother? As we mentioned above, there are plenty of CMS's out there that are willing to fill the gap. I wouldn't be surprised if more appear in the future. GitHub could not bother with any of this and it'll be no worse off. But, what if they did? Would it be something that tips even more users to their platform? Could the combination of Jekyll, GitHub Pages and their easy-to-use content editor expand their userbase?
+Good question. Why bother? As we mentioned above, there are plenty of CMS's out there that are willing to fill the gap. I wouldn't be surprised if more appear in the future. GitHub could not bother with any of this and they'll be no worse off. But, what if they did? Would it be something that tips even more users to their platform? Could the combination of Jekyll, GitHub Pages and their easy-to-use content editor expand their userbase?
 
 My thinking is, of course, all hypothetical. They would have to do more than what I've covered in this article to achieve the ideas I'm throwing around. I hope it's at least on their radar. For now, I'm happy using Atom.
 

@@ -37,6 +37,11 @@ networks:
   CodePen: http://codepen.io/daviddarnes
   Dribbble: https://dribbble.com/daviddarnes
 
+# Metadata
+meta:
+  facebook: daviddarnes
+  twitter: DavidDarnes
+
 # Defaults
 defaults:
   -

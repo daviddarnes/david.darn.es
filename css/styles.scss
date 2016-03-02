@@ -263,15 +263,16 @@ html {
     font-family: 'Source Serif Pro', serif;
     font-weight: 300;
     font-size: 16px;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     color: $color--paragraph;
     @media (max-width: 500px) {
         line-height: 1.75rem;
     }
 }
 
-h1, h2, h3, p {
-    margin-top: 0;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
     font-weight: 400;
 }
 
@@ -286,7 +287,6 @@ h2 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     padding-bottom: .65rem;
-    margin-bottom: 0;
     color: $color--subheading;
 }
 
@@ -299,6 +299,7 @@ h3 {
 
 p {
     margin-top: 0;
+    margin-bottom: 1.2rem;
 }
 
 a {
@@ -395,4 +396,3 @@ code {
 pre > code {
     overflow-x: scroll;
 }
-

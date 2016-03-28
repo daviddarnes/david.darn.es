@@ -1,5 +1,5 @@
 ---
-title: "How to Create an Open Source Directory on GitHub Pages"
+title: "How to Create an Open Source Portfolio"
 category: tutorial
 icon: tutorial
 colour: "#196e76"

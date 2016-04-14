@@ -395,13 +395,3 @@ code {
 pre > code {
     overflow-x: scroll;
 }
-
-// Articles
-@supports (initial-letter: 1) or (-webkit-initial-letter: 1) {
-  .article .content-main::first-letter {
-    -webkit-initial-letter: 2 2;
-    initial-letter: 2 2;
-    font-family: inherit;
-    margin: 1rem .2rem 0 0;
-  }
-}

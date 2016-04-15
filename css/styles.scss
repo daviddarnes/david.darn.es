@@ -113,7 +113,8 @@ body {
 }
 
 // Articles
-.article .content--main:first-letter {
+.article .content--main:first-letter,
+.content--post p:first-letter {
     float: left;
     font-size: 3.7rem;
     line-height: 1.4rem;

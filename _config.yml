@@ -8,8 +8,9 @@ exclude:
 gems:
 - jekyll-sitemap
 - jekyll-mentions
-- jemoji
 - jekyll-paginate
+- jekyll-seo-tag
+- jemoji
 
 # SCSS
 sass:

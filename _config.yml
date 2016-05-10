@@ -29,19 +29,20 @@ url: "https://david.darn.es"
 title: "Dave's Blog"
 name: "David Darnes"
 description: "Articles about web design, development and some personal ones thrown in"
-avatar: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
-
-# Networks
-networks:
-  Twitter: http://twitter.com/daviddarnes
-  GitHub: http://github.com/daviddarnes
-  CodePen: http://codepen.io/daviddarnes
-  Dribbble: https://dribbble.com/daviddarnes
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
 # Metadata
-meta:
-  facebook: daviddarnes
-  twitter: DavidDarnes
+links:
+  - https://twitter.com/daviddarnes
+  - https://github.com/daviddarnes
+  - https://codepen.io/daviddarnes
+  - https://dribbble.com/daviddarnes
+
+twitter:
+  username: daviddarnes
+
+author:
+  twitter: daviddarnes
 
 # Defaults
 defaults:

@@ -31,13 +31,6 @@ name: "David Darnes"
 description: "Articles about web design, development and some personal ones thrown in"
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
-# Metadata
-links:
-  - https://twitter.com/daviddarnes
-  - https://github.com/daviddarnes
-  - https://codepen.io/daviddarnes
-  - https://dribbble.com/daviddarnes
-
 twitter:
   username: daviddarnes
 

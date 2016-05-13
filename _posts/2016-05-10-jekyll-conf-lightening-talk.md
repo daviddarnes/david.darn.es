@@ -13,3 +13,4 @@ link: https://www.youtube.com/watch?v=Y4qwpN40Dvg
 - http://jekyllconf.com/
 - https://www.youtube.com/watch?v=Y4qwpN40Dvg
 - https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS
+- http://slides.com/daviddarnes/deck-1

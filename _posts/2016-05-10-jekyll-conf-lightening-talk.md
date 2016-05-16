@@ -6,16 +6,15 @@ icon: person
 link: https://www.youtube.com/watch?v=Y4qwpN40Dvg
 ---
 
+# Jekyll Conf Lightening Talk
+
+Recently I was asked by [CloudCannon](http://cloudcannon.com/) to record a lightening talk for [Jekyll Conf](http://jekyllconf.com/). It was a great opportunity to contribute to the Jekyll community. You can [watch all the talks from the day on YouTube](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).
+
+Below is a video of my lightening talk, as well as a write up of my talk. You can also check out my slides on [Slides.com](http://slides.com/daviddarnes/deck-1).
+
 {% include youtube.html id="Y4qwpN40Dvg" %}
 
-## Ref links
-
-- http://jekyllconf.com/
-- https://www.youtube.com/watch?v=Y4qwpN40Dvg
-- https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS
-- http://slides.com/daviddarnes/deck-1
-
-## Talk Notes
+## Doing a lot with a little
 
 Hi I'm David Darnes, and I'm gonna be talking about doing a lot with a little. So I'm web designer and front-end developer and work at BaseKit, where we build an online website editor. That is when we're not mummifying each other. Overall, I just like building websites, and using the tools online to help me build them. But it got me thinking, how much can we achieve with was essentially not very much? No, this isn't gonna be a talk on how to be lazy or how to cut corners. This is about utilizing the tools that we have online to really build a quite rich website.
 
@@ -27,4 +26,8 @@ Now we have all this content going on, we need a searching method to help our us
 
 What about contacting your users, or people who have bought products from your site? Yeah, we could use Disqus, but what about on a one-to-one basis? Well we can achieve that with Formspree, which is a really easy way to add contact forms to pretty much any site. I've even created a tutorial online that you can use, just follow the link in the slides.
 
-so let's round things up we've got templating and pay generation hosting an 2:40 SSL Certificates ecommerce site search and contact forms 2:47 but some of you might be thinking so what they've you know I know all these 2:52 tools already 2:53 you're not really telling me anything new 2:57 will think 2:57 all these tools allow you to build a lot of things you can do so much with what 3:04 we have online that you know the world is our oyster we can kind of build 3:08 anything we like with no very much work 3:12 but also I'm pretty grateful that these tools even exists 3:16 so thank you to those people who have made all these sorts of tools and helped 3:21 me to build things every day 3:26 I'd like to thank you for watching and I'd like to thank loud cannon for 3:30 allowing me to talk at this conference as I said the links are in the slides 3:35 I'll be tweeting out this slide on the day and you can find me on the links 3:41 below 3:42 thank you again
+So let's round things up. We've got templating and page generation, hosting, an SSL certificate, ecommerce, site search and contact forms. But some of you might be thinking…
+
+> So what, I've known about these tools already. You're not really telling me anything new
+
+Well thinking about it. All these tools allow you to build a lot of things. You can do so much with what we have online, the world is our oyster we can build anything we like with not a lot. I'm also pretty grateful that these tools even exist. So thank you to those people who have made all these tools and help me to build things every day, and I'd like to thank you for watching… (reading).

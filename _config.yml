@@ -10,6 +10,7 @@ gems:
 - jekyll-mentions
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-redirect-from
 - jemoji
 
 # SCSS

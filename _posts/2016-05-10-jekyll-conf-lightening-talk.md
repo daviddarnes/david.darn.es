@@ -14,7 +14,7 @@ Below is a video of my lightning talk, as well as a write up of my talk. You can
 
 ## Doing a lot with a little
 
-Hi I'm David Darnes, and I'm gonna be talking about doing a lot with a little. So I'm web designer and front-end developer and work at BaseKit, where we build an online website editor. That is when we're not [mummifying each other](http://slides.com/daviddarnes/deck-1#/2). Overall, I just like building websites, and using the tools online to help me build them. But it got me thinking, how much can we achieve with was essentially not very much?
+Hi I'm David Darnes, and I'm gonna be talking about doing a lot with a little. So I'm web designer and front-end developer and work at [BaseKit](http://www.basekit.com/), where we build an online website editor. That is when we're not [mummifying each other](http://slides.com/daviddarnes/deck-1#/2). Overall, I just like building websites, and using the tools online to help me build them. But it got me thinking, how much can we achieve with was essentially not very much?
 
 ![lazy]({{ site.url }}/images/jekyll-conf/lazy.gif "lazy"){: style="width: 100%"}
 

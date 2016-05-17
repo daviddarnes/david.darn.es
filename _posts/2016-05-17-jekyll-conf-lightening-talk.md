@@ -2,6 +2,7 @@
 title: Jekyll Conf Lightening Talk
 colour: "#B60000"
 icon: person
+image: https://david.darn.es/images/jekyll-conf/thumbnail.jpg
 ---
 
 Recently I was asked by [CloudCannon](http://cloudcannon.com/) to record a lightning talk for [Jekyll Conf](http://jekyllconf.com/). It was a great opportunity to contribute to the Jekyll community. You can watch all the talks from the day [on YouTube](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).

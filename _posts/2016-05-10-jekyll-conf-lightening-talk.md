@@ -4,11 +4,11 @@ colour: "#B60000"
 icon: person
 ---
 
-Recently I was asked by [CloudCannon](http://cloudcannon.com/) to record a lightening talk for [Jekyll Conf](http://jekyllconf.com/). It was a great opportunity to contribute to the Jekyll community. You can watch all the talks from the day [on YouTube](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).
+Recently I was asked by [CloudCannon](http://cloudcannon.com/) to record a lightning talk for [Jekyll Conf](http://jekyllconf.com/). It was a great opportunity to contribute to the Jekyll community. You can watch all the talks from the day [on YouTube](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).
 
 <!-- more -->
 
-Below is a video of my lightening talk, as well as a write up of my talk. You can also check out my slides on [Slides.com](http://slides.com/daviddarnes/deck-1).
+Below is a video of my lightning talk, as well as a write up of my talk. You can also check out my slides on [Slides.com](http://slides.com/daviddarnes/deck-1).
 
 {% include youtube.html id="Y4qwpN40Dvg" %}
 

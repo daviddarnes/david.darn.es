@@ -30,8 +30,6 @@ Now we have all this content going on, we need a searching method to help our us
 
 What about contacting your users, or people who have bought products from your site? Yeah, we could use Disqus, but what about on a one-to-one basis? Well we can achieve that with Formspree, which is a really easy way to add contact forms to pretty much any site. I've even created a tutorial online that you can use, just follow the link in the slides.
 
-![So what]({{ site.url }}/images/jekyll-conf/travolta.gif "So what")
-
 So let's round things up. We've got templating and page generation, hosting, an SSL certificate, ecommerce, site search and contact forms. But some of you might be thinking...
 
 > So what, I've known about these tools already. You're not really telling me anything new

@@ -37,6 +37,9 @@ twitter:
 
 author:
   twitter: daviddarnes
+  
+seo:
+  author: "David Darnes"
 
 # Defaults
 defaults:
@@ -55,4 +58,3 @@ defaults:
       is_post: true
       layout: post
       icon: article
-      author: "David Darnes"

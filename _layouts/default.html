@@ -14,6 +14,9 @@
 
 		<link href='//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600' rel='stylesheet' type='text/css'>
 		<link href="/css/styles.css" media="all" rel="stylesheet">
+		{% if page.is_post %}
+			<link rel="amphtml" href="http://mercury.postlight.com/amp?url={{ page.url }}">
+		{% endif %}
 
 		{% include favicons.html %}
 	</head>

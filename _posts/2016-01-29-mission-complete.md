@@ -1,5 +1,6 @@
 ---
 title: "New Site Structure: Mission Complete"
+image: https://i.ytimg.com/vi/vgIPNpaaf9c/maxresdefault.jpg
 colour: "#73A800"
 ---
 

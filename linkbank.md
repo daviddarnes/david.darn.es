@@ -27,11 +27,18 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 - [SVG On The Web - Jake Giltsoff](https://svgontheweb.com/)
 
+### Jekyll
+
+- [GitHub Pages Gems](https://pages.github.com/versions/)
+
 ### Typography
 
 - [Sassline](https://sassline.com/)
+- [CSS Ligatures - Elliot Jay Stocks](http://www.elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/)
 
 ### Iconography
 
 - [Entity Converter](https://www.evotech.net/articles/testjsentities.html)
+- [Icon Finder](https://www.iconfinder.com/)
+
 

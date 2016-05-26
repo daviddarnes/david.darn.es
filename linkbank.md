@@ -22,6 +22,7 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 - [Email Templates - Campaign Monito](https://www.campaignmonitor.com/email-templates/)
 - [Refills - Toughtbot](http://refills.bourbon.io/)
 - [HEAD - Everything for the <head>](https://github.com/joshbuchea/HEAD)
+- [W3C Validator](https://validator.w3.org/)
 
 ### SVG
 

@@ -11,7 +11,21 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 ### Flexbox
 
-- [Flexy Boxes](http://the-echoplex.net/flexyboxes/) 
+- [Flexy Boxes](http://the-echoplex.net/flexyboxes/)
+- [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### HTML
+
+- [HTML5 Doctor](http://html5doctor.com/)
+- [Schema.org](http://schema.org/)
+- [Google Schemas](https://developers.google.com/schemas/)
+- [Email Templates - Campaign Monito](https://www.campaignmonitor.com/email-templates/)
+- [Refills - Toughtbot](http://refills.bourbon.io/)
+- [HEAD - Everything for the <head>](https://github.com/joshbuchea/HEAD)
+
+### SVG
+
+- [SVG On The Web - Jake Giltsoff](https://svgontheweb.com/)
 
 ### Typography
 
@@ -20,3 +34,4 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 ### Iconography
 
 - [Entity Converter](https://www.evotech.net/articles/testjsentities.html)
+

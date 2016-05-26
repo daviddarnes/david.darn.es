@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: link
-colour: "#1a0dab"
+colour: "#006CBD"
 title: Link Bank
 excerpt: "A bank of links that I often refer to"
 image: "https://david.darn.es/images/linkbank.png"

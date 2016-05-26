@@ -28,9 +28,15 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 - [SVG On The Web - Jake Giltsoff](https://svgontheweb.com/)
 - [SVG `symbol` a Good Choice for Icons - CSS Tricks](https://css-tricks.com/svg-symbol-good-choice-icons/)
 
+### CSS
+
+- [CSS Guidelines - Harry Roberts](http://cssguidelin.es/)
+- [:nth Tester - CSS Tricks](https://css-tricks.com/examples/nth-child-tester/)
+
 ### Jekyll
 
 - [GitHub Pages Gems](https://pages.github.com/versions/)
+- [Jekyll Documentation](http://jekyllrb.com/docs/home/)
 
 ### Typography
 
@@ -42,4 +48,8 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 - [Entity Converter](https://www.evotech.net/articles/testjsentities.html)
 - [Icon Finder](https://www.iconfinder.com/)
 
+### Domains / Hosting
+
+- [Domainr](https://domainr.com/)
+- [Surge Documentation](https://surge.sh/help/)
 

@@ -58,3 +58,4 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 - [Rat:o](http://apps.mikestreety.co.uk/ratio/)
 - [Colorrrs](http://colorrrs.com/)
+- [Twitter cards validator](https://cards-dev.twitter.com/validator)

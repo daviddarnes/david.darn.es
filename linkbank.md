@@ -26,6 +26,7 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 ### SVG
 
 - [SVG On The Web - Jake Giltsoff](https://svgontheweb.com/)
+- [SVG `symbol` a Good Choice for Icons - CSS Tricks](https://css-tricks.com/svg-symbol-good-choice-icons/)
 
 ### Jekyll
 

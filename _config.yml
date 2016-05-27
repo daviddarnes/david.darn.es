@@ -58,4 +58,3 @@ defaults:
       is_post: true
       layout: post
       icon: article
-      category: general

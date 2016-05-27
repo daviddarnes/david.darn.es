@@ -1,8 +1,4 @@
-<small class="small">
-  {% assign words = content | number_of_words %}
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>&nbsp;&nbsp;–&nbsp;&nbsp;<span class="time  time--reading">{{ words | divided_by:180 }} minute read</span>
-</small>
-
+{% assign words = content | number_of_words %}
 <meta name="twitter:label1" content="Reading time" />
 <meta name="twitter:data1" content="{% if words < 360 %}1 min{% else %}{{ words | divided_by:180 }} mins{% endif %}" />
 <meta name="twitter:label2" content="As seen on" />

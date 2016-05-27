@@ -1,0 +1,11 @@
+<small class="small">
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>
+  <span class="time  time--reading">
+    {% assign words = content | number_of_words %}
+    {% if words < 360 %}
+      1 min
+    {% else %}
+      {{ words | divided_by:180 }} mins
+    {% endif %}
+  </span>
+</small>

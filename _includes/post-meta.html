@@ -9,4 +9,4 @@
 <meta name="twitter:label1" content="Reading time" />
 <meta name="twitter:data1" content="{% if words < 360 %}1 min{% else %}{{ words | divided_by:180 }} mins{% endif %}" />
 <meta name="twitter:label2" content="Category" />
-<meta name="twitter:data2" content="{{ page.category }}" />
+<meta name="twitter:data2" content="{% if page.category %}{{ page.category }}{% else %}general{% endif %}" />

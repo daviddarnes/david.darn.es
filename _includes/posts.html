@@ -15,8 +15,9 @@
 
 			<li class="item  item--post">
 
-				<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
-					<svg class="icon  icon--post">
+				<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}" role="presentation">
+					<svg class="icon  icon--post" role="img" aria-label="{{ item.title }} icon">
+						<title>{{ item.icon }}</title>
 						<use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
 					</svg>
 				</a>

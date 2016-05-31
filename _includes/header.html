@@ -4,7 +4,7 @@
 
 		{% if page.is_post or page.icon %}
 
-			<svg class="icon  icon--site  icon--large" role="img" aria-label="{{ post.title }} icon">
+			<svg class="icon  icon--site  icon--large" role="img" aria-label="{{ page.title }} icon">
 				<title>{{ page.icon }}</title>
 				<use xlink:href="#{{ page.icon }}"{% if page.colour %} fill="{{ page.colour }}"{% endif %}></use>
 			</svg>

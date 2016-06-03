@@ -11,7 +11,7 @@
 
 		{% else %}
 
-			<img class="avatar" src="{{ site.logo }}" alt="{{ site.title }}"/>
+			<img src="{{ site.logo | replace: "300", "72" }}" alt="{{ site.title }}" srcset="{{ site.logo | replace: "300", "72" }}  72w, {{ site.logo | replace: "300", "144" }} 144w">
 
 		{% endif %}
 

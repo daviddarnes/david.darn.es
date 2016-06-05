@@ -56,7 +56,7 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
  
 ### Resources
 
-- [Library - CodyHouse]https://codyhouse.co/library/
+- [Library - CodyHouse](https://codyhouse.co/library/)
 
 ### Tools
 

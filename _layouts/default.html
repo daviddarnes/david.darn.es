@@ -4,11 +4,11 @@
 		<!-- General meta -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+
 		{% if page.indexing == false %}
 			<meta name="robots" content="noindex">
 		{% endif %}
-		
+
 		{% if page.title contains site.title %}
 			<title>{{ page.title }} - {{ page.excerpt }}</title>
 			{% seo title=false %}
@@ -22,13 +22,14 @@
 		{% endif %}
 
 		{% include favicons.html %}
+		
+		<link href="/css/styles.css" media="all" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		{% include icons.svg %}
 
 		{{ content }}
 
-		<link href="/css/styles.css" media="all" rel="stylesheet" type="text/css">
-		<link href="//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600" rel="stylesheet" type="text/css">
 	</body>
 </html>

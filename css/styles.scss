@@ -2,8 +2,6 @@
 layout: none
 ---
 
-@import "syntax";
-
 // Variables
 $color--background: #fcfaf2;
 $color--link: #c90707;
@@ -24,6 +22,14 @@ html, body {
 
 html {
     height: 100%;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8rem;
+    color: $color--paragraph;
+    @media (max-width: 500px) {
+        line-height: 1.75rem;
+    }
 }
 
 body {
@@ -33,6 +39,149 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: .45rem;
+    color: $color--heading;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-bottom: .65rem;
+    color: $color--subheading;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    color: $color--footnote;
+    font-weight: 300;
+}
+
+p, .video, ul, ol {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+a {
+    font-weight: inherit;
+    color: $color--link;
+    text-decoration: none;
+    position: relative;
+    border-color: $color--link;
+    white-space: nowrap;
+    transition: .2s;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid $color--link;
+        border-color: inherit;
+        opacity: 0.25;
+        transition: .2s;
+    }
+    &:hover:after {
+        opacity: 0.75;
+    }
+    @media (max-width: 500px) {
+		white-space: normal;
+		text-decoration: underline;
+		&:after {
+			display: none;
+		}
+		&:hover {
+			color: darken($color--link, 10%);
+		}
+	}
+}
+
+small {
+    font-size: .85rem;
+    font-weight: 400;
+    color: $color--footnote;
+}
+
+blockquote,
+code,
+.content--main img {
+    background: lighten($color--background, 10%);
+    border-radius: $border--radius;
+    border-color: $color--keyline;
+    border-style: solid;
+    border-width: 0;
+}
+
+code,
+.content--main img {
+    border-width: 1px;
+}
+
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: .6rem 1.8rem .6rem .8rem;
+    line-height: 1.6rem;
+    color: $color--blockquote;
+    border-left-width: $width--keyline;
+    margin-bottom: 1.4rem;
+    &:after {
+      color: darken($color--keyline, 5%);
+        content: "\201D";
+        font-size: 2em;
+        position: absolute;
+        top: 1rem;
+        right: .8rem;
+    }
+    p {
+      margin: 0;
+    }
+}
+
+.content--main .emoji {
+	border: none;
+	background: none;
+}
+
+code {
+    font-size: .9rem;
+    line-height: 1.3rem;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 0 .3rem;
+}
+
+pre > code {
+    overflow-x: scroll;
+}
+
+// Graphics
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.avatar {
+    width: 4.5rem;
+    height: 4.5rem;
+    @media (max-width: 500px) {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
 
 // Container
@@ -112,23 +261,6 @@ body {
         color: $color--footnote;
     }
 }
-
-// Graphics
-img {
-    max-width: 100%;
-    height: auto;
-    border: 0;
-}
-
-.avatar {
-    width: 4.5rem;
-    height: 4.5rem;
-    @media (max-width: 500px) {
-        width: 3.5rem;
-        height: 3.5rem;
-    }
-}
-
 
 // Embeds
 .video {
@@ -259,140 +391,5 @@ img {
     100%{ opacity: 1; transform: translate(0, 0); }
 }
 
-// Typography
-html {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.8rem;
-    color: $color--paragraph;
-    @media (max-width: 500px) {
-        line-height: 1.75rem;
-    }
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    margin-bottom: .45rem;
-    color: $color--heading;
-}
-
-h2 {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    padding-bottom: .65rem;
-    color: $color--subheading;
-}
-
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: .7rem;
-    color: $color--footnote;
-    font-weight: 300;
-}
-
-p, .video, ul, ol {
-    margin-top: 0;
-    margin-bottom: 1.2rem;
-}
-
-a {
-    font-weight: inherit;
-    color: $color--link;
-    text-decoration: none;
-    position: relative;
-    border-color: $color--link;
-    white-space: nowrap;
-    transition: .2s;
-    &:after {
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        left: 0;
-        right: 0;
-        border-bottom: 1px solid $color--link;
-        border-color: inherit;
-        opacity: 0.25;
-        transition: .2s;
-    }
-    &:hover:after {
-        opacity: 0.75;
-    }
-    @media (max-width: 500px) {
-		white-space: normal;
-		text-decoration: underline;
-		&:after {
-			display: none;
-		}
-		&:hover {
-			color: darken($color--link, 10%);
-		}
-	}
-}
-
-small {
-    font-size: .85rem;
-    font-weight: 400;
-    color: $color--footnote;
-}
-
-blockquote,
-code,
-.content--main img {
-    background: lighten($color--background, 10%);
-    border-radius: $border--radius;
-    border-color: $color--keyline;
-    border-style: solid;
-    border-width: 0;
-}
-
-code,
-.content--main img {
-    border-width: 1px;
-}
-
-blockquote {
-    position: relative;
-    margin: 0;
-    padding: .6rem 1.8rem .6rem .8rem;
-    line-height: 1.6rem;
-    color: $color--blockquote;
-    border-left-width: $width--keyline;
-    margin-bottom: 1.4rem;
-    &:after {
-      color: darken($color--keyline, 5%);
-        content: "\201D";
-        font-size: 2em;
-        position: absolute;
-        top: 1rem;
-        right: .8rem;
-    }
-    p {
-      margin: 0;
-    }
-}
-
-.content--main .emoji {
-	border: none;
-	background: none;
-}
-
-code {
-    font-size: .9rem;
-    line-height: 1.3rem;
-    display: inline-block;
-    max-width: 100%;
-    vertical-align: middle;
-    padding: 0 .3rem;
-}
-
-pre > code {
-    overflow-x: scroll;
-}
+// Code highlighting
+@import "syntax";

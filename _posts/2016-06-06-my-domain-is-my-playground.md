@@ -19,4 +19,4 @@ Here's a brief example: after seeing a few results come out of the new ["Test my
 
 The solution was using `srcset` for my avatar and moving my Google Fonts reference to the footer of my site. Now that I've tried these out and have seen them working, I'll be able to use them on other projects.
 
-Alright, so this example is pretty small fry. I do suggest you find your development playground though: a place where you can try things out 'live'. Trying stuff out on a development URL or locally isn't the same.
+Alright, so this example is pretty small fry. I do suggest you find your development playground though: a place where you can try things out _'live'_. Trying stuff out on a development URL or locally isn't the same.

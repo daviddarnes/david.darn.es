@@ -25,6 +25,8 @@ excerpt_separator: <!-- more -->
 
 jekyll-mentions: https://twitter.com
 
+timezone: Europe/London
+
 # Site info
 url: "https://david.darn.es"
 title: "Dave's Blog"

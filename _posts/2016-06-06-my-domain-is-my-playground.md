@@ -17,6 +17,6 @@ You probably have something similar; maybe not with your own site, but with a si
 
 Here's a brief example: after seeing a few results come out of the new ["Test my site"](https://testmysite.thinkwithgoogle.com/) page from Google (which is actually just [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) with a pretty UI over it), I tested my own site out on it. I got 73/100 for mobile speed, but wasn't sure why, so I tried some things out. After quite a few attempts, a portion of which broke my site, I managed to boost it to 89/100.
 
-The solution was using `srcset` for my avatar and moving my Google Fonts reference to the footer of my site. Now that I've tried these out and have seen them working, I'll be able to use them on other projects.
+The solution was [using `srcset`](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) for my avatar and moving my Google Fonts reference to the footer of my site. Now that I've tried these out and have seen them working, I'll be able to use them on other projects.
 
-Alright, so this example is pretty small fry. I do suggest you find your development playground though: a place where you can try things out _'live'_. Trying stuff out on a development URL or locally isn't the same.
+Alright, so this example is pretty small fry. I do suggest you find your development playground though: a place where you can try things out 'live'. Trying stuff out on a development URL or locally isn't the same.

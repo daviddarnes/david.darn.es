@@ -1,4 +1,4 @@
-{% if site.posts %}
+{% if site.posts < 1 %}
 
 	<div class="content">
 		<h3>Articles</h3>
@@ -42,5 +42,6 @@
 
 		{% endfor %}
 	</ul>
-
+{% else %}
+	<p>Sorry, there are no posts to display.</p>
 {% endif %}

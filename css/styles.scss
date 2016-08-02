@@ -1,5 +1,5 @@
 ---
-layout: none
+styles: true
 ---
 
 // Variables
@@ -97,15 +97,15 @@ a {
         opacity: 0.75;
     }
     @media (max-width: 500px) {
-		white-space: normal;
-		text-decoration: underline;
-		&:after {
-			display: none;
-		}
-		&:hover {
-			color: darken($color--link, 10%);
-		}
-	}
+    white-space: normal;
+    text-decoration: underline;
+    &:after {
+      display: none;
+    }
+    &:hover {
+      color: darken($color--link, 10%);
+    }
+  }
 }
 
 small {
@@ -151,8 +151,8 @@ blockquote {
 }
 
 .content--main .emoji {
-	border: none;
-	background: none;
+  border: none;
+  background: none;
 }
 
 code {

@@ -1,46 +1,32 @@
-{% if site.posts %}
-
-	<div class="content">
-		<h3>Articles</h3>
-	</div>
-
-	<ul class="list  list--posts" id="posts">
-		{% for item in paginator.posts %}
-
-			{% if item.link %}
-				{% assign link = item.link %}
-			{% else %}
-				{% assign link = item.url %}
-			{% endif %}
-
-			<li class="item  item--post">
-
-				<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}" role="presentation">
-					<svg class="icon  icon--post" role="img" aria-label="{{ item.title }} icon">
-						<title>{{ item.icon }}</title>
-						<use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
-					</svg>
-				</a>
-
-				<article class="content  content--post  content--{{ item.title | slugify }}">
-
-					{% if item.colour %}
-						<style scoped>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
-					{% endif %}
-					<h2>
-						<a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
-					</h2>
-
-					<small class="small">
-						<time datetime="{{ item.date | date_to_xmlschema }}" class="time">{{ item.date | date_to_string }}</time>
-					</small>
-
-					{{ item.excerpt | markdownify }}
-
-				</article>
-			</li>
-
-		{% endfor %}
-	</ul>
-
-{% endif %}
+<div class="content">
+	<h3>Articles</h3>
+</div>
+<ul class="list  list--posts" id="posts">
+	{% for item in paginator.posts %}
+		{% if item.link %}
+			{% assign link = item.link %}
+		{% else %}
+			{% assign link = item.url %}
+		{% endif %}
+		<li class="item  item--post">
+			<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}" role="presentation">
+				<svg class="icon  icon--post" role="img" aria-label="{{ item.title }} icon">
+					<title>{{ item.icon }}</title>
+					<use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
+				</svg>
+			</a>
+			<article class="content  content--post  content--{{ item.title | slugify }}">
+				{% if item.colour %}
+					<style scoped>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
+				{% endif %}
+				<h2>
+					<a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
+				</h2>
+				<small class="small">
+					<time datetime="{{ item.date | date_to_xmlschema }}" class="time">{{ item.date | date_to_string }}</time>
+				</small>
+				{{ item.excerpt | markdownify }}
+			</article>
+		</li>
+	{% endfor %}
+</ul>

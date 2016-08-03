@@ -10,9 +10,9 @@ layout: default
 
 
 			{% if page.colour %}
-				<style scoped>.content--main a { color: {{ page.colour }}; border-color: {{ page.colour }}; }</style>
+				<style>.content--main a { color: {{ page.colour }}; border-color: {{ page.colour }}; }</style>
 			{% endif %}
-	
+
 			{{ content }}
 
 		</article>
@@ -22,7 +22,7 @@ layout: default
 		<p><a href="/">&larr; Back to blog</a></p>
 
 	</aside>
-	
+
 	{% include footer.html %}
 
 </main>

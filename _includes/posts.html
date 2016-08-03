@@ -17,7 +17,7 @@
 			</a>
 			<article class="content  content--post  content--{{ item.title | slugify }}">
 				{% if item.colour %}
-					<style scoped>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
+					<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; border-color: {{ item.colour }}; }</style>
 				{% endif %}
 				<h2>
 					<a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>

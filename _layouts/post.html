@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
+
 <main class="container">
 
 	<article class="article">
 
-	{% include header.html %}
+		{% include header.html %}
 
 		<div class="content  content--main">
-
-			{% if page.colour %}
-				<style>.content--main a { color: {{ page.colour }}; border-color: {{ page.colour }}; }</style>
-			{% endif %}
 
 			{{ content }}
 

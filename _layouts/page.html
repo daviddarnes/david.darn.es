@@ -4,18 +4,17 @@ layout: default
 
 <main class="container">
 
-	{% include header.html %}
+	<article class="article">
 
-		<article class="content  content--main">
+		{% include header.html %}
 
-
-			{% if page.colour %}
-				<style>.content--main a { color: {{ page.colour }}; border-color: {{ page.colour }}; }</style>
-			{% endif %}
+		<div class="content  content--main">
 
 			{{ content }}
 
-		</article>
+		</div>
+
+	</article>
 
 	<aside class="content  content--aside">
 

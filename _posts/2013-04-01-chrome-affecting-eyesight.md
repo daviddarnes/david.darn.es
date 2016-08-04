@@ -4,7 +4,7 @@ redirect_from: /humor/chrome-affecting-eyesight/
 excerpt: "I use Chrome every day, in and out of work. But lately I've been noticing that the popular browser is affecting my eyesight, every time I spend long periods of time staring at Chrome I seem to go all blurry eyed and can't focus properly."
 ---
 
-<img class="alignright size-medium wp-image-688 borderless" alt="google-chrome" src="http://david.darn.es/wp-content/uploads/2013/03/google-chrome-300x300.png" width="300" height="300" />
+<img class="alignright size-medium wp-image-688 borderless" alt="google-chrome" src="https://developer.chrome.com/static/images/chrome-logo_2x.png" width="300" height="300" />
 
 I use Chrome every day, in and out of work. But lately I've been noticing that the popular browser is affecting my eyesight, every time I spend long periods of time staring at Chrome I seem to go all blurry eyed and can't focus properly.
 

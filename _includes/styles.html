@@ -1,3 +1,9 @@
+{% capture pagestyles %}
+.content--main a {
+  color: {{ page.colour }};
+  border-color: {{ page.colour }};
+}
+{% endcapture %}
 {% for item in site.pages %}{% if item.styles == true %}
-<style>{{ item.content | scssify }}</style>
+<style>{{ item.content | scssify }}{% if page.colour %}{{ pagestyles | scssify }}{% endif %}</style>
 {% endif %}{% endfor %}

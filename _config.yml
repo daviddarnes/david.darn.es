@@ -35,9 +35,9 @@ description: "Articles about web design, development and some personal ones thro
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
 twitter:
-  username: daviddarnes
+  username: DavidDarnes
   
-author: "David Darnes"
+author: DavidDarnes
 
 # Defaults
 defaults:
@@ -56,4 +56,3 @@ defaults:
       is_post: true
       layout: post
       icon: article
-      author: "David Darnes"

@@ -36,9 +36,6 @@ logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
 twitter:
   username: daviddarnes
-
-author:
-  twitter: daviddarnes
   
 author: "David Darnes"
 
@@ -59,3 +56,4 @@ defaults:
       is_post: true
       layout: post
       icon: article
+      author: "David Darnes"

@@ -34,19 +34,15 @@ name: "David Darnes"
 description: "Articles about web design, development and some personal ones thrown in"
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=300"
 
-# SEO meta
+# SEO > twitter name meta
 twitter:
   username: DavidDarnes
 
+# SEO > site name meta
 social:
   name: "David Darnes"
-  links:
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
-    - https://github.com/DavidDarnes
 
+# SEO > article author meta
 author: DavidDarnes
 
 # Defaults

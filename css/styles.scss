@@ -348,6 +348,9 @@ img {
         display: inline-block;
         margin-right: .6rem;
     }
+    &:hover .link--circle {
+      transform: scale(1.15);
+    }
 }
 
 .pagination {
@@ -370,6 +373,7 @@ img {
         overflow: hidden;
         margin: 0 .25rem .25rem;
         animation: circle 1s ease;
+        transition: .2s;
         @media (max-width: 500px) {
             margin: 0;
         }

@@ -2,7 +2,7 @@
 title: I Put CSS in My HTML and Nothing Exploded
 colour: "#84217c"
 icon: article
-image: https://david.darn.es/images/css-in-my-html/inline-css-header.jpg
+image: "https://david.darn.es/images/css-in-my-html/inline-css-header.jpg"
 ---
 
 **When I first felt comfortable with front-end web development, I thought inline CSS was a filthy thing to do; something that could only be done in haste or from poor implementation. Thankfully, I'm a little wiser now and can understand that there is almost _always_ a reason behind the implementation.**

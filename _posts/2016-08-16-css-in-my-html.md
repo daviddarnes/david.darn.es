@@ -1,4 +1,3 @@
-
 ---
 title: I Put CSS in My HTML and Nothing Exploded
 colour: "#84217c"
@@ -38,7 +37,7 @@ So, with all that in mind, let's take this into a practical scenario. Now, this 
 - Mobile speed: **89/100**
 - Desktop speed: **96/100**
 
-_Results from [https://testmysite.thinkwithgoogle.com/](https://testmysite.thinkwithgoogle.com/)_
+_Results from [testmysite.thinkwithgoogle.com](https://testmysite.thinkwithgoogle.com/)_
 
 - PageSpeed Score: **A, 96%**
 - YSlow Score: **A, 95%**
@@ -53,14 +52,14 @@ _Results from [https://gtmetrix.com/](https://gtmetrix.com/)_
 - Mobile speed: **98/100**
 - Desktop speed: **98/100**
 
-_Results from [https://testmysite.thinkwithgoogle.com/](https://testmysite.thinkwithgoogle.com/)_
+_Results from [testmysite.thinkwithgoogle.com](https://testmysite.thinkwithgoogle.com/)_
 
 - PageSpeed Score: **A, 97%**
 - YSlow Score: **A, 96%**
 - Page Load Time: **0.5s**
 - Total Page Size: **116kb**
 
-_Results from [https://gtmetrix.com/](https://gtmetrix.com/)_
+_Results from [gtmetrix.com](https://gtmetrix.com/)_
 
 ![Google speed results](https://david.darn.es/images/css-in-my-html/results.png)
 

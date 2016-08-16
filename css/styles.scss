@@ -169,8 +169,8 @@ pre > code {
 }
 
 ::selection {
-  background: $color--background;
-  color: $color--paragraph;
+  background: $color--paragraph;
+  color: lighten($color--background, 10%);
 }
 
 // Graphics

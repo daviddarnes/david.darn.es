@@ -168,6 +168,11 @@ pre > code {
     overflow-x: scroll;
 }
 
+::selection {
+  background: $color--background;
+  color: $color--paragraph;
+}
+
 // Graphics
 img {
     max-width: 100%;

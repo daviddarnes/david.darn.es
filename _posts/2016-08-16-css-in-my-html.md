@@ -13,19 +13,19 @@ In this article, I'm going to take a look at a few of the possible negatives of 
 
 ### It's difficult to manage
 
-The tooling we have today means that it's pretty darn easy to plant CSS directly onto the page with a `<style>` block, or even directly applied to the element. 🛠
+The tooling we have today means that it's pretty darn easy to plant CSS directly onto the page with a `<style>` block, or even directly applied to the element. :wrench:
 
 ### It loads unwanted CSS
 
-It depends 🌈. If you're working on a small site like mine, the amount of unwanted CSS is not worth considering. However, for large scale sites and applications, you might want to look into other tooling.
+It depends :rainbow:. If you're working on a small site like mine, the amount of unwanted CSS is not worth considering. However, for large scale sites and applications, you might want to look into other tooling.
 
 ### You can't depend on JavaScript for CSS
 
-You can, if your application depends on JavaScript. There are some cases where non-JavaScript users should be catered for. However, there are also cases where applications and sites with heavy dependance on JS should just go with the flow. 🌊
+You can, if your application depends on JavaScript. There are some cases where non-JavaScript users should be catered for. However, there are also cases where applications and sites with heavy dependance on JS should just go with the flow. :ocean:
 
 ### I can't read the source
 
-Eh? Why are you reading the source so intently? Stay in the web inspector - it's all cool there. 🔬
+Eh? Why are you reading the source so intently? Stay in the web inspector - it's all cool there. :microscope:
 
 ## The practical test
 
@@ -65,4 +65,4 @@ _Results from [gtmetrix.com](https://gtmetrix.com/)_
 
 ## Conclusion
 
-Awesome! My site loads faster **(from 0.7s to 0.5s)** and I'm getting perf points from Google, which in reality mean nothing, but at least my site is seen more quickly on devices with poor connections. So, what am I trying to say here? I'm not demanding you go off and make all your CSS inline right now. I'm saying: consider the options, weigh them up against the norm and test them out. As long as you have a good reason behind the implementation, it kind of doesn't matter what others think. ✌️
+Awesome! My site loads faster **(from 0.7s to 0.5s)** and I'm getting perf points from Google, which in reality mean nothing, but at least my site is seen more quickly on devices with poor connections. So, what am I trying to say here? I'm not demanding you go off and make all your CSS inline right now. I'm saying: consider the options, weigh them up against the norm and test them out. As long as you have a good reason behind the implementation, it kind of doesn't matter what others think. :v:

@@ -44,7 +44,7 @@ _Results from [testmysite.thinkwithgoogle.com](https://testmysite.thinkwithgoogl
 - Page Load Time: **0.7s**
 - Total Page Size: **116kb**
 
-_Results from [https://gtmetrix.com/](https://gtmetrix.com/)_
+_Results from [gtmetrix.com](https://gtmetrix.com/)_
 
 ### Using an internal stylesheet with `<style>`
 

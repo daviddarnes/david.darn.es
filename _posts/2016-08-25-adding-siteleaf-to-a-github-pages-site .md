@@ -9,7 +9,7 @@ image: "https://david.darn.es/images/siteleaf/logos-header.jpg"
 
 <!-- more -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zrkcGL5H3MU" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id="zrkcGL5H3MU" %}
 
 ## The process
 

@@ -3,7 +3,6 @@ title: Adding Siteleaf to a GitHub Pages site
 colour: "#8dcf3f"
 icon: tutorial
 image: "https://david.darn.es/images/siteleaf/logos-header.jpg"
-draft: true
 ---
 
 **I've been using Siteleaf a lot recently, for both my day job and personal projects. In light of this, I decided to create a screencast of myself going through the process of adding Siteleaf to a pre-existing site running on GitHub Pages. As additional reference, I've documented the process below.**

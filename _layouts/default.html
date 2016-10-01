@@ -15,6 +15,21 @@
 			{% seo %}
 		{% endif %}
 
+		{% capture seo %}
+			{% if page.title contains site.title %}
+				<title>{{ page.title }} - {{ page.excerpt }}</title>
+				{% seo title=false %}
+			{% else %}
+				{% seo %}
+			{% endif %}
+		{% endcapture %}
+
+		{% if page.is_post %}
+			{{ seo }}
+		{% else %}
+			{{ seo | replace: "summary_large_image", "summary" }}
+		{% endif %}
+
 		{% if page.is_post %}
 			<link rel="amphtml" href="http://mercury.postlight.com/amp?url={{ site.url }}{{ page.url }}">
 			{% include post-meta.html %}

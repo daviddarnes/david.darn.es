@@ -167,6 +167,11 @@ pre > code {
     overflow-x: scroll;
 }
 
+::selection {
+  background: $color--paragraph;
+  color: lighten($color--background, 10%);
+}
+
 // Graphics
 img {
     max-width: 100%;

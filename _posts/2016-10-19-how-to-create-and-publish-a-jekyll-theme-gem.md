@@ -1,5 +1,5 @@
 ---
-title: "How to Create and Publish a Jekyll Theme Gem"
+title: "How to Create a Jekyll Theme Gem"
 category: tutorial
 icon: tutorial
 colour: "#e9573f"

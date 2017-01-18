@@ -1,5 +1,5 @@
 ---
-title: "# My Worst Job Interview"
+title: "My Worst Job Interview"
 icon: person
 colour: "#778aff"
 excerpt: "My worst job interview didn't get me very far; not even into their office. It was just a phone call. It was a brief and kind of upsetting moment in my early career. Allow me to explain why I think this was my worst interview."

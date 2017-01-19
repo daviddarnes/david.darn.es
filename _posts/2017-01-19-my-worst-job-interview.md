@@ -22,41 +22,41 @@ At the time, emailing was still a bit iffy; agencies tended to show their phone 
 
 or…
 
-> "We're not looking for anyone right now, but feel free to send us your CV." 
+> "We're not looking for anyone right now, but feel free to send us your CV."
 
-For someone who didn't have _any_ job prospects at the time, these were crap responses. However, they were at least polite and sometimes promising. Then I made a call to this one agency - one that I had noted down after speaking to a director at my university. 
+For someone who didn't have _any_ job prospects at the time, these were crap responses. However, they were at least polite and sometimes promising. Then I made a call to this one agency - one that I had noted down after speaking to a director at my university.
 
 This seemed like a pretty good opportunity, so I decided to give them a call. It was quite a while ago, so I'll try to remember the conversation the best I can:
 
 > "Hi, _[Agency]_. _[Front Desk]_ speaking. How may I help?"
->
-> Dave: "Hi, my name is David Darnes. I've just graduated from university and I was wondering if I could speak to the director about any design roles you may have?"
->
-> Front Desk: "Oh, right. Let me just check if they are available."
->
-> Dave: "Ah, great. Thank you."
->
-> _*Hold tone*_
->
-> Director: "Hello?"
->
-> Dave: "Hi, there. My name is David Darnes and I've just graduated from university. I was wondering if you may have any design roles I could apply for at your agency?"
->
-> Director: "Ah, right. What course did you do?"
->
-> Dave: "A degree in Interactive Design."
->
-> Director: "And what grade did you get?"
->
-> Dave: "Err..." _*Slight hesitation*_ "a 2.2."
->
-> Director: "Do you think that is good enough?"
->
-> Dave: _*Longer hesitation*_ "I guess not, no."
->
-> Director: "Well, I guess we know where this conversation is going."
->
-> Dave: "Oh, okay. Bye, then."
+
+> **Dave:** "Hi, my name is David Darnes. I've just graduated from university and I was wondering if I could speak to the director about any design roles you may have?"
+
+> **Front Desk:** "Oh, right. Let me just check if they are available."
+
+> **Dave:** "Ah, great. Thank you."
+
+_*Hold tone*_
+
+> **Director:** "Hello?"
+
+> **Dave:** "Hi, there. My name is David Darnes and I've just graduated from university. I was wondering if you may have any design roles I could apply for at your agency?"
+
+> **Director:** "Ah, right. What course did you do?"
+
+> **Dave:** "A degree in Interactive Design."
+
+> **Director:** "And what grade did you get?"
+
+> **Dave:** "Err..." _*Slight hesitation*_ "a 2.2."
+
+> **Director:** "Do you think that is good enough?"
+
+> **Dave:** _*Longer hesitation*_ "I guess not, no."
+
+> **Director:** "Well, I guess we know where this conversation is going."
+
+> **Dave:** "Oh, okay. Bye, then."
 
 After that, I hung up as quickly as I could. I think I was in a bit of shock at the time. It was quite upsetting, especially as at the time, I was quite embarrassed about my results. Little did I know that it would mean pretty much nothing when applying for any other jobs after that. However, it seemed to mean a lot to them, or maybe they just wanted to see how I would respond to being challenged in that way?
 

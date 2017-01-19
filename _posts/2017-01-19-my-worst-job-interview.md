@@ -60,12 +60,13 @@ _*Hold tone*_
 
 After that, I hung up as quickly as I could. I think I was in a bit of shock at the time. It was quite upsetting, especially as at the time, I was quite embarrassed about my results. Little did I know that it would mean pretty much nothing when applying for any other jobs after that. However, it seemed to mean a lot to them, or maybe they just wanted to see how I would respond to being challenged in that way?
 
-I don't think it stopped me applying altogether, though, as I did apply at a few more agencies before getting my first job a month or two later. Even so, I would class it as one of my worst interviews for a job, if not the worst, as I didn't even make it past the phone call. I'm obviously glad I didn't - who knows how that would've ended up!
+It didn't stop me applying though, I continued to contact other agencies before getting my first job a month or two later. Even so, I would class it as one of my worst interviews for a job, if not the worst, as I didn't even make it past the phone call.
 
 I guess if I was to mention a few take aways from this experience (having looked back on it), I would say that:
 
-- Being a new graduate in this industry can be crap and we should try to at least be kind to newcomers
-- Grades almost mean nothing now; experience and willingness are a lot more powerful strengths
-- If you're making contact with a prospective agency, watch out for people like this
+- Being a new graduate in this industry can be an upward struggle. If you are one, watch out for challenge questions like this and be prepared to give a good answer
+- Keep in mind is that interviews work both ways. You may not feel like you're in the position to be fussy but if you don't like the sound of them don't persue them
+- If you're at an agency that's revieving applications from newcomers be kind and patient
+- Grades almost mean nothing now; experience and willingness are a lot more powerful strengths, so give people a chance to show their worth
 
 ✌️

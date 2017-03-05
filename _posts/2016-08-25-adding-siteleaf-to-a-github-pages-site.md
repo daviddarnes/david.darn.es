@@ -2,7 +2,7 @@
 title: Adding Siteleaf to a GitHub Pages site
 colour: "#8dcf3f"
 icon: tutorial
-image: "https://david.darn.es/images/siteleaf/logos-header.jpg"
+image: "/images/siteleaf/logos-header.jpg"
 ---
 
 **I've been using Siteleaf a lot recently, for both my day job and personal projects. In light of this, I decided to create a screencast of myself going through the process of adding Siteleaf to a pre-existing site running on GitHub Pages. As additional reference, I've documented the process below.**
@@ -22,7 +22,7 @@ Once you've given permission to access the repo on your GitHub account, Siteleaf
 ![The Siteleaf admin interface](https://david.darn.es/images/siteleaf/admin-ui.png)
 
 
-Now that your site is up and running with Siteleaf, it's best to check through your settings and test whether changes you make in the admin interface are reflected on the live site and in the GitHub repo. 
+Now that your site is up and running with Siteleaf, it's best to check through your settings and test whether changes you make in the admin interface are reflected on the live site and in the GitHub repo.
 
 ![Making a change to the repo via Siteleaf](https://david.darn.es/images/siteleaf/commited-change.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Building a Site Entirely on Github.com"
 colour: "#4078c0"
-image: "https://david.darn.es/images/github-editor/feature-image.jpg"
+image: "/images/github-editor/feature-image.jpg"
 ---
 
 Have you ever thought:
@@ -24,7 +24,7 @@ I know, you're right. That's why I did this bit in Sketch before I got stuck int
 
 Things started off great, but as I progressed further with the build, I realised that GitHub.com falls slightly short of what I really needed for the task at hand. I think the best way to describe it is by breaking things down a bit.
 
-![new repo creation]({{ site.url }}/images/github-editor/new-repo.png "new repo creation")
+![new repo creation](/images/github-editor/new-repo.png "new repo creation")
 
 ## Configuration
 
@@ -37,18 +37,18 @@ Despite doing this, the process of making a change and then previewing it was ta
 ## HTML, CSS & JS
 Writing front-end code in the GitHub.com interface is a pretty good experience for a web-based editor. It provides relevant syntax highlighting and it even automatically self closes HTML elements and CSS selectors. When I tested the code completion for this article, I was impressed to find that it'll quite happily help you finish your code even when switching between HTML and CSS in the same file.
 
-![code completion]({{ site.url }}/images/github-editor/code-completion.gif "code completion")
+![code completion](/images/github-editor/code-completion.gif "code completion")
 
 
 However, none of this works when you first create the file. The editor is dumb to it's file name at point of creation. So, you have to create a blank file and then open it up again to benefit from even just the syntax highlighting. In case you're wondering, GitHub uses [ace editor](https://ace.c9.io/#nav=about), which is somewhat new to me, as most of the time I see [code mirror](https://codemirror.net/) being used.
 
 Any gripes I've mentioned pale into existence compared to the **annoying locked text editor height!** Over time, it's become a right pain. The editing area takes up 90% of a regular laptop screen height and the commit button is right underneath. Because of this, _every_ time I make a change on a file that's taller than the text editor, I have to fight with the double scrollbars to get to the commit area. I don't see why the editing area doesn't grow with the code, thus removing the need to scroll inside it.
 
-![scrolling gripe]({{ site.url }}/images/github-editor/scrolling.gif "scrolling gripe")
+![scrolling gripe](/images/github-editor/scrolling.gif "scrolling gripe")
 
 Alright, rant over. Lets talk about something good again… erm… I like that I can change the indent size in the top right. You don't have to select anything either; the code just moves in and out. Wrapping is kinda useful, I guess. You can also change between using spaces or tabs for indenting. However, it doesn't change any existing code, even if you select a line of code; it just applies when you write something new.
 
-![code indenting]({{ site.url }}/images/github-editor/indenting.gif "code indenting")
+![code indenting](/images/github-editor/indenting.gif "code indenting")
 
 ## Markdown
 
@@ -56,11 +56,11 @@ I'm big fan of markdown, especially since it stops people putting a single line 
 
 Surely they could think of a way to make writing markdown easier? Oh, wait - here it is in the **damn comment box in issues!**
 
-![comment formatting]({{ site.url }}/images/github-editor/comment-formatting.png "comment formatting")
+![comment formatting](/images/github-editor/comment-formatting.png "comment formatting")
 
 > But Dave, they only just implemented that into comments...
 
-![wiki formatting]({{ site.url }}/images/github-editor/wiki-formatting.png "wiki formatting")
+![wiki formatting](/images/github-editor/wiki-formatting.png "wiki formatting")
 
 Nope. Try creating new wiki page. That markdown editor [has been there for ages](https://github.com/blog/774-git-powered-wikis-improved). If that was in the code editing area, then they'd be on the road to making a damn fine writing space for Jekyll bloggers. Of course I'm being way too harsh. Writing markdown isn't that hard. I just think GitHub isn't making the most of it - they seem to be [using md files more](https://github.com/blog/2111-issue-and-pull-request-templates) and more.
 
@@ -68,7 +68,7 @@ Nope. Try creating new wiki page. That markdown editor [has been there for ages]
 
 YML files are a clean, crisp pillow against the rough, worn out, tassel stitched cushion that is JSON. I'm sure JSON has it's place in the dev world, but using YML to manage data on a Jekyll site is tons easier than it might've been. GitHub.com provides almost nothing to help edit YML data. The only aid I've seen is that front matter, the small piece of YML data at the top of Jekyll markdown pages, get's transformed into a table layout for slightly more readable view. I'm not going to complain about the lack of tools when YML allows me to manipulate complex data with ease.
 
-![front matter]({{ site.url }}/images/github-editor/front-matter.gif "front matter")
+![front matter](/images/github-editor/front-matter.gif "front matter")
 
 ## Graphics
 
@@ -76,7 +76,7 @@ This was nearly the end for my endeavour. The other issues were just user experi
 
 > Wait a minute, Dave. Isn't there a way to upload images in the wiki markdown editor?
 
-![image url]({{ site.url }}/images/github-editor/image-url.gif "image url")
+![image url](/images/github-editor/image-url.gif "image url")
 
 Haha nope. That's a clever joke one from GitHub. It only allows you to use a url - another inconsistency with the comments markdown editor.
 
@@ -90,7 +90,7 @@ The workarounds have caused me to use techniques that actually make the site bet
 
 Hours from me posting this article GitHub drops the bomb that is [file uploading](https://github.com/blog/2105-upload-files-to-your-repositories). I know! The one biggest gripe of this project has now been solved. Nice job GitHub! Look at it, isn't it glorious:
 
-![file upload]({{ site.url }}/images/github-editor/file-upload.gif "file upload")
+![file upload](/images/github-editor/file-upload.gif "file upload")
 
 ## Conclusion
 

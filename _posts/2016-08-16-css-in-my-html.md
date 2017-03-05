@@ -2,7 +2,7 @@
 title: I Put CSS in My HTML and Nothing Exploded
 colour: "#84217c"
 icon: article
-image: "https://david.darn.es/images/css-in-my-html/inline-css-header.jpg"
+image: "/images/css-in-my-html/inline-css-header.jpg"
 ---
 
 **When I first felt comfortable with front-end web development, I thought inline CSS was a filthy thing to do; something that could only be done in haste or from poor implementation. Thankfully, I'm a little wiser now and can understand that there is almost _always_ a reason behind the implementation.**
@@ -31,7 +31,7 @@ Eh? Why are you reading the source so intently? Stay in the web inspector - it's
 
 So, with all that in mind, let's take this into a practical scenario. Now, this scenario isn't an app or large scale website - it's just this blog - but it is taking into account all the items above! In this example, I've taken the CSS for this site and added it directly into the `<head>` as an "internal stylesheet", which is technically not inline, but some people might consider it like that. I'll cut to the chase and give the results:
 
-### Using an external linked `.css` file 
+### Using an external linked `.css` file
 
 - Mobile friendliness: **100/100**
 - Mobile speed: **89/100**

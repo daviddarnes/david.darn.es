@@ -1,7 +1,7 @@
 ---
 title: "Could GitHub Make a CMS?"
 colour: "#d26911"
-image: "https://david.darn.es/images/github-cms/octocat.jpg"
+image: "/images/github-cms/octocat.jpg"
 ---
 
 Following on from [my previous article](https://david.darn.es/2016/02/18/using-the-github-com-interface/), I wanted to explore the idea of GitHub making a CMS. What would it be? How would it work? Why would they even do it?
@@ -18,17 +18,17 @@ Actually, let's use this opportunity to look at who else has made a CMS for GitH
 
 ### [CloudCannon](http://cloudcannon.com/)
 
-![cloudcannon]({{ site.url }}/images/github-cms/cloudcannon.png "cloudcannon")
+![cloudcannon](/images/github-cms/cloudcannon.png "cloudcannon")
 CloudCannon ticks all the boxes of what you'd expect from a CMS that works with Jekyll & GitHub Pages: [Posts](http://docs.cloudcannon.com/editing/blogging/), [pages](http://docs.cloudcannon.com/editing/content-editor/), [metadata](http://docs.cloudcannon.com/editing/front-matter/); everything is available in their UI. In addition, you can use an `editable` class name to give control over the content in the UI.
 
 ### [Siteleaf](http://www.siteleaf.com/)
 
-![siteleaf]({{ site.url }}/images/github-cms/siteleaf.jpg "siteleaf")
+![siteleaf](/images/github-cms/siteleaf.jpg "siteleaf")
 This is a CMS that can publish to GitHub Pages. However, it doesn't use Jekyll. The content editor has some [really nice features](http://www.siteleaf.com/blog/markdown-in-siteleaf/). What interests me most is [v2 of the CMS](http://v2.siteleaf.com/), which brings it right inline with the full GitHub ecosystem.
 
 ### [prose.io](http://prose.io/)
 
-![prose]({{ site.url }}/images/github-cms/prose.png "prose")
+![prose](/images/github-cms/prose.png "prose")
 Prose is an extremely clever [JavaScript project on Github](https://github.com/prose/prose). You simply authorise it with your GitHub account and you're off.
 
 ### [DIY](https://pages.github.com/)
@@ -51,15 +51,15 @@ Let's not forget, though, that this environment is designed for more regular use
 
 So, where would this enhanced editing experience go? Well, as mentioned above, it would be mixed into GitHub.com, but where? I've put together some examples that they could implement:
 
-![file markdown editor]({{ site.url }}/images/github-cms/markdown-editor.png "file markdown editor")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/markdown-editor.png)
+![file markdown editor](/images/github-cms/markdown-editor.png "file markdown editor")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/markdown-editor.png)
 
 Here a new "md" file has triggered the appearance of a markdown editor at the top. Note the file name, as well. This could be autofilled when the user creates a new file, based on if the file being created is inside the `_posts` or `_drafts` directory.
 
-![editor drag and drop images]({{ site.url }}/images/github-cms/editor-drag-drop.png "editor drag and drop images")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/editor-drag-drop.png)
+![editor drag and drop images](/images/github-cms/editor-drag-drop.png "editor drag and drop images")[Enlarge](https://github.com/daviddarnes/david.darn.es/blob/gh-pages/images/github-cms/editor-drag-drop.png)
 
 The editor could be smart with images, too. Mimicking the drag and drop technique from Siteleaf, when the user drags an image onto the page, the image could be uploaded and and the relevant markdown could be inserted to the page.
 
-![canvas markdown editor]({{ site.url }}/images/github-cms/use-canvas.gif "canvas markdown editor")
+![canvas markdown editor](/images/github-cms/use-canvas.gif "canvas markdown editor")
 
 What about improving the markdown presentation? I've been using [Canvas](https://usecanvas.com/) a lot recently and the way it presents markdown content is really clever; this allows full markdown editing, but still shows the resulting copy.
 

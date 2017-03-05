@@ -6,7 +6,7 @@ excerpt: "I posed this question in several forms on Twitter to get feedback from
 image: "/images/cms-header.jpg"
 ---
 
-Back in March 2015 I attempted to build [Bread.li](https://bread.li), a site dedicated to providing valuable information on a wide range of CMSs. Without going into too much detail, I failed to complete it and now it's a half baked project 😢.
+Back in March 2015 I attempted to build [Bread.li](https://bread.li), a site dedicated to providing valuable information on a wide range of CMSs. Without going into too much detail, I failed to complete it and now it's a half baked project :cry:.
 
 So what went wrong? Well I think it's down to where I started. I began with the build rather than what the purpose of the site, which is something that often happens when we pick a CMS. **We look at the development benefits over how the CMS will be actually used.**
 
@@ -68,4 +68,4 @@ So what I will say is that we should open our minds to the CMS landscape. Take a
 
 I hope you found this article useful. As I said above, feel free [to tweet me](https://twitter.com/daviddarnes) with your thoughts and share what you think it a good reason to try a different CMS.
 
-✌️
+:v:

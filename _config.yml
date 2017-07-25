@@ -5,7 +5,7 @@ exclude:
 - CNAME
 
 # Gems
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate

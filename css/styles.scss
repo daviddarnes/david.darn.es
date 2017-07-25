@@ -24,10 +24,11 @@ html {
     height: 100%;
     font-family: 'Source Serif Pro', serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 1.8rem;
+    font-size: 18px;
+    line-height: 2rem;
     color: $color--paragraph;
     @media (max-width: 500px) {
+        font-size: 16px;
         line-height: 1.75rem;
     }
 }
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
     font-weight: 400;
+    position: relative;
 }
 
 h1 {
@@ -72,6 +74,18 @@ h3 {
 p, .video, ul, ol {
     margin-top: 0;
     margin-bottom: 1.2rem;
+}
+
+h2[id],
+h3[id] {
+    .link {
+        left: -5.95rem;
+        top: -0.6rem;
+        @media (max-width: 500px) {
+            top: 0;
+            left: -4.37rem;
+        }
+    }
 }
 
 a {
@@ -193,7 +207,7 @@ img {
     position: relative;
     display: block;
     width: 90%;
-    max-width: 600px;
+    max-width: 660px;
     margin: 0 auto;
     padding: 7rem 0 1.5rem;
     display: flex;
@@ -307,6 +321,16 @@ img {
             height: 2rem;
         }
     }
+    &--small {
+        width: 1rem;
+        height: 1rem;
+        margin: .7rem;
+        @media (max-width: 500px) {
+            width: 0.8rem;
+            height: 0.8rem;
+            margin: 0.5rem;
+        }
+    }
 }
 
 // Lists
@@ -381,6 +405,13 @@ img {
         @media (max-width: 500px) {
             margin: 0;
         }
+    }
+    .icon--small {
+      opacity: 0.65;
+      transition: .2s;
+    }
+    &:hover .icon--small {
+      opacity: 1;
     }
     &--post {
         margin: 0 0.8rem .8rem;

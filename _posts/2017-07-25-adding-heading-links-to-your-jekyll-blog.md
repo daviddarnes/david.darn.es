@@ -9,7 +9,7 @@ I just spent the last hour or so fiddling around with my blog and portfolio. Bot
 
 After I increased the font size I increased the width of the main content. And then it dawned on me...
 
-<<< **look at this huge gap on the side of this blog!!**
+<< **look at this huge gap on the side of this blog!!**
 
 Completely wasted space, just a really long line that merely adheres to my site style. This space should be put to more practical use.
 
@@ -22,7 +22,7 @@ Wouldn't it be cool if there was a link next to the heading so you link people e
 I realise this type of trick has been done a few times with ever so slightly different JavaScript, but here is my spin on the whole thing:
 
 ``` js
-const headings = document.querySelectorAll('h2[id],h3[id]'); // 1
+const headings = document.querySelectorAll('h2,h3'); // 1
 const linkContent = '🔗'; // 2
 for (const heading of headings) { // 3
     const linkIcon = document.createElement('a'); // 4

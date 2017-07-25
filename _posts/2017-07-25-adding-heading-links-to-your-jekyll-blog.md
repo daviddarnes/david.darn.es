@@ -9,13 +9,13 @@ I just spent the last hour or so fiddling around with my blog and portfolio. Bot
 
 After I increased the font size I increased the width of the main content. And then it dawned on me...
 
-<< **look at this huge gap on the side of this blog!!**
+:arrow_left: **look at this huge gap on the side of this blog!!**
 
 Completely wasted space, just a really long line that merely adheres to my site style. This space should be put to more practical use.
 
 Well one of the convient things Jekyll does out of the box is add `id` attrbiutes to headings generated with markdown in posts and pages. Which means that people can link to a specific section on a page, but the only way to get the id for the link is to instpect the page and find the heading id.
 
-Wouldn't it be cool if there was a link next to the heading so you link people easily? :thinking:...
+Wouldn't it be cool if there was a link next to the heading so you link people easily? :thinking:
 
 ## How to add a heading link like the one next to this heading!
 

@@ -174,11 +174,12 @@ code {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
-    padding: .3rem .6rem;
+    padding: 0 .3rem;
 }
 
 pre > code {
     overflow-x: scroll;
+    padding: .3rem .6rem;
 }
 
 ::selection {

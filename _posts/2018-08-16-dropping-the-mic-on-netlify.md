@@ -2,6 +2,7 @@
 title: "Dropping the mic on Netlify in 20 minutes"
 icon: tutorial
 colour: "#00aea0"
+image: "/images/mic-drop/mic-drop.gif"
 excerpt: "Alright, so I didn’t actually drop the mic on Netlify; I dropped a site on it. Netlify Drop is a tool where you can grab a folder containing a site or app or whatever and drop it straight into the Netlify hosting platform."
 ---
 

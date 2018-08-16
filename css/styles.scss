@@ -180,6 +180,7 @@ code {
 pre > code {
     overflow-x: scroll;
     padding: .3rem .6rem;
+    min-width: 100%;
 }
 
 ::selection {

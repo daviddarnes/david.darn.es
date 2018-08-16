@@ -7,19 +7,22 @@ excerpt: "Alright, so I didn’t actually drop the mic on Netlify; I dropped a s
 
 ![Mic drop on https://mic-drop.netlify.com](/images/mic-drop/mic-drop.gif)
 
-Alright, so I didn’t actually drop the mic on Netlify; I dropped a site on it. [Netlify Drop](https://netlify.com/drop) is a tool where you can grab a folder containing a site or app or whatever and drop it straight into the Netlify hosting platform. You can [read more about Drop on the Netlify blog](https://www.netlify.com/blog/2018/08/14/announcing-netlify-drop---the-simplicity-of-bitballoon-with-the-added-power-of-netlify/).
+Alright, so I didn’t actually drop the mic on Netlify; I dropped a site on it. [Netlify Drop](https://netlify.com/drop) is a tool where you can grab a folder containing a site or app or whatever and drop it straight into the Netlify hosting platform. You can [read more about Drop](https://www.netlify.com/blog/2018/08/14/announcing-netlify-drop---the-simplicity-of-bitballoon-with-the-added-power-of-netlify/) on the Netlify blog.
 
-Anyway, I saw their announcement and thought *“Hmm I really want to try this out, but what should I make?”.* And then it clicked…well, thudded - with a little audio feedback.
+Anyway, I saw their announcement and thought...
+
+> Hmm I really want to try this out, but what should I make?
+
+And then it clicked... well, thudded - with a little audio feedback.
 
 ## Let’s begin
 I started in a place where I often go to code obscure, but fun things: [CodePen](https://codepen.io/). Kicking things off with a bit of HTML:
-
 <p data-height="144" data-theme-id="19615" data-slug-hash="RBmNMa" data-default-tab="html" data-user="daviddarnes" data-pen-title="Mic drop" class="codepen">See the Pen <a href="https://codepen.io/daviddarnes/pen/RBmNMa/">Mic drop</a> by David Darnes (<a href="https://codepen.io/daviddarnes">@daviddarnes</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 So, I’ve got a mic and a hand to hold it neatly (if a little inaccessibly) wrapped in some `span` elements, but I need to sort out the presentation. There’s a set of styles that I almost always use when knocking together that needs to be front-and-centre, which is why I should probably throw these into a [CodePen template](https://blog.codepen.io/2018/05/24/a-new-create-menu-and-unlimited-pen-templates/), so I don’t have to write them every time:
 
-```
+``` css
 body {
   min-height: 100vh;
   display: grid;
@@ -32,7 +35,7 @@ What’s going on in the above CSS? Well, I’m selecting the body element and g
 
 These styles aren’t going to get the desired result, however. I need the hand to overlap the mic and rotate it a little to give the impression that it’s holding the mic:
 
-```
+``` css
 span {
   grid-area: 1 / 1;
 }
@@ -48,7 +51,7 @@ In this part of the CSS, I’m using `grid-area` to place the hand and the mic i
 ## Dropping the mic
 Now, how to make this mic drop off the screen? For this, I’m going to employ the use of CSS custom properties:
 
-```
+``` css
 .mic {
   transition: 1s ease-in;
   transform: translateY(var(--drop, 0)) rotate(var(--spin, 0deg));
@@ -61,7 +64,7 @@ With these styles, the `.mic` (the mic 🎤) will look no different and won’t 
 ## Listening for the cue
 As the mic has been prepared for my two custom properties, I can now apply them when someone clicks on the hand with a bit of JavaScript:
 
-```
+``` js
 document.querySelector('.hand').addEventListener('click', event => {
   event.target.innerHTML = `✋`
   document.querySelector('.mic').style = `--drop: 60vh; --spin: 900deg`
@@ -70,7 +73,7 @@ document.querySelector('.hand').addEventListener('click', event => {
 
 I’ve got a habit of writing short, but sometimes hard to read JavaScript, so maybe this will help you understand what I’m doing:
 
-```
+``` js
 const hand = document.querySelector('.hand');
 const mic = document.querySelector('.mic');
 
@@ -98,15 +101,8 @@ The final slot of the puzzle was using what I mentioned at the start, Netlify Dr
 **You can find the final resulting hosted site at [https://mic-drop.netlify.com](https://mic-drop.netlify.com)**
 
 ## Conclusion
-This was really fun to make, and thanks to all these great tools and development features, it only took 20 minutes or so to complete. There have been so many people responding to it on Twitter and it’s great to see people enjoying it and having a laugh:
-
-https://twitter.com/Netlify/status/1029662360192069632
-
-https://twitter.com/philhawksworth/status/1029669405146472448
-
-https://twitter.com/dataandme/status/1029802654720045056
-
-https://twitter.com/DavidWells/status/1029891166219591680
+This was really fun to make, and thanks to all these great tools and development features, it only took 20 minutes or so to complete. There have been [so many people responding to it on Twitter](https://twitter.com/Netlify/status/1029662360192069632) and it’s [great to see](https://twitter.com/dataandme/status/1029802654720045056) [people enjoying it](
+https://twitter.com/philhawksworth/status/1029669405146472448) and [having a laugh](https://twitter.com/DavidWells/status/1029891166219591680):
 
 ## To do
 This subheading sounds ominous, as if I’m going to make it into some kind of SaaS product or something. Well, I can tell you now, that’s not ****my plan - I want to use it for learning purposes. There are some things I want to try out which include a couple of the other useful features Netlify provides. Here’s what I’m thinking:
@@ -118,4 +114,4 @@ This subheading sounds ominous, as if I’m going to make it into some kind of S
 - Allow repeatable ‘drops’ to give people the extra satisfaction
 - A query string of some kind on the url, so that the mic automatically drops whenever someone opens the link - to give *other people* the satisfaction
 
-Alright, I think that’s everything. I’ve gone on for too long now. Thanks for reading! If you liked this, then [feel free to share it]() or [send me a nice tweet](https://twitter.com/DavidDarnes).
+Alright, I think that’s everything. I’ve gone on for too long now. Thanks for reading! If you liked this, then [feel free to share it](https://twitter.com/home?status=Dropping%20the%20mic%20on%20%40Netlify%20in%2020%20minutes%20https%3A//david.darn.es/2018/08/16/dropping-the-mic-on-netlify/%20by%20%40DavidDarnes) or [send me a nice tweet](https://twitter.com/DavidDarnes).

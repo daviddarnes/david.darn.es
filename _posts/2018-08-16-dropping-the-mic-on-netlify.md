@@ -94,7 +94,7 @@ With this in place, the hand will ‘open’ and the mic will drop down 60vh (60
 <p data-height="300" data-theme-id="19615" data-slug-hash="RBmNMa" data-default-tab="result" data-user="daviddarnes" data-pen-title="Mic drop" class="codepen">See the Pen <a href="https://codepen.io/daviddarnes/pen/RBmNMa/">Mic drop</a> by David Darnes (<a href="https://codepen.io/daviddarnes">@daviddarnes</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-The final slot of the puzzle was using what I mentioned at the start, Netlify Drop:
+The final slot of the puzzle was using what I mentioned at the start, [Netlify Drop](https://netlify.com/drop):
 
 ![Dropping a folder onto Netlify Drop](/images/mic-drop/drop.gif)
 
@@ -102,7 +102,7 @@ The final slot of the puzzle was using what I mentioned at the start, Netlify Dr
 
 ## Conclusion
 This was really fun to make, and thanks to all these great tools and development features, it only took 20 minutes or so to complete. There have been [so many people responding to it on Twitter](https://twitter.com/Netlify/status/1029662360192069632) and it’s [great to see](https://twitter.com/dataandme/status/1029802654720045056) [people enjoying it](
-https://twitter.com/philhawksworth/status/1029669405146472448) and [having a laugh](https://twitter.com/DavidWells/status/1029891166219591680):
+https://twitter.com/philhawksworth/status/1029669405146472448) and [having a laugh](https://twitter.com/DavidWells/status/1029891166219591680).
 
 ## To do
 This subheading sounds ominous, as if I’m going to make it into some kind of SaaS product or something. Well, I can tell you now, that’s not ****my plan - I want to use it for learning purposes. There are some things I want to try out which include a couple of the other useful features Netlify provides. Here’s what I’m thinking:

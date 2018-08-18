@@ -108,11 +108,13 @@ https://twitter.com/philhawksworth/status/1029669405146472448) and [having a lau
 ## To do
 This subheading sounds ominous, as if I’m going to make it into some kind of SaaS product or something. Well, I can tell you now, that’s not ****my plan - I want to use it for learning purposes. There are some things I want to try out which include a couple of the other useful features Netlify provides. Here’s what I’m thinking:
 
-- **Stop the mic spinning so much**: the mic is dropping, not dancing
-- Make sure the **mic is in front of the open hand**
-- **Fix the bug on iOS Safari**: browser height is changing and `vh` tries to keep up. Sadly, Safari iOS is pretty bad at this and there [has been quite a bit of work to work around the bug](https://medium.com/samsung-internet-dev/toolbars-keyboards-and-the-viewports-10abcc6c3769#e8fd)
+- :ballot_box_with_check: **Stop the mic spinning so much**: the mic is dropping, not dancing
+- :ballot_box_with_check: Make sure the **mic is in front of the open hand**
+- :ballot_box_with_check: **Fix the bug on iOS Safari**: browser height is changing and `vh` tries to keep up. Sadly, Safari iOS is pretty bad at this and there [has been quite a bit of work to work around the bug](https://medium.com/samsung-internet-dev/toolbars-keyboards-and-the-viewports-10abcc6c3769#e8fd)
 - **Use a Lambda function to log every mic drop** that happens on the site and show it as a rolling tally. [Netlify has this as one of it’s backend features](https://www.netlify.com/features/#add-ons)
-- Allow repeatable ‘drops’ to give people the extra satisfaction
-- A query string of some kind on the url, so that the mic automatically drops whenever someone opens the link - to give *other people* the satisfaction
+- :ballot_box_with_check: Allow repeatable ‘drops’ to give people the extra satisfaction
+- :ballot_box_with_check: A query string of some kind on the url, so that the mic automatically drops whenever someone opens the link - to give *other people* the satisfaction
+
+_Update: the items marked :ballot_box_with_check: I've now done_
 
 Alright, I think that’s everything. I’ve gone on for too long now. Thanks for reading! If you liked this, then [feel free to share it](https://twitter.com/home?status=Dropping%20the%20mic%20on%20%40Netlify%20in%2020%20minutes%20https%3A//david.darn.es/2018/08/16/dropping-the-mic-on-netlify/%20by%20%40DavidDarnes) or [send me a nice tweet](https://twitter.com/DavidDarnes).

@@ -7,3 +7,5 @@
   icon: codepen
 - link: "http://dribbble.com/daviddarnes"
   icon: dribbble
+- link: "/feed.xml"
+  icon: rss

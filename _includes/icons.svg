@@ -35,6 +35,9 @@
   <symbol id="email" fill-rule="evenodd" viewBox="0 0 20 20">
     <path d="M19 2.3V0H1v2.3l-1-.8v16h20v-16l-1 .8zm-.5.4V.5h-17v2.2L10 9.5l8.5-6.8z"/>
   </symbol>
+  <symbol id="rss" viewBox="0 0 20 20">
+    <path d="M16 20C16 11.22 8.78 4 0 4V0c10.97 0 20 9.03 20 20h-4zM2.74 14.51a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5zM13.26 20H9.37A9.41 9.41 0 0 0 0 10.63V6.74c7.27 0 13.26 5.99 13.26 13.26z"/>
+  </symbol>  
   <symbol id="flux" viewBox="-.4 0 16 16">
     <g fill-rule="evenodd">
       <path d="M7 7h2v6H7z"/>

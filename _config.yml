@@ -12,7 +12,8 @@ gems:
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jemoji
-
+- jekyll-feed
+  
 # SCSS
 sass:
   style: :compressed

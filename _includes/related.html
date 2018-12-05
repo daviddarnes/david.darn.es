@@ -1,44 +1,44 @@
 {% if site.posts %}
 
-	<div class="content">
-		<h3>Related Articles</h3>
-	</div>
+  <div class="content">
+    <h3>Related Articles</h3>
+  </div>
 
-	<ul class="list  list--posts" id="posts">
-		{% for item in site.related_posts limit:3 %}
+  <ul class="list  list--posts" id="posts">
+    {% for item in site.related_posts limit:3 %}
 
-			{% if item.link %}
-				{% assign link = item.link %}
-			{% else %}
-				{% assign link = item.url %}
-			{% endif %}
+      {% if item.link %}
+        {% assign link = item.link %}
+      {% else %}
+        {% assign link = item.url %}
+      {% endif %}
 
-			<li class="item  item--post">
+      <li class="item  item--post">
 
-				<a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
-					<svg class="icon  icon--post" role="img" aria-label="{{ item.title }} icon">
-						<title>{{ item.icon }}</title>
-						<use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
-					</svg>
-				</a>
+        <a class="link  link--circle  link--post" href="{{ link }}" title="{{ item.title }}">
+          <svg class="icon  icon--post" role="img" aria-label="{{ item.title }} icon">
+            <title>{{ item.icon }}</title>
+            <use xlink:href="#{{ item.icon }}"{% if item.colour %} fill="{{ item.colour }}"{% endif %}></use>
+          </svg>
+        </a>
 
-				<article class="content  content--post  content--{{ item.title | slugify }}">
+        <article class="content  content--post  content--{{ item.title | slugify }}">
 
-					{% if item.colour %}
-						<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; }</style>
-					{% endif %}
-					<h2>
-						<a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
-					</h2>
+          {% if item.colour %}
+            <style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; }</style>
+          {% endif %}
+          <h2>
+            <a href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
+          </h2>
 
-					<small class="small">
-						<time datetime="{{ item.date | date_to_xmlschema }}" class="time">{{ item.date | date_to_string }}</time>
-					</small>
+          <small class="small">
+            <time datetime="{{ item.date | date_to_xmlschema }}" class="time">{{ item.date | date_to_string }}</time>
+          </small>
 
-				</article>
-			</li>
+        </article>
+      </li>
 
-		{% endfor %}
-	</ul>
+    {% endfor %}
+  </ul>
 
 {% endif %}

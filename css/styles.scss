@@ -93,32 +93,14 @@ a {
     color: $color--link;
     text-decoration: none;
     position: relative;
-    white-space: nowrap;
     transition: .2s;
-    &:after {
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        left: 0;
-        right: 0;
-        border-bottom: 1px solid $color--link;
-        border-color: inherit;
-        opacity: 0.25;
-        transition: .2s;
-    }
-    &:hover:after {
-        opacity: 0.75;
-    }
-    @media (max-width: 500px) {
-    white-space: normal;
-    text-decoration: underline;
-    &:after {
-      display: none;
-    }
+    background:
+      linear-gradient(transparent 0%, transparent 96%, fade-out($color--background, 0.2) 96%, fade-out($color--background, 0.2) 100%),
+      linear-gradient(transparent 0%, transparent 96%, currentColor 96%, currentColor 99.9%, transparent 100%);
     &:hover {
-      color: darken($color--link, 10%);
+      background:
+        linear-gradient(transparent 0%, transparent 96%, currentColor 96%, currentColor 99.9%, transparent 100%);
     }
-  }
 }
 
 small {
@@ -150,7 +132,7 @@ blockquote {
     color: $color--blockquote;
     border-left-width: $width--keyline;
     margin-bottom: 1.4rem;
-    &:after {
+    &::after {
       color: darken($color--keyline, 5%);
         content: "\201D";
         font-size: 2em;
@@ -220,7 +202,7 @@ img {
         padding: 2.5rem 0 1.5rem;
     }
     &:before,
-    &:after {
+    &::after {
         content: "";
         position: absolute;
         z-index: -1;
@@ -233,7 +215,7 @@ img {
             left: 2rem;
         }
     }
-    &:after {
+    &::after {
         position: fixed;
         left: 0;
         width: 100%;
@@ -342,11 +324,6 @@ img {
     padding: 0;
     &--posts {
         flex: 1 0 auto;
-        h2 {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
     }
 
     // Opacity hover transition
@@ -391,6 +368,7 @@ img {
 .link {
     display: inline-block;
     line-height: 0;
+    background: none;
     &--circle {
         position: absolute;
         @media \0screen { display: none; } // For those IE8 fans out there
@@ -408,6 +386,12 @@ img {
             margin: 0;
         }
     }
+    &:hover {
+      background: none;
+    }
+    &--circle:hover {
+      background: lighten($color--background, 10%);
+    }
     .icon--small {
       opacity: 0.65;
       transition: .2s;
@@ -421,7 +405,7 @@ img {
             margin: 0.35rem 0.5rem 0.5rem;
         }
     }
-    &:after {
+    &::after {
         display: none;
     }
 }

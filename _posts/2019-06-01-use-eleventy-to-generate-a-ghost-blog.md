@@ -61,7 +61,7 @@ This clever API code is all well and good, but you’re not going to see anythin
 </ul>
 ```
 
-Let’s run Eleventy with `eleventy serve` and see what happens:
+Let’s run Eleventy with `eleventy --serve` and see what happens:
 
 ![Unformatted list of linked post titles](/images/eleventy-ghost-blog/post-list.png)
 

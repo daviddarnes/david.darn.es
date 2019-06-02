@@ -1,6 +1,6 @@
 ---
 title: "Use Eleventy To Generate A Ghost Blog"
-excerpt: "Last night I had a thought: what if I could just source my blog posts from the [Ghost Content API](https://docs.ghost.org/api/content/) and then generate a static blog all inside of [Eleventy](https://www.11ty.io/)?"
+excerpt: "Last night I had a thought: What if I could source a [Ghost](https://ghost.org) blog from the [Ghost Content API](https://docs.ghost.org/api/content/) and then generate a static blog all inside of [Eleventy](https://www.11ty.io/)?"
 icon: tutorial
 category: tutorial
 colour: "#55c3ff"
@@ -11,7 +11,7 @@ redirect_from: /2019/06/01/use-eleventy-to-generate-your-ghost-blog/
 
 Last night, I had a thought, which was only perpetuated by [Andy](https://mobile.twitter.com/andybelldesign/status/1134565751074037774):
 
-> What if I could just source my blog posts from the [Ghost Content API](https://docs.ghost.org/api/content/) and then generate a static blog, all inside of Eleventy?
+> What if I could source a [Ghost](https://ghost.org) blog from the [Ghost Content API](https://docs.ghost.org/api/content/) and then generate a static blog, all inside of Eleventy?
 
 ## Preface
 You’re going to need Eleventy installed for this in some shape or form - [check out the docs](https://www.11ty.io/docs/) to get setup.

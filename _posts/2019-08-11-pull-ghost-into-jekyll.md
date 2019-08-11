@@ -175,6 +175,7 @@ tags:
 {% endraw %}
 ```
 
+Another plus to using handlebars here is that is it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so other people working on the project will see the similarities and be more familiar with editing it.
 
 
 ## All together now!
@@ -182,3 +183,5 @@ tags:
 <script src="https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e.js"></script>
 
 Pretty nifty method of bring Ghost and Jekyll together I think. Feel free to [chat with me on Twitter](https://twitter.com/DavidDarnes if you've got some improvements or are using this yourself!
+
+PS. Thanks to [Phil](https://twitter.com/philhawksworth) for giving me the inspiration

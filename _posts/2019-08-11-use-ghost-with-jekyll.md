@@ -179,6 +179,7 @@ tags:
 
 Another plus to using handlebars here is that is it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so other people working on the project will see the similarities and be more familiar with editing it.
 
+The template string above is more of an example, just exposing things like `title`, `tags`, `html` (the main content) etc. If you want to expose more of the Ghost API, like post attributes and other endpoints, to your Jekyll site you can [check out the Ghost docs](https://ghost.org/docs/api/v2/content/#endpoints).
 
 ## All together now!
 

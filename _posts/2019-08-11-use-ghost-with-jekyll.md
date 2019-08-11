@@ -177,7 +177,7 @@ tags:
 {% endraw %}
 ```
 
-Another plus to using handlebars here is that is it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so other people working on the project will see the similarities and be more familiar with editing it.
+Another plus to using handlebars here is that it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so other people working on the project will be more familiar with editing it.
 
 The template string above is more of an example, just exposing things like `title`, `tags`, `html` (the main content) etc. If you want to expose more of the Ghost API, like post attributes and other endpoints, to your Jekyll site you can [check out the Ghost docs](https://ghost.org/docs/api/v2/content/#endpoints).
 
@@ -185,6 +185,6 @@ The template string above is more of an example, just exposing things like `titl
 
 <script src="https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e.js"></script>
 
-Pretty nifty method of bring Ghost and Jekyll together I think. Feel free to [chat with me on Twitter](https://twitter.com/DavidDarnes if you've got some improvements or are using this yourself!
+Pretty nifty method of bringing Ghost and Jekyll together I think. Feel free to [chat with me on Twitter](https://twitter.com/DavidDarnes) if you've got some improvements or are using this yourself!
 
 PS. Thanks to [Phil](https://twitter.com/philhawksworth) for giving me the inspiration

@@ -1,10 +1,12 @@
 ---
-title: "Pull Ghost Into Jekyll"
+title: "How to use Ghost with Jekyll"
 excerpt: "Someone made an interesting query recently that I couldn't help but take on as a challenge: Is there any way to use [Ghost](https://ghost.org) with [Jekyll](https://jekyllrb.com)?"
 icon: tutorial
 category: tutorial
 colour: "#ca7600"
+image: "/images/ghost-jekyll/ghost-jekyll-banner.png"
 ---
+
 
 **Someone made an interesting query recently that I couldn't help but take on as a challenge: Is there any way to use [Ghost](https://ghost.org) with [Jekyll](https://jekyllrb.com)? Turns out there is, and for those that want to cut to the code [here's a handy gist](https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e).**
 

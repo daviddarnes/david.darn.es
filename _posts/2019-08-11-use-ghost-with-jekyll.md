@@ -14,7 +14,7 @@ I recently released a Starter for using a [Ghost](https://ghost.org) site with t
 
 ## Set the scene
 
-The relevancy to this? Well when I tweeted this out [Mathias Aggerbo](https://twitter.com/maggerbo) asked this:
+The relevancy to of Jekyll to Eleventy? Well when we tweeted out the Eleventy post out [Mathias Aggerbo](https://twitter.com/maggerbo) asked this:
 > Are there any way to use Ghost with Jekyll?
 >
 > – <cite>Mathias Aggerbo</cite>
@@ -22,9 +22,9 @@ The relevancy to this? Well when I tweeted this out [Mathias Aggerbo](https://tw
 
 For those of you who know me fairly well you'll know that Jekyll [is](https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/) [close](https://david.darn.es/2017/07/25/adding-heading-links-to-your-jekyll-blog/) [to](https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475) [my](https://david.darn.es/2016/05/17/jekyll-conf-lightning-talk/) [heart](https://alembic.darn.es/), so I was keen to help find a solution.
 
-But how? In my experience Jekyll isn't known for working with APIs. Jekyll is designed as the more typical flat file CMS, taking text files (typically [markdown files](https://jekyllrb.com/docs/step-by-step/08-blogging/)) and turning them into pages. Once more is't Ruby based, so JavaScript API libraries aren't going to be the smoothest things to plug in.
+But how? In my experience Jekyll isn't known for working with APIs. Jekyll is designed as the more typical flat file CMS, taking text files (typically [markdown files](https://jekyllrb.com/docs/step-by-step/08-blogging/)) and turning them into html files. Once more it's Ruby based, so JavaScript API libraries aren't going to be the smoothest things to plug in.
 
-Enter stage left [Phil Hawksworth](https://twitter.com/philhawksworth):
+Enter stage right [Phil Hawksworth](https://twitter.com/philhawksworth):
 > A pattern I’ve used for a lot with a variety of SSGs is to have something like Gulp run the build. It pulls data from APIs, stashes it in the data files the SSG prefers, then generates the site with the SSG.
 >
 > This can keep your options open so you can choose the tool you prefer.
@@ -32,9 +32,15 @@ Enter stage left [Phil Hawksworth](https://twitter.com/philhawksworth):
 > – <cite>Phil Hawksworth</cite>
 {:cite="https://twitter.com/philhawksworth/status/1159193504851144705"}
 
-[gulp.js](https://gulpjs.com/) is a great tool, I often forget how useful and versatile it can be. The homepage text sums up gulp.js pretty well: _"gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something"_. You use it in the command line in the form of [gulp tasks](https://gulpjs.com/docs/en/getting-started/creating-tasks).
+[gulp.js](https://gulpjs.com/) is a great tool, I often forget how useful and versatile it can be. The homepage text sums up gulp.js pretty well:
 
-For example, I could create a task called `styles` that turns a `.scss` file into a `.css` file, minifies that file and then copy it into my production directory. All by a running a single single command, `gulp styles`. Very handy if you want to make custom file processing workflows and already have some familiarity with Node / JavaScript.
+> gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something
+>
+> <cite>– <a href="https://gulpjs.com">Gulp website</a></cite>
+{:cite="https://gulpjs.com/"}
+
+
+It's designed to be used in the command line, as [gulp tasks](https://gulpjs.com/docs/en/getting-started/creating-tasks). For example, I could create a task called `styles` that turns a `.scss` file into a `.css` file, minifies that file and then clones it into my production directory. All by a running a single single command, `gulp styles`. Very handy if you want to make custom file processing workflows and already have some familiarity with Node / JavaScript.
 
 ## Coding
 
@@ -47,7 +53,9 @@ Because we're using gulp.js all the following code is inside a single `gulpfile.
 
 ### Source content via API
 
-The [JavaScript Client Library](https://www.npmjs.com/package/@tryghost/content-api) for Ghost makes this a fairly clean process. I'm just using the demo API configuration so you'll need to replace this with the credentials of the Ghost site, more info on [how to get those credentials can be found here](https://ghost.org/docs/api/v2/javascript/content/#authentication). In a `gulpfile.js`:
+The [JavaScript Client Library](https://www.npmjs.com/package/@tryghost/content-api) for Ghost makes this a fairly clean process. I'm just using the demo API configuration so you'll need to replace this with the credentials of the Ghost site, more info on [how to get those credentials can be found here](https://ghost.org/docs/api/v2/javascript/content/#authentication).
+
+In a `gulpfile.js`:
 
 ``` js
 const gulp = require("gulp");
@@ -80,7 +88,7 @@ gulp.task('ghost', async function() {
 
 ### Construct an array of files
 
-We've got our API data, but we loop through that data and produce files from each post item. Out of the box gulp is designed to take file A and turn it into file B. We'll need to bring in some dependencies that will allow us to turn that data into new files.
+We've got our API data, but we want to loop through that data and produce files from each post item. Out of the box gulp is designed to take "file A" and turn it into "file B". We'll need to bring in some dependencies that will allow us to turn data into files.
 
 Here's what I ended up using:
 - [streamArray](https://www.npmjs.com/package/stream-array): Taking the array of `posts` we've created and feeding that into Node
@@ -133,7 +141,7 @@ There's a fair bit happening in the above but I've done my best to explain it in
 
 The final part to this `gulpfile.js` task is taking the Ghost post data and formatting it in such a way that Jekyll will read it as a typical markdown post. Again, dependencies to the rescue!
 
-Here we're using template strings to construct the format of our markdown files, and then handlebars ([gulp-hb](https://www.npmjs.com/package/gulp-hb) to be exact) to transform the variables into the values we want. We could just use regular javascript to put the data straight into the template, but this a bit easier to read and Could be extended upon without overly complex template strings.
+Here we're using template strings to construct the format of our markdown files, and then handlebars ([gulp-hb](https://www.npmjs.com/package/gulp-hb) to be exact) to transform the variables into the values we want. We could just use regular JavaScript to put the data straight into the template, but this a bit easier to read and could be extended upon without overly complex template strings.
 
 ``` js
 {%- raw -%}
@@ -177,9 +185,9 @@ tags:
 {% endraw %}
 ```
 
-Another plus to using handlebars here is that it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so other people working on the project will be more familiar with editing it.
+Another plus to using handlebars here is that it mirrors the [Liquid templating](https://shopify.github.io/liquid/) language used in Jekyll, so anyone familiar with working on the project may have an easier time making edits and additions.
 
-The template string above is more of an example, just exposing things like `title`, `tags`, `html` (the main content) etc. If you want to expose more of the Ghost API, like post attributes and other endpoints, to your Jekyll site you can [check out the Ghost docs](https://ghost.org/docs/api/v2/content/#endpoints).
+The template string I've used is more of an example, just exposing things like `title`, `tags`, `html` (the main content) etc. If you want to expose more of the Ghost API to your Jekyll site, like post attributes and other endpoints, you can [check out the Ghost docs](https://ghost.org/docs/api/v2/content/#endpoints).
 
 ## All together now!
 

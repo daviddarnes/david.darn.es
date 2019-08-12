@@ -125,7 +125,7 @@ const File = require('vinyl');
 });
 ```
 
-I've done my best to explain it in the comments. Note that We're using the published date and slug of each post to construct the filename and placing them in a `/_posts` directory, which follows [Jekyll's post filename format](https://jekyllrb.com/docs/posts/#creating-posts). The `.slice(0,10)` is to remove the time from the full date string.
+I've done my best to explain it in the comments. Note that we're using the published date and slug of each post to construct the filename and placing them in a `/_posts` directory, which follows [Jekyll's post filename format](https://jekyllrb.com/docs/posts/#creating-posts). The `.slice(0,10)` is to remove the time from the full date string.
 
 ### Create frontmatter and markdown
 

@@ -10,14 +10,14 @@ image: "/images/ghost-jekyll/ghost-jekyll-banner.png"
 
 **Someone made an interesting query recently that I couldn't help but take on as a challenge: Is there any way to use [Ghost](https://ghost.org) with [Jekyll](https://jekyllrb.com)? Turns out there is, and for those that want to cut to the code [here's a handy gist](https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e).**
 
-I recently released a Starter for using a [Ghost](https://ghost.org) site with the static site generator [Eleventy](https://11ty.io), check it out the [starter if you're interested](https://github.com/TryGhost/eleventy-starter-ghost/). I also wrote up about it [on the Ghost blog](https://ghost.org/blog/eleventy/), which includes links to the Ghost docs on how to use Eleventy with Ghost.
+I recently released a starter for using a [Ghost](https://ghost.org) site with the static site generator [Eleventy](https://11ty.io), check it out the [starter if you're interested](https://github.com/TryGhost/eleventy-starter-ghost/). I also wrote up about it [on the Ghost blog](https://ghost.org/blog/eleventy/), which includes links to the Ghost docs on how to use Eleventy with Ghost.
 
 ## Set the scene
 
-The relevancy to of Jekyll to Eleventy? Well when we tweeted out the Eleventy post out [Mathias Aggerbo](https://twitter.com/maggerbo) asked this:
+The relevancy of Jekyll to Eleventy? Well when we tweeted out the Eleventy post [Mathias Aggerbo](https://twitter.com/maggerbo) asked this:
 > Are there any way to use Ghost with Jekyll?
 >
-> – <cite>Mathias Aggerbo</cite>
+> – <cite><a href="https://twitter.com/maggerbo/status/1159097416324440064">Mathias Aggerbo</a></cite>
 {:cite="https://twitter.com/maggerbo/status/1159097416324440064"}
 
 For those of you who know me fairly well you'll know that Jekyll [is](https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/) [close](https://david.darn.es/2017/07/25/adding-heading-links-to-your-jekyll-blog/) [to](https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475) [my](https://david.darn.es/2016/05/17/jekyll-conf-lightning-talk/) [heart](https://alembic.darn.es/), so I was keen to help find a solution.
@@ -29,7 +29,7 @@ Enter stage right [Phil Hawksworth](https://twitter.com/philhawksworth):
 >
 > This can keep your options open so you can choose the tool you prefer.
 >
-> – <cite>Phil Hawksworth</cite>
+> – <cite><a href="https://twitter.com/philhawksworth/status/1159193504851144705">Phil Hawksworth</a></cite>
 {:cite="https://twitter.com/philhawksworth/status/1159193504851144705"}
 
 [gulp.js](https://gulpjs.com/) is a great tool, I often forget how useful and versatile it can be. The homepage text sums up gulp.js pretty well:
@@ -83,7 +83,7 @@ gulp.task('ghost', async function() {
 
   // ...
 
-}
+});
 ```
 
 ### Construct an array of files
@@ -97,6 +97,8 @@ Here's what I ended up using:
 ``` js
 const streamArray = require('stream-array');
 const File = require('vinyl');
+
+// gulp.task('ghost'...
 
   // Iterate over posts
   const files = posts.map(post => {
@@ -118,10 +120,10 @@ const File = require('vinyl');
   });
 
   // Stream the array of file instances into Node
-    return streamArray(files)
+  return streamArray(files)
 
-      // Put the files in a '_posts' directory
-      .pipe(gulp.dest('./_posts'));
+    // Put the files in a '_posts' directory
+    .pipe(gulp.dest('./_posts'));
 });
 ```
 
@@ -157,7 +159,7 @@ tags:
 // with the library and template string
 const templateFunction = Handlebars.compile(template.trim());
 
-  // gulp.task('ghost'...
+// gulp.task('ghost'...
 
       // Pass the post to the template function and
       // in turn pass it to the content of the file

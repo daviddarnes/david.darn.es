@@ -93,45 +93,35 @@ We've got our API data, but we want to loop through that data and produce files 
 Here's what I ended up using:
 - [streamArray](https://www.npmjs.com/package/stream-array): Taking the array of `posts` we've created and feeding that into Node
 - [Vinyl](https://www.npmjs.com/package/vinyl): A library created by the gulp.js team for creating files within a gulp.js task
-- [through2](https://www.npmjs.com/package/through2): I'm not entirely sure, but I think this is a wrapper that makes reading and writing of data in Node a bit cleaner
 
 ``` js
 const streamArray = require('stream-array');
 const File = require('vinyl');
-const through = require('through2');
 
-// ...
+  // Iterate over posts
+  const files = posts.map(post => {
 
-  // Begin iterating over posts
-  return streamArray(posts)
-    .pipe(through.obj(function (post, enc, callback) {
+    // Getting some values from the post object
+    const { published_at, slug, title } = post;
 
-      // Getting some values from the post object
-      const { published_at, slug, title } = post;
+    // Take a single post and create a new file
+    return new File({
 
-      // Take a single post and create a new file
-      const file = new File({
+      // Name the file based on the post date
+      // and the slug
+      path: `${published_at.slice(0,10)}-${slug}.md`,
 
-        // Name the file based on the post date
-        // and the slug
-        path: `${published_at.slice(0,10)}-${slug}.md`,
+      // Write the title of the post
+      // inside the file
+      contents: Buffer.from(title)
+    });
+  });
 
-        // Write the title of the post
-        // inside the file
-        contents: new Buffer.from(title),
+  // Stream the array of file instances into Node
+    return streamArray(files)
 
-        // Provide the post data inside the file
-        data: post,
-      });
-
-      // All done, push file back
-      // callback to start over again
-      this.push(file);
-      callback();
-    }))
-
-    // Put the files in a '_posts' directory
-    .pipe(gulp.dest('./_posts'));
+      // Put the files in a '_posts' directory
+      .pipe(gulp.dest('./_posts'));
 });
 ```
 
@@ -141,18 +131,16 @@ There's a fair bit happening in the above but I've done my best to explain it in
 
 The final part to this `gulpfile.js` task is taking the Ghost post data and formatting it in such a way that Jekyll will read it as a typical markdown post. Again, dependencies to the rescue!
 
-Here we're using template strings to construct the format of our markdown files, and then handlebars ([gulp-hb](https://www.npmjs.com/package/gulp-hb) to be exact) to transform the variables into the values we want. We could just use regular JavaScript to put the data straight into the template, but this a bit easier to read and could be extended upon without overly complex template strings.
+Here we're using template strings to construct the format of our markdown files, and then use [handlebars](https://www.npmjs.com/package/handlebars) to transform the variables into the values we want. We could just use regular JavaScript to put the data straight into the template, but this a bit easier to read and could be extended upon without overly complex template strings.
 
 ``` js
 {%- raw -%}
-const hb = require('gulp-hb');
+const Handlebars = require('handlebars');
 
-//...gulp.task
-
-  // Create markdown template
-  // using handlebars templating
-  // (No indentation so it doesn't appear in the file)
-  const markdownTemplate = `
+// Create markdown template
+// using handlebars templating
+// (No indentation so it doesn't appear in the file)
+const template = `
 ---
 title: {{ title }}
 excerpt: {{{ excerpt }}}
@@ -163,25 +151,21 @@ tags:
 {{/each}}
 ---
 {{{ html }}}
-  `;
+`;
 
-  // ...streamArray
+// Create a compiler function
+// with the library and template string
+const templateFunction = Handlebars.compile(template.trim());
 
-      // Write markdown template string into the file
-      contents: new Buffer.from(markdownTemplate.trim()),
+  // gulp.task('ghost'...
 
-      // The contextual post data used
-      data: post,
+      // Pass the post to the template function and
+      // in turn pass it to the content of the file
+      contents: Buffer.from(templateFunction(post))
     });
-    this.push(file);
-    callback();
-  }))
+  });
 
-  // Pass files through handlebars templating
-  // turning template code into actual values
-  .pipe(hb())
-  .pipe(gulp.dest('./_posts'));
-});
+  // streamArray...
 {% endraw %}
 ```
 
@@ -191,8 +175,10 @@ The template string I've used is more of an example, just exposing things like `
 
 ## All together now!
 
-<script src="https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e.js"></script>
+<script src="https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e.js?file=gulpfile.js"></script>
+
+If you [click through to the gist](https://gist.github.com/daviddarnes/eb956c1a8b57f4249ea57516b06ca89e) you'll see that I've added a `package.json` that you can easily copy too.
 
 Pretty nifty method of bringing Ghost and Jekyll together I think. Feel free to [chat with me on Twitter](https://twitter.com/DavidDarnes) if you've got some improvements or are using this yourself!
 
-PS. Thanks to [Phil](https://twitter.com/philhawksworth) for giving me the inspiration
+PS. Thanks to [Phil](https://twitter.com/philhawksworth) for giving me the inspiration, and thanks to [egg](https://twitter.com/allouis_) for the refactoring and code review

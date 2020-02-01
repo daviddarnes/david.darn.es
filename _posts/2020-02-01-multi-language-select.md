@@ -47,7 +47,7 @@ ready to be populated by the JavaScript
 <details data-language-select></details>
 ```
 
-```js
+```javascript
 // Grab the details element that will be the language select
 const langSelect = document.querySelector("details[data-language-select]");
 

@@ -5,7 +5,7 @@ exclude:
 - CNAME
 
 # Gems
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
@@ -13,10 +13,17 @@ gems:
 - jekyll-redirect-from
 - jemoji
 - jekyll-feed
-  
+
 # SCSS
 sass:
   style: :compressed
+
+# Markdown
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Permalinks
 permalink: pretty

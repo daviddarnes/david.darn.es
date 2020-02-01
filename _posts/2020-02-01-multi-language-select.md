@@ -35,10 +35,11 @@ Further details on applying this kind of meta information to your web pages can 
 
 Let's circle back to the original point of this tutorial: creating a language select. I've approached this in the same fashion I do most interactions - I'm using JavaScript to enhance what already exists on the page.
 
-In this instance, I'm using the existing `<link>` elements that state the alternate translations for the page to generate a list of links that'll take the user to another translation of that page. Rather than give a full breakdown of the code, I've provided an annotated version below. [Check out this CodePen](https://codepen.io/daviddarnes/pen/QWwzePz?editors=1010) to see everything in action, including an accessible method of toggling the language select (thanks [Andy Bell](https://hankchizljaw.com/wrote/a-progressive-disclosure-component/)).
+I'm using the existing `<link>` elements that state the translations for the page to generate a list of links that'll take the user to one of those translations. Rather than give a full breakdown of the code, I've provided an annotated version of the core functionality below. [Check out this CodePen](https://codepen.io/daviddarnes/pen/QWwzePz?editors=1010) to see everything in action, including an accessible method of toggling the language select (thanks [Andy Bell](https://hankchizljaw.com/wrote/a-progressive-disclosure-component/)).
 
 ```html
 <head>
+  <!-- all my translations for the currently viewed page -->
   <link rel="alternate" hreflang="fr" href="https://site.com/fr/" />
   <link rel="alternate" hreflang="jp" href="https://site.com/jp/" />
   <link rel="alternate" hreflang="de" href="https://site.com/de/" />

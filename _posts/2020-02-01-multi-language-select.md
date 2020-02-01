@@ -22,11 +22,9 @@ This `<link>` element would reside within the `<head>` element of the page. I gu
 So what can this attribute (and value) do to help our multi-language pain points? When the `rel="alternate"` attribute is used in conjunction with the `hreflang=""` attribute it can denote translated versions of the currently viewed page.
 
 ```html
-<head>
-  <title>My web page in english</title>
-  <link rel="alternate" href="https://site.com/fr/" hreflang="fr" />
-  <link rel="alternate" href="https://site.com/de/" hreflang="de" />
-</head>
+<title>My web page in english</title>
+<link rel="alternate" href="https://site.com/fr/" hreflang="fr" />
+<link rel="alternate" href="https://site.com/de/" hreflang="de" />
 ```
 
 Search engines like Google will index the pages along with the translated counterparts that have been referenced with the `<link>` element. There's a bit more info [here on this Google Support page](https://support.google.com/webmasters/answer/189077). Google will then serve the user whichever page is right for them depending on their region, using the `hreflang` value as a reference.
@@ -60,15 +58,15 @@ if (langSelect && translations.length) {
   // 1. <summary> title of the current language
   // 2. An unordered list of translations as links with a label and hreflang attribute
   langSelect.innerHTML = `
-      <summary>Language: ${document.documentElement.lang}</summary>
-      <ul>
-        ${translations
-          .map(link => {
-            return `<li><a href="${link.href}" hreflang="${link.hreflang}">${link.hreflang}</a></li>`;
-          })
-          .join("")}
-      </ul>
-    `;
+    <summary>Language: ${document.documentElement.lang}</summary>
+    <ul>
+      ${translations
+        .map(link => {
+          return `<li><a href="${link.href}" hreflang="${link.hreflang}">${link.hreflang}</a></li>`;
+        })
+        .join("")}
+    </ul>
+  `;
 }
 ```
 

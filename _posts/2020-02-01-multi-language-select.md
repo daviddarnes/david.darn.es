@@ -41,7 +41,7 @@ In this instance, I'm using the existing `<link>` elements that state the altern
 <head>
   <link rel="alternate" hreflang="fr" href="https://site.com/fr/" />
   <link rel="alternate" hreflang="jp" href="https://site.com/jp/" />
-  <link rel="alternate" hreflang="de" href="https://site.com/jp/" />
+  <link rel="alternate" hreflang="de" href="https://site.com/de/" />
 </head>
 <!-- Details element in markup, ready for JavaScript -->
 <div data-language-select></div>

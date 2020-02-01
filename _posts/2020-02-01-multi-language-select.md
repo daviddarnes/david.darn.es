@@ -12,7 +12,7 @@ Multi-language sites are straight up hard to do. You can automate, plugin and re
 You would think there's standard HTML spec stuff to handle this kinda stuff? Well there is! I've recently been expanding [our catalog of tutorials for Ghost](https://ghost.org/tutorials/) and one of them was a guide on [using multiple languages in Ghost](https://ghost.org/tutorials/multi-language-content/). While working on this [Kym](https://kymellis.co/) from the team enlightened me on `<link>` elements that denote alternate versions of the same page.
 
 ```html
-<link rel="alternate" href="http://mobile.example.com/" />
+<link rel="alternate" href="https://mirror.site.com/" />
 ```
 
 This `<link>` element would reside within the `<head>` element of the page. I guess it acts a bit like `canonical` but not to the extent of saying "this is the original". [Examples can be found on microformats.org](http://microformats.org/wiki/rel-alternate).
@@ -24,8 +24,8 @@ So what can this attribute (and value) do to help our multi-language pain points
 ```html
 <head>
   <title>My web page in english</title>
-  <link rel="alternate" href="http://example.com/fr/" hreflang="fr" />
-  <link rel="alternate" href="http://example.com/de/" hreflang="de" />
+  <link rel="alternate" href="https://site.com/fr/" hreflang="fr" />
+  <link rel="alternate" href="https://site.com/de/" hreflang="de" />
 </head>
 ```
 

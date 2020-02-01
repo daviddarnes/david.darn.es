@@ -35,16 +35,21 @@ Further details on applying this kind of meta information to your web pages can 
 
 Let's circle back to the original point of this tutorial: creating a language select. I've approached this in the same fashion I do most interactions - I'm using JavaScript to enhance what already exists on the page.
 
-In this instance, I'm using the existing `<link>` elements that state the alternate translations for the page to generate a list of links that'll take the user to another translation of that page. Rather than give a full breakdown of the code, I've provided an annotated version below. If you're looking for a version without the comments, you can [check out this CodePen](https://codepen.io/daviddarnes/pen/QWwzePz?editors=1010).
+In this instance, I'm using the existing `<link>` elements that state the alternate translations for the page to generate a list of links that'll take the user to another translation of that page. Rather than give a full breakdown of the code, I've provided an annotated version below. [Check out this CodePen](https://codepen.io/daviddarnes/pen/QWwzePz?editors=1010) to see everything in action, including an accessible method of toggling the language select (thanks [Andy Bell](https://hankchizljaw.com/wrote/a-progressive-disclosure-component/)).
 
 ```html
+<head>
+  <link rel="alternate" hreflang="fr" href="https://site.com/fr/" />
+  <link rel="alternate" hreflang="jp" href="https://site.com/jp/" />
+  <link rel="alternate" hreflang="de" href="https://site.com/jp/" />
+</head>
 <!-- Details element in markup, ready for JavaScript -->
-<details data-language-select></details>
+<div data-language-select></div>
 ```
 
 ```javascript
 // Grab the details element that will be the language select
-const langSelect = document.querySelector("details[data-language-select]");
+const langSelect = document.querySelector("[data-language-select]");
 
 // Grab all the alternate translations as an array
 const translations = [...document.querySelectorAll("head [hreflang]")];
@@ -65,7 +70,7 @@ if (langSelect && translations.length) {
   // Insert a summary showing the current language
   // and insert the links into a unordered list
   langSelect.innerHTML = `
-    <summary>Language: ${document.documentElement.lang}</summary>
+    <button type="button" aria-expanded="false">Language: ${document.documentElement.lang}</button>
     <ul>${links}</ul>
   `;
 }

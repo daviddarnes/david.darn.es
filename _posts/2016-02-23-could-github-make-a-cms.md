@@ -16,17 +16,17 @@ Well, GitHub of course. That was easy...
 
 Actually, let's use this opportunity to look at who else has made a CMS for GitHub Pages:
 
-### [CloudCannon](http://cloudcannon.com/)
+### [CloudCannon](https://cloudcannon.com/)
 
 ![cloudcannon](/images/github-cms/cloudcannon.png "cloudcannon")
-CloudCannon ticks all the boxes of what you'd expect from a CMS that works with Jekyll & GitHub Pages: [Posts](http://docs.cloudcannon.com/editing/blogging/), [pages](http://docs.cloudcannon.com/editing/content-editor/), [metadata](http://docs.cloudcannon.com/editing/front-matter/); everything is available in their UI. In addition, you can use an `editable` class name to give control over the content in the UI.
+CloudCannon ticks all the boxes of what you'd expect from a CMS that works with Jekyll & GitHub Pages: [Posts](https://docs.cloudcannon.com/editing/blogging/), [pages](https://docs.cloudcannon.com/editing/content-editor/), [metadata](https://docs.cloudcannon.com/editing/front-matter/); everything is available in their UI. In addition, you can use an `editable` class name to give control over the content in the UI.
 
-### [Siteleaf](http://www.siteleaf.com/)
+### [Siteleaf](https://www.siteleaf.com/)
 
 ![siteleaf](/images/github-cms/siteleaf.jpg "siteleaf")
-This is a CMS that can publish to GitHub Pages. However, it doesn't use Jekyll. The content editor has some [really nice features](http://www.siteleaf.com/blog/markdown-in-siteleaf/). What interests me most is [v2 of the CMS](http://v2.siteleaf.com/), which brings it right inline with the full GitHub ecosystem.
+This is a CMS that can publish to GitHub Pages. However, it doesn't use Jekyll. The content editor has some [really nice features](https://www.siteleaf.com/blog/markdown-in-siteleaf/). What interests me most is [v2 of the CMS](https://v2.siteleaf.com/), which brings it right inline with the full GitHub ecosystem.
 
-### [prose.io](http://prose.io/)
+### [prose.io](https://prose.io/)
 
 ![prose](/images/github-cms/prose.png "prose")
 Prose is an extremely clever [JavaScript project on Github](https://github.com/prose/prose). You simply authorise it with your GitHub account and you're off.
@@ -35,7 +35,7 @@ Prose is an extremely clever [JavaScript project on Github](https://github.com/p
 
 Well, you know the score. Clone your site down, edit your content with whatever application you like, and then push it back up. It's simple, it works, but it's not the experience you're looking for.
 
-If GitHub were to make a CMS, these are what they would have to contend with. There are lots of interesting features in all of these CMS's. Prose has quite a sparse UI, allowing you to focus on what you're writing. I like how [CloudCannon presents front matter](http://docs.cloudcannon.com/editing/front-matter/), essentially turning it into custom fields for your pages and posts. The [drag and drop feature in Siteleaf](http://www.siteleaf.com/blog/markdown-in-siteleaf/) is really clever, which conveniently lines up with GitHub's new drag and drop feature.
+If GitHub were to make a CMS, these are what they would have to contend with. There are lots of interesting features in all of these CMS's. Prose has quite a sparse UI, allowing you to focus on what you're writing. I like how [CloudCannon presents front matter](https://docs.cloudcannon.com/editing/front-matter/), essentially turning it into custom fields for your pages and posts. The [drag and drop feature in Siteleaf](https://www.siteleaf.com/blog/markdown-in-siteleaf/) is really clever, which conveniently lines up with GitHub's new drag and drop feature.
 
 ## What
 

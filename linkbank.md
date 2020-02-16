@@ -11,16 +11,16 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 ### Flexbox
 
-- [Flexy Boxes](http://the-echoplex.net/flexyboxes/)
+- [Flexy Boxes](https://the-echoplex.net/flexyboxes/)
 - [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### HTML
 
-- [HTML5 Doctor](http://html5doctor.com/)
-- [Schema.org](http://schema.org/)
+- [HTML5 Doctor](https://html5doctor.com/)
+- [Schema.org](https://schema.org/)
 - [Google Schemas](https://developers.google.com/schemas/)
 - [Email Templates - Campaign Monito](https://www.campaignmonitor.com/email-templates/)
-- [Refills - Toughtbot](http://refills.bourbon.io/)
+- [Refills - Toughtbot](https://refills.bourbon.io/)
 - [HEAD - Everything for the <head>](https://github.com/joshbuchea/HEAD)
 - [W3C Validator](https://validator.w3.org/)
 
@@ -31,24 +31,24 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 ### CSS
 
-- [CSS Guidelines - Harry Roberts](http://cssguidelin.es/)
+- [CSS Guidelines - Harry Roberts](https://cssguidelin.es/)
 - [:nth Tester - CSS Tricks](https://css-tricks.com/examples/nth-child-tester/)
 
 ### Jekyll
 
 - [GitHub Pages Gems](https://pages.github.com/versions/)
-- [Jekyll Documentation](http://jekyllrb.com/docs/home/)
+- [Jekyll Documentation](https://jekyllrb.com/docs/home/)
 
 ### Typography
 
 - [Sassline](https://sassline.com/)
-- [CSS Ligatures - Elliot Jay Stocks](http://www.elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/)
+- [CSS Ligatures - Elliot Jay Stocks](https://www.elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/)
 
 ### Iconography
 
 - [Entity Converter](https://www.evotech.net/articles/testjsentities.html)
 - [Icon Finder](https://www.iconfinder.com/)
-- [HTML Arrows](http://htmlarrows.com/)
+- [HTML Arrows](https://htmlarrows.com/)
 
 ### Domains / Hosting
 
@@ -61,7 +61,7 @@ A bank of links that I often refer to. Feel free to [share](https://twitter.com/
 
 ### Tools
 
-- [Rat:o](http://apps.mikestreety.co.uk/ratio/)
-- [Colorrrs](http://colorrrs.com/)
+- [Rat:o](https://apps.mikestreety.co.uk/ratio/)
+- [Colorrrs](https://colorrrs.com/)
 - [Twitter cards validator](https://cards-dev.twitter.com/validator)
-- [Is it down or just me?](http://isitdownorjust.me/)
+- [Is it down or just me?](https://isitdownorjust.me/)

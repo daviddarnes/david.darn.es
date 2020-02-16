@@ -68,48 +68,48 @@ Oh and finally [My Google Chrome Post][45]. If I've missed any it's due to me ei
 
 Cheers, Dave
 
- [1]: http://www.google.co.uk/intl/en-GB/landing/nose/
+ [1]: https://www.google.co.uk/intl/en-GB/landing/nose/
  [2]: https://mail.google.com/mail/help/intl/en/promos/blue/index.html
  [3]: https://www.youtube.com/watch?v=H542nLTTbu0
- [4]: http://www.google.co.jp/ime/patapata/
- [5]: http://carlsednaoui.com/post/46805160838/google-analytics-happy-april-fool
- [6]: http://www.underconsideration.com/brandnew/archives/google_chromes_broken_image_icon_heals_broken_hearts.php
+ [4]: https://www.google.co.jp/ime/patapata/
+ [5]: https://carlsednaoui.com/post/46805160838/google-analytics-happy-april-fool
+ [6]: https://www.underconsideration.com/brandnew/archives/google_chromes_broken_image_icon_heals_broken_hearts.php
  [7]: https://plus.google.com/u/0/100549881469536411122/posts/6cbXigttnUL
- [8]: http://googleenterprise.blogspot.co.uk/2013/03/google-apps-now-helping-you-enjoy-work.html
+ [8]: https://googleenterprise.blogspot.co.uk/2013/03/google-apps-now-helping-you-enjoy-work.html
  [9]: https://fiber.google.com/about/poles/
- [10]: http://google-latlong.blogspot.co.uk/2013/03/find-treasure-with-google-maps.html
+ [10]: https://google-latlong.blogspot.co.uk/2013/03/find-treasure-with-google-maps.html
  [11]: https://maps.google.com/maps?t=8
- [12]: http://blog.twitter.com/2013/03/annncng-twttr.html
- [13]: http://mashable.com/2013/03/31/da-vinci-invent-google-glass/
+ [12]: https://blog.twitter.com/2013/03/annncng-twttr.html
+ [13]: https://mashable.com/2013/03/31/da-vinci-invent-google-glass/
  [14]: https://www.facebook.com/photo.php?fbid=534247376618423&set=a.344662905576872.81276.277483875628109&type=1
- [15]: http://www.mirror.co.uk/news/technology-science/hold-home-page-mirroronline-becomes-1791954
- [16]: http://blog.soundcloud.com/2013/04/01/dropometer/
- [17]: http://metro.co.uk/2013/04/01/april-fools-day-2013-a-round-up-of-the-best-jokes-and-hoaxes-3566543/
- [18]: http://proxybay.net/blog/230
- [19]: http://ipad.runkeeper.com/
+ [15]: https://www.mirror.co.uk/news/technology-science/hold-home-page-mirroronline-becomes-1791954
+ [16]: https://blog.soundcloud.com/2013/04/01/dropometer/
+ [17]: https://metro.co.uk/2013/04/01/april-fools-day-2013-a-round-up-of-the-best-jokes-and-hoaxes-3566543/
+ [18]: https://proxybay.net/blog/230
+ [19]: https://ipad.runkeeper.com/
  [20]: https://blog.sony.com/2013/03/animalia/
- [21]: http://discover.store.sony.com/q/sony_content.html
- [22]: http://uk.ign.com/videos/2013/04/01/apple-introducing-iplay-game-console
- [23]: http://www.redbull.jp/cs/Satellite/ja_JP/Article/ARB48-021243332539644
- [24]: http://www.dominos.jp/topics/130401_a.html
- [25]: http://www.westjet.com/guest/en/deals/offers/furry-family.shtml
- [26]: http://www.ae.com/blog/skinnyskinny/
- [27]: http://www.thinkgeek.com/product/f487/
- [28]: http://www.ikea.com/gb/en/about_ikea/newsitem/ikea_lawnmower
- [29]: http://global.samsungtomorrow.com/?p=23405
- [30]: http://us.toshiba.com/shibasphere
- [31]: http://mojang.com/2013/04/its-finally-coming-minecraft-2-0/
- [32]: http://www.thinkgeek.com/product/f484/?cpg=yt
- [33]: http://www.footballmanager.com/1888/
- [34]: http://fc3blooddragon.uk.ubi.com/index.php
- [35]: http://www.deusex.com/humandefiance
- [36]: http://madebysheep.co.uk
- [37]: http://webdesign.tutsplus.com/articles/general/css4-is-coming-what-you-need-to-know/
- [38]: http://www.crowdfundthedebt.com/
- [39]: http://www.toaster.io/
- [40]: http://now.sprint.com/specs/?ECID=MA:TW:2013311:APFL:APFL
+ [21]: https://discover.store.sony.com/q/sony_content.html
+ [22]: https://uk.ign.com/videos/2013/04/01/apple-introducing-iplay-game-console
+ [23]: https://www.redbull.jp/cs/Satellite/ja_JP/Article/ARB48-021243332539644
+ [24]: https://www.dominos.jp/topics/130401_a.html
+ [25]: https://www.westjet.com/guest/en/deals/offers/furry-family.shtml
+ [26]: https://www.ae.com/blog/skinnyskinny/
+ [27]: https://www.thinkgeek.com/product/f487/
+ [28]: https://www.ikea.com/gb/en/about_ikea/newsitem/ikea_lawnmower
+ [29]: https://global.samsungtomorrow.com/?p=23405
+ [30]: https://us.toshiba.com/shibasphere
+ [31]: https://mojang.com/2013/04/its-finally-coming-minecraft-2-0/
+ [32]: https://www.thinkgeek.com/product/f484/?cpg=yt
+ [33]: https://www.footballmanager.com/1888/
+ [34]: https://fc3blooddragon.uk.ubi.com/index.php
+ [35]: https://www.deusex.com/humandefiance
+ [36]: https://madebysheep.co.uk
+ [37]: https://webdesign.tutsplus.com/articles/general/css4-is-coming-what-you-need-to-know/
+ [38]: https://www.crowdfundthedebt.com/
+ [39]: https://www.toaster.io/
+ [40]: https://now.sprint.com/specs/?ECID=MA:TW:2013311:APFL:APFL
  [41]: https://www.youtube.com/watch?v=luL_C0cGe9A
- [42]: http://www.ifixit.com/Teardown/Orange+Teardown/13470/1
- [43]: http://blog.fiftythree.com/post/46852426146/paper-simplified-one-year-ago-we-introduced
- [44]: http://www.lovewithweed.com/
- [45]: http://david.darn.es/general/chrome-affecting-eyesight/
+ [42]: https://www.ifixit.com/Teardown/Orange+Teardown/13470/1
+ [43]: https://blog.fiftythree.com/post/46852426146/paper-simplified-one-year-ago-we-introduced
+ [44]: https://www.lovewithweed.com/
+ [45]: https://david.darn.es/general/chrome-affecting-eyesight/

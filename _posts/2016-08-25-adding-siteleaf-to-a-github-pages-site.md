@@ -17,7 +17,7 @@ image: "/images/siteleaf/logos-header.jpg"
 
 ![Connecting an existing repo](https://david.darn.es/images/siteleaf/connect-repo.png)
 
-Once you've given permission to access the repo on your GitHub account, Siteleaf will run through your configuration file, front matter and any other settings within the site. _"This is to make the site more machine readable"_, as quoted from [their tutorial video](http://www.siteleaf.com/blog/connecting-github/). After it has converted your files, you'll then have access to the admin interface.
+Once you've given permission to access the repo on your GitHub account, Siteleaf will run through your configuration file, front matter and any other settings within the site. _"This is to make the site more machine readable"_, as quoted from [their tutorial video](https://www.siteleaf.com/blog/connecting-github/). After it has converted your files, you'll then have access to the admin interface.
 
 ![The Siteleaf admin interface](https://david.darn.es/images/siteleaf/admin-ui.png)
 
@@ -36,6 +36,6 @@ A couple of things you might want to make note of: Siteleaf uses an `_uploads` d
 
 ![The Uploads collection in the configuration file](https://david.darn.es/images/siteleaf/uploads-collection.png)
 
-Something else that might interest you is [Default fields](http://learn.siteleaf.com/content/defaults/) and [Smart Field Names](http://learn.siteleaf.com/content/metadata/#smart-field-names). Default fields allow you to effectively create your own custom fields for pages, posts or any collection. Smart Field Names allow you to take custom fields further by adding colour pickers, upload buttons and date pickers, all by just using smart naming conventions.
+Something else that might interest you is [Default fields](https://learn.siteleaf.com/content/defaults/) and [Smart Field Names](https://learn.siteleaf.com/content/metadata/#smart-field-names). Default fields allow you to effectively create your own custom fields for pages, posts or any collection. Smart Field Names allow you to take custom fields further by adding colour pickers, upload buttons and date pickers, all by just using smart naming conventions.
 
 So, there we go! Siteleaf is pretty easy to set up with a GitHub Pages site and it doesn't take long before you're editing content and inviting collaborators or clients to start contributing, as well. I hope you find this tutorial and screencast useful. 😃

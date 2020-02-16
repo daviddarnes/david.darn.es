@@ -3,10 +3,10 @@ title: "I'm working for BaseKit in Bristol"
 redirect_from: /general/im-working-for-basekit-in-bristol/
 ---
 
-Back in August I accepted a role as web designer & front end developer for [effect](http://effectdigital.com/) in Leicester. Its a great studio which is working with some awesome brands. Despite the friendly team and the strong momentum of work we were doing, I didn't feel like the role was right for me. I was looking to work on something that was closer to my interests and allowed me to feed my design hunger as well.
+Back in August I accepted a role as web designer & front end developer for [effect](https://effectdigital.com/) in Leicester. Its a great studio which is working with some awesome brands. Despite the friendly team and the strong momentum of work we were doing, I didn't feel like the role was right for me. I was looking to work on something that was closer to my interests and allowed me to feed my design hunger as well.
 <!-- more -->
 
-<img class="alignright  wp-image-912" style="border: 0;" alt="basekit-logo" src="http://david.darn.es/wp-content/uploads/2014/01/basekit-logo.png" width="384" height="91" />
+<img class="alignright  wp-image-912" style="border: 0;" alt="basekit-logo" src="https://david.darn.es/wp-content/uploads/2014/01/basekit-logo.png" width="384" height="91" />
 
 Then, about a month before Christmas, a [friend][2] of a [friend][3] mentioned that a company in Bristol called [BaseKit][4] was looking for a web designer. I spent some time looking into who they were and what they did. [BaseKit][4] is a website editor designed for small businesses to create an online presence with ease. The product immediately spoke to me, it reminded me of the work I had already done for [JigoShop][5] and [Anchor Themes][6] even more so. In addition to this I had already been told many times that Bristol is a great city to live and work in, unsurprisingly by my friends that actually live there.
 
@@ -18,8 +18,8 @@ My final thought is not only to thank the [BaseKit][4] team for giving me this 
 
 Cheers, Dave
 
- [2]: http://daleanthony.com/
- [3]: http://createdbypete.com/
- [4]: http://basekit.com/
- [5]: http://jigoshop.com/
- [6]: http://anchorthemes.com/
+ [2]: https://daleanthony.com/
+ [3]: https://createdbypete.com/
+ [4]: https://basekit.com/
+ [5]: https://jigoshop.com/
+ [6]: https://anchorthemes.com/

@@ -9,18 +9,18 @@ I've had to take a break from listening to podcasts as all I've been doing in pl
 
 Here's a list of everything I am subscribed to on my podcasts app:
 
-- [Reply All](http://gimletmedia.com/show/reply-all/)
-- [ShopTalk](http://shoptalkshow.com/)
-- [StartUp Podcast](http://gimletmedia.com/show/startup/)
-- [99% Invisible](http://99percentinvisible.org/)
-- [Design Details](http://www.designdetails.fm/)
+- [Reply All](https://gimletmedia.com/show/reply-all/)
+- [ShopTalk](https://shoptalkshow.com/)
+- [StartUp Podcast](https://gimletmedia.com/show/startup/)
+- [99% Invisible](https://99percentinvisible.org/)
+- [Design Details](https://www.designdetails.fm/)
 - [Developer Tea](https://www.developertea.com/)
-- [One Design Podcast](http://onedesign.guide/)
-- [PageBreak Podcast](http://www.pagebreakpodcast.com/)
-- [Narwhals](http://www.narwhals.cool/)
-- [CodePen Radio](http://blog.codepen.io/radio/)
+- [One Design Podcast](https://onedesign.guide/)
+- [PageBreak Podcast](https://www.pagebreakpodcast.com/)
+- [Narwhals](https://www.narwhals.cool/)
+- [CodePen Radio](https://blog.codepen.io/radio/)
 
-That's a lot, especially how most of them are on a weekly cycle. I wish they were all more like the [One Design Podcast](http://onedesign.guide/) and only worked on a fortnightly basis, at least that way I could find a way to keep up.
+That's a lot, especially how most of them are on a weekly cycle. I wish they were all more like the [One Design Podcast](https://onedesign.guide/) and only worked on a fortnightly basis, at least that way I could find a way to keep up.
 
 _PS. That list is in order of preference, if you do want to listen to any then start from the top._
 

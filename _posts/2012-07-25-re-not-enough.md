@@ -3,7 +3,7 @@ title: 'Re: Not Enough In The Day'
 redirect_from: /methods/re-not-enough/
 ---
 
-[Recently I wrote an article](http://david.darn.es/methods/not-enough-in-the-day/ "Not Enough In The Day") about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I'd like to thank everyone who replied. I received a few [tweets](http://twitter.com/daviddarnes "David Darnes on Twitter"), couple of [Google+](https://plus.google.com/100895260126547897177/posts "David Darnes on Google+") messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
+[Recently I wrote an article](https://david.darn.es/methods/not-enough-in-the-day/ "Not Enough In The Day") about what my daily routine is and asked others to let me know what they do and what their thoughts were. Firstly I'd like to thank everyone who replied. I received a few [tweets](https://twitter.com/daviddarnes "David Darnes on Twitter"), couple of [Google+](https://plus.google.com/100895260126547897177/posts "David Darnes on Google+") messages and even an email. All of them were a nice combination of casual, informative and comical in nature.
 <!-- more -->
 
 I'd like to kick off with an email from college friend and web developer [Benjamin Reid][4], who emailed me with a very detailed schedule of his average weekday:
@@ -46,11 +46,11 @@ So in review I need to 1. work less and 2. if I am working more than usual make 
 
 Cheers, Dave
 
- [4]: http://www.benjaminreid.me/ "Benjamin Reid"
- [5]: http://www.instapaper.com/ "Instapaper - Save interesting web pages for reading later"
- [6]: http://www.youtube.com/watch?v=4cSpQKpz75E "Cover of Survival by Muse"
- [7]: http://www.imdb.com/title/tt0411008/ "Lost TV Series"
- [8]: http://www.offscreenmag.com/ "Offscreen Magazine"
+ [4]: https://www.benjaminreid.me/ "Benjamin Reid"
+ [5]: https://www.instapaper.com/ "Instapaper - Save interesting web pages for reading later"
+ [6]: https://www.youtube.com/watch?v=4cSpQKpz75E "Cover of Survival by Muse"
+ [7]: https://www.imdb.com/title/tt0411008/ "Lost TV Series"
+ [8]: https://www.offscreenmag.com/ "Offscreen Magazine"
  [9]: https://twitter.com/blistereduk "Dan Smith on Twitter"
- [10]: http://www.welcomebrand.co.uk/ "Welcome Brand"
- [11]: http://offroadcode.com/ "Offroadcode"
+ [10]: https://www.welcomebrand.co.uk/ "Welcome Brand"
+ [11]: https://offroadcode.com/ "Offroadcode"

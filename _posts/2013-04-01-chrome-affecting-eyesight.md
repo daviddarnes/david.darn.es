@@ -12,7 +12,7 @@ Interested to know if anyone else is suffering from this issue, just [send us a 
 
 Cheers, Dave
 
- [1]: http://twitter.com/DavidDarnes "David Darnes on Twitter"
+ [1]: https://twitter.com/DavidDarnes "David Darnes on Twitter"
 
  <style>
  @-webkit-keyframes myeyes { 0%   { -webkit-filter: blur(0px); } 10%  { -webkit-filter: blur(0px); } 99%  { -webkit-filter: blur(5px); } 100% { -webkit-filter: blur(0px); } } body { -webkit-animation: myeyes !important; -webkit-animation-duration: 45s !important; -webkit-animation-iteration-count: infinite !important; } </style>

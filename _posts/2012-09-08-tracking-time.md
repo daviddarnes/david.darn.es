@@ -16,16 +16,16 @@ Not long ago I asked my Twitter followers what they suggest for a single person 
 
 Cheers, Dave
 
- [1]: http://www.freeagent.com/
+ [1]: https://www.freeagent.com/
  [2]: https://twitter.com/alanhornedotcom
- [3]: http://www.freshbooks.com/uk/
+ [3]: https://www.freshbooks.com/uk/
  [4]: https://twitter.com/pealo86
- [5]: http://www.fuelcollective.com/eon
+ [5]: https://www.fuelcollective.com/eon
  [6]: https://twitter.com/benjaminreid
  [7]: https://basecamp.com/
- [8]: http://www.thrivesolo.com/
+ [8]: https://www.thrivesolo.com/
  [9]: https://twitter.com/culshaw
- [10]: http://timetrack.bloop.info/
+ [10]: https://timetrack.bloop.info/
  [11]: https://twitter.com/daviddarnes
- [12]: http://freelanceswitch.com/
- [13]: http://freelanceswitch.com/productivity/6-cool-tools-to-track-your-time/
+ [12]: https://freelanceswitch.com/
+ [13]: https://freelanceswitch.com/productivity/6-cool-tools-to-track-your-time/

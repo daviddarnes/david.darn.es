@@ -5,7 +5,7 @@ icon: article
 image: "/images/playground/lego-site.png"
 ---
 
-Whenever I want to test or try something out, I do one of three things; I create a new pen on [CodePen](http://codepen.io/), push some files to a new [Surge](https://surge.sh/) project, or I'll try it out live on my personal site or blog. The last one in that list is my favourite thing to do.
+Whenever I want to test or try something out, I do one of three things; I create a new pen on [CodePen](https://codepen.io/), push some files to a new [Surge](https://surge.sh/) project, or I'll try it out live on my personal site or blog. The last one in that list is my favourite thing to do.
 
 <!-- more -->
 

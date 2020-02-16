@@ -15,7 +15,7 @@ You would think there's standard HTML spec thingers to handle this kinda stuff? 
 <link rel="alternate" href="https://mirror.site.com/" />
 ```
 
-This `<link>` element would reside within the `<head>` element of the page. I guess it acts a bit like `canonical`, but not to the extent of saying "this is the original". [Examples can be found on microformats.org](http://microformats.org/wiki/rel-alternate).
+This `<link>` element would reside within the `<head>` element of the page. I guess it acts a bit like `canonical`, but not to the extent of saying "this is the original". [Examples can be found on microformats.org](https://microformats.org/wiki/rel-alternate).
 
 ## Using `rel="alternate"` with translations
 

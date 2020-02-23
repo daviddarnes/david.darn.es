@@ -37,6 +37,8 @@ As mentioned at the top of this article, I've switched all my personal sites to 
 
 [Netlify Analytics](https://www.netlify.com/products/analytics/) has a far more elegant approach of providing an interface to show URL stats from the server, which is data that is already there. Rather than asking for information from someones computer with JavaScript, like Google Analytics does, the server is making note of any URL requested. You also don't have to store cookies on the users client, like Google Analytics does, avoiding the need to add those pesky cookie banners.
 
+![Netlify Analytics graph](/images/minimum-viable-analytics/minimum-viable-analytics-banner.png)
+
 The two most satisfying parts of using Netlify Analytics for me has been the moment I turned it on I saw a month of historical stats appear immediately, and then seeing all the 404 errors from bots trying to hack a non-existent WordPress site.
 
 ![Netlify Analytics panel showing a list of URLs to non-existent WordPress files](/images/minimum-viable-analytics/netlify-analytics-not-found.png)

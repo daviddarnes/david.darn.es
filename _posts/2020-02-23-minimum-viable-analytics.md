@@ -19,7 +19,7 @@ Up until now I've been managing my domains with [Cloudflare](https://www.cloudfl
 
 ![Cloudflare Analytics](/images/minimum-viable-analytics/cloudflare-analytics.png)
 
-Another featured I used is the [Google Analytics 'App'](https://www.cloudflare.com/apps/googleanalytics) which linked with my Google account and in turn Google Analytics. It's a clever way to link your site up as it saves you adding analytics code to your codebase and environment variables.
+Another feature I used is the [Google Analytics 'App'](https://www.cloudflare.com/apps/googleanalytics) which linked directly with Google Analytics. It's a clever way to link your site up as it saves you adding analytics code to your codebase and environment variables.
 
 However Google Analytics is too far over in the opposite direction. All the different views, metrics, filters are pretty overwhelming. Let's stop here though, I'll save my Google Analytics gripes for later on.
 
@@ -31,11 +31,11 @@ I was already onboard with Netlify, and the idea of using them to manage my doma
 
 ## Netlify and Netlify Analytics
 
-As mentioned at the top of this article, I've switched all my personal sites to Netlify. While I am a fan of their hosting, their Analytics feature I was super keen to try. It really bothered me that I had to use JavaScript running on someones computer to find out what they were doing on my sites. It's intrusive, heavy handed, detrimental to performance, and in some ways unreliable.
+As mentioned at the top of this article, I'm now hosting my personal sites on Netlify. While I am a fan of their hosting, their Analytics feature had become the most appealing thing to try out. It really bothered me that I had to use JavaScript running on someones computer to find out what pages were being viewed on my sites. It's intrusive, heavy handed, detrimental to performance, and in some ways unreliable.
 
 ![Netlify Analytics](/images/minimum-viable-analytics/netlify-analytics.png)
 
-[Netlify Analytics](https://www.netlify.com/products/analytics/) has a far more elegant approach of providing an interface to show URL stats from the server, which is data that is already there. Rather than asking for information from someones computer with JavaScript, like Google Analytics does, the server is making note of any URL requested. You also don't have to store cookies on the users client, like Google Analytics does, avoiding the need to add those pesky cookie banners.
+[Netlify Analytics](https://www.netlify.com/products/analytics/) has a far more elegant approach. Netlify tracks pages requests on the server, which is data that is already there. Rather than asking for information from someones computer with JavaScript, like Google Analytics does, the server is making note of any URL requested. You also don't have to store cookies on the users client, like Google Analytics does, avoiding the need to add those pesky cookie banners.
 
 ![Netlify Analytics graph](/images/minimum-viable-analytics/minimum-viable-analytics-banner.png)
 
@@ -43,11 +43,11 @@ The two most satisfying parts of using Netlify Analytics for me has been the mom
 
 ![Netlify Analytics panel showing a list of URLs to non-existent WordPress files](/images/minimum-viable-analytics/netlify-analytics-not-found.png)
 
-Interestingly, I posted a similar shot to above on Twitter and I was told that in the last couple of hours a serious vulnerability had been found in a WordPress plugin and [over 200,000 sites were at risk](https://twitter.com/ajeet_online/status/1229546973599977475). I've enabled this feature on a couple of my sites and I'll be using it to track some stats and hopefully action on them. It's a nice in-between the complexity of Google Analytics and the very high-level of Cloudflare Analytics.
+Interestingly, I posted a similar shot to above on Twitter and I was told that in the last couple of hours a serious vulnerability had been found in a WordPress plugin and [over 200,000 sites were at risk](https://twitter.com/ajeet_online/status/1229546973599977475). I've enabled this feature on a couple of my sites and I'll be using it to track some stats and hopefully action on them. It's a nice in-between the complexity shown in Google Analytics and the very high-level view in Cloudflare Analytics.
 
 ## Google Search Console
 
-Despite my negative opinion of Google Analytics, Google still does provide some useful tooling that can help with improving SEO and provide website stats. [Google Search Console](https://search.google.com/search-console/about) is Webmaster tools, if you used it in the past, and shares crawling info on your own websites. Rather than adding JavaScript, Search Console can be enabled by [adding a TXT record to your domain records](https://support.google.com/webmasters/answer/9008080#domain_name_verification). Again this is unobtrusive to your audience and only gives you information that Google has already captured when they crawl your site or when people use Google to find your site.
+Despite my negative opinion of Google Analytics, Google still does provide some useful tooling for SEO and Analytics. [Google Search Console](https://search.google.com/search-console/about) is Webmaster tools, if you used it in the past, and shares crawling info on your own sites. Rather than adding JavaScript, Search Console can be enabled by [adding a TXT record to your domain records](https://support.google.com/webmasters/answer/9008080#domain_name_verification). Again this is unobtrusive to your audience and only gives you information that Google has already captured when they crawl your site or when people use Google to find your site.
 
 ![Search Console](/images/minimum-viable-analytics/search-console.png)
 

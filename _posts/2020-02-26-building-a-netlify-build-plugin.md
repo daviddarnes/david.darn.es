@@ -124,6 +124,16 @@ npm install --save netlify-plugin-ghost-markdown
 
 So if you're using my plugin in a Jekyll project it's going to look a bit strange having a `package.json` in there too. Sign of the times I guess.
 
+Then it's a matter of referencing and configuring the plugin in the `netlify.yaml`:
+
+```yaml
+plugins:
+  - package: "netlify-plugin-ghost-markdown"
+    config:
+      ghostURL: "https://YOURGHOST.URL"
+      ghostKey: "YOURGHOSTKEY"
+```
+
 ## Wrapping up
 
 I've provided [installation and usage instructions](https://github.com/daviddarnes/netlify-plugin-ghost-markdown#netlify-ghost-markdown-build-plugin) in the repo for my plugin. You're also welcome do dig around the code. It's less complex than other plugins I've seen, which may help you to get your head around the concept.

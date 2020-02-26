@@ -5,7 +5,7 @@ icon: article
 category: article
 colour: "#00506b"
 image: "/images/netlify-build-plugin/netlify-build-plugin-banner.png"
-draft: true
+published: false
 ---
 
 ![Main banner graphic]()

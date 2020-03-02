@@ -27,13 +27,13 @@ All these events happen in the above order, exceptions being `onSuccess` and `on
 
 Well, to be frank with you, I wasn't entirely sure. For quite a while after the announcement I thought "If I want to run some code before my build I'll add it in before my build in the project 🤷🏼‍♂️". However after looking at some of the examples my mindset began to shift, for example a [plugin by Peter Müller which checks links](https://github.com/Munter/netlify-plugin-checklinks) at the `onPostBuild` event and stops the deployment if there's a broken link in the build.
 
-![Example build plugins](/images/netlify-build-plugin-table.jpg)
+![Example build plugins](/images/netlify-build-plugin/netlify-build-plugin-table.jpg)
 
 It wasn't until a late drive home from [NA Conf](https://newadventuresconf.com/2020/) while listening to [Fish and Scripts](https://fishandscripts.com/) that an idea dawned on me. I had already encountered a use case before, but with the use of build plugins I could improve it. Not too long ago I wrote a tutorial on [how to use Ghost with Jekyll](https://david.darn.es/tutorial/2019/08/11/use-ghost-with-jekyll/), where I used [gulp.js](https://gulpjs.com/) to pull in content via the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) and generated markdown files for [Jekyll to comfortably consume](https://jekyllrb.com/docs/posts/).
 
 It was a clever solution, but not what I would call 'clean'. Using gulp.js locally would mean you'd have to commit untouchable markdown files to your repo, because their contents is sourced from your install of Ghost. Using gulp.js on Netlify was much better but you're still using a pair of mismatched build tools, gulp.js and Jekyll.
 
-![Main banner graphic](/images/netlify-build-plugin-banner.png)
+![Main banner graphic](/images/netlify-build-plugin/netlify-build-plugin-banner.png)
 
 If I was to tap into the `onPreBuild` phase of the Netlify build lifecycle I could generate the markdown files at that point and then let Jekyll run its normal course. I could also wrap the code up in a neat plugin that others could use, possibly with other static site generators like Hugo and Eleventy!
 

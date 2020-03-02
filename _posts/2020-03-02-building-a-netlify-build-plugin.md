@@ -5,7 +5,6 @@ icon: article
 category: article
 colour: "#00506b"
 image: "/images/netlify-build-plugin/netlify-build-plugin-banner.png"
-published: false
 ---
 
 Netlify [Build Plugins](https://www.netlify.com/build/plugins-beta/) let you tap into the different phases in the build process that happen on Netlify. After being invited to the beta I spent some time figuring out what I could do and built a plugin of my own, a [build plugin to generate markdown from Ghost](https://github.com/daviddarnes/netlify-plugin-ghost-markdown).

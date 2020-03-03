@@ -1,6 +1,6 @@
 ---
 title: "Building a Netlify Build Plugin"
-excerpt: "Netlify [Build Plugins](https://www.netlify.com/build/plugins-beta/) allow you to tap into the different phases in the build process that happen on Netlify. After being invited to the beta I spent some time figuring out what I could do and build a plugin of my own."
+excerpt: "Netlify [Build Plugins](https://www.netlify.com/build/plugins-beta/) let you tap into the different phases in the build process that happen on Netlify. After being invited to the beta I spent some time figuring out what I could do and built a plugin of my own."
 icon: article
 category: article
 colour: "#1182a9"

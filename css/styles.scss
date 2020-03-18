@@ -184,6 +184,10 @@ code {
   padding: 0 0.3rem;
 }
 
+del > code {
+  text-decoration: line-through;
+}
+
 pre > code {
   overflow-x: scroll;
   padding: 0.3rem 0.6rem;

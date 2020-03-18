@@ -50,13 +50,15 @@ module.exports = {
 };
 ```
 
-To make Netlify aware of this file it needs to be referenced in the configuration file. When working on this plugin I really struggled to get my head around the `.toml` format. Thankfully `.yaml` files are are supported within the beta as well, which I find more readable.
+To make Netlify aware of this file it needs to be referenced in the configuration file. When working on this plugin I really struggled to get my head around the `.toml` format. ~~Thankfully `.yaml` files are are supported within the beta as well, which I find more readable.~~
+
+_Update: `.yaml` support has been removed from the Build Plugins Beta so it can worked on separately_
 
 Build plugins can be local, by referencing a directory, or an installed dependency.
 
-``` yaml
-plugins:
-  - package: "netlify-plugin-ghost-markdown"
+``` toml
+[[plugins]]
+package = "netlify-plugin-ghost-markdown"
   # Could also be "./_plugins/custom-netlify-plugin"
 ```
 
@@ -77,15 +79,17 @@ const ghostContentAPI = require("@tryghost/content-api");
 
 ## Config variables
 
-For my plugin to work for everyone I needed a way to let them configure it from the `netlify.yaml` file in their project. Build plugins use the following syntax to state config values:
+For my plugin to work for everyone I needed a way to let them configure it from the `netlify.toml` file in their project. Build plugins use the following syntax to state config values:
 
-```yaml
-plugins:
-  - package: "netlify-plugin-ghost-markdown"
-    config:
-      ghostKey: "1234567890"
-      assetsDir: "./images/"
-      pagesDir: "./pages/"
+```toml
+[[plugins]]
+package = "netlify-plugin-ghost-markdown"
+
+   [plugins.config]
+   ghostURL = "https://YOURGHOST.URL"
+   ghostKey = "YOURGHOSTKEY"
+   assetsDir = "./images/"
+   pagesDir = "./pages/"
 ```
 
 Within the plugin code a single parameter is passed. `pluginConfig` is one of the properties on the parameter, which contains all the plugin config values. In the example below I'm using [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to grab only the config values object:
@@ -137,14 +141,15 @@ npm install --save netlify-plugin-ghost-markdown
 
 So if you're using the plugin in a Jekyll project it's going to look a bit strange having a `package.json` in there too. So make sure to add it to the excludes list in your `config.yaml`.
 
-Then it's a matter of referencing and configuring the plugin in the `netlify.yaml`:
+Then it's a matter of referencing and configuring the plugin in the `netlify.toml`:
 
-```yaml
-plugins:
-  - package: "netlify-plugin-ghost-markdown"
-    config:
-      ghostURL: "https://YOURGHOST.URL"
-      ghostKey: "YOURGHOSTKEY"
+```toml
+[[plugins]]
+package = "netlify-plugin-ghost-markdown"
+
+   [plugins.config]
+   ghostURL = "https://YOURGHOST.URL"
+   ghostKey = "YOURGHOSTKEY"
 ```
 
 ## Wrapping up

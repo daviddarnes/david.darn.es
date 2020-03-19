@@ -85,7 +85,7 @@ For my plugin to work for everyone I needed a way to let them configure it from 
 [[plugins]]
 package = "netlify-plugin-ghost-markdown"
 
-   [plugins.config]
+   [plugins.inputs]
    ghostURL = "https://YOURGHOST.URL"
    ghostKey = "YOURGHOSTKEY"
    assetsDir = "./images/"
@@ -147,7 +147,7 @@ Then it's a matter of referencing and configuring the plugin in the `netlify.tom
 [[plugins]]
 package = "netlify-plugin-ghost-markdown"
 
-   [plugins.config]
+   [plugins.inputs]
    ghostURL = "https://YOURGHOST.URL"
    ghostKey = "YOURGHOSTKEY"
 ```

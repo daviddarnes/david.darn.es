@@ -1,3 +1,14 @@
+---
+title: "Let’s Learn Ghost on the Jamstack! Livestream Q & A"
+excerpt: "I recently [joined Jason Lengstorf](https://youtu.be/pOGjVNC1sk4) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/)."
+icon: article
+category: article
+colour: "#362066"
+image: "/images/lwjshow/lwjshow-banner.jpg"
+---
+
+![/images/lwjshow/lwjshow-banner.jpg, "Me and Jason on the livestream"]
+
 I recently [joined Jason Lengstorf](https://youtu.be/pOGjVNC1sk4) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/).
 
 I had a great time chatting with Jason and the audience. However in all the excitement I didn't get around to answering all the questions popping up in the live chat. Thankfully with the power of Twitch Chat Reply and an [npm script called 'twitch-chatlog'](https://github.com/freaktechnik/twitch-chatlog) I was able to go back in time and pull out all the questions people had during the livestream.
@@ -117,6 +128,6 @@ Best places to check out are our [documentation](https://ghost.org/docs/), [tuto
 
 Thank **you** for joining the livestream! Hopefully we'll get to do this again sometime.
 
-!["Tweet of Rafa toasting to our stream with wine"]
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">I’m ready yo, where u at? <a href="https://t.co/GbRzTuXqnS">pic.twitter.com/GbRzTuXqnS</a></p>&mdash; Rafa (@rafahari) <a href="https://twitter.com/rafahari/status/1247577207817601024?ref_src=twsrc%5Etfw">April 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ✌️

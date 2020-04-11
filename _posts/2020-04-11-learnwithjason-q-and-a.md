@@ -1,6 +1,6 @@
 ---
 title: "Let’s Learn Ghost on the Jamstack! Livestream Q & A"
-excerpt: "I recently [joined Jason Lengstorf](https://youtu.be/pOGjVNC1sk4) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/)."
+excerpt: "I recently joined [Jason Lengstorf](https://twitter.com/jlengstorf) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/). Check out the full recording of the stream [over on the Learn With Jason site](https://www.learnwithjason.dev/let-s-learn-ghost-on-the-jamstack)."
 icon: article
 category: article
 colour: "#362066"

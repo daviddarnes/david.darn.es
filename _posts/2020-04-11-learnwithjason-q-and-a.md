@@ -7,7 +7,7 @@ colour: "#362066"
 image: "/images/lwjshow/lwjshow-banner.jpg"
 ---
 
-![/images/lwjshow/lwjshow-banner.jpg, "Me and Jason on the livestream"]
+![/images/lwjshow/lwjshow-banner.jpg "Me and Jason on the livestream"]
 
 I recently [joined Jason Lengstorf](https://youtu.be/pOGjVNC1sk4) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/).
 

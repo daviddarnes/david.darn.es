@@ -15,7 +15,9 @@ I had a great time chatting with Jason and the audience. However in all the exci
 
 Here's a somewhat brief Q & A on those questions:
 
-> How can I become a Ghost? – [streamingRafa](https://twitch.tv/streamingRafa/)
+> How can I become a Ghost?
+>
+> – [streamingRafa](https://twitch.tv/streamingRafa/)
 
 The more I think about this question the darker it becomes. I'm not willing to answer.
 
@@ -189,3 +191,5 @@ Thank **you** for joining the livestream! Hopefully we'll get to do this again s
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">I’m ready yo, where u at? <a href="https://t.co/GbRzTuXqnS">pic.twitter.com/GbRzTuXqnS</a></p>&mdash; Rafa (@rafahari) <a href="https://twitter.com/rafahari/status/1247577207817601024?ref_src=twsrc%5Etfw">April 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ✌️
+
+<style>p + blockquote { margin-top: 2.4em; }</style>

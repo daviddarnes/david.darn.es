@@ -9,7 +9,7 @@ image: "/images/lwjshow/lwjshow-banner.jpg"
 
 ![Me and Jason on the livestream](/images/lwjshow/lwjshow-banner.jpg)
 
-I recently joined [Jason Lengstorf](https://twitter.com/jlengstorf) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using Ghost as a Headless CMS, using the [Ghost Content API](https://ghost.org/docs/api/v3/javascript/content/) with [Gatsby](https://ghost.org/docs/api/v3/gatsby/), [GraphQL](https://ghost.org/docs/api/v3/gatsby/graphql-recipes-for-ghost/) and [Eleventy](https://ghost.org/docs/api/v3/eleventy/). Check out the full recording of the stream [over on the Learn With Jason site](https://www.learnwithjason.dev/let-s-learn-ghost-on-the-jamstack).
+I recently joined [Jason Lengstorf](https://twitter.com/jlengstorf) on his Twitch show [Learn With Jason](https://www.learnwithjason.dev/). During the livestream we demonstrated the possibilities of using [Ghost as a Headless CMS](https://ghost.org/changelog/jamstack/). Check out the full recording of the stream [over on the Learn With Jason site](https://www.learnwithjason.dev/let-s-learn-ghost-on-the-jamstack).
 
 I had a great time chatting with Jason and the audience. However in all the excitement I didn't get around to answering all the questions from the live chat. Thankfully with the power of Twitch Chat Reply and an [npm script called 'twitch-chatlog'](https://github.com/freaktechnik/twitch-chatlog) I was able to go back in time and pull out all the questions people had during the livestream.
 
@@ -21,11 +21,11 @@ Here's a somewhat brief Q & A on those questions:
 
 The more I think about this question the darker it becomes. I'm not willing to answer.
 
-> so Ghost is like WordPress of node?
+> So Ghost is like WordPress of node?
 >
 > – [redetg](https://twitch.tv/redetg/)
 
-Ghost is CMS focused on publishing, built on Node.js. I'd highly recommend checking out our [WordPress comparison page](https://ghost.org/vs/wordpress/), it'll show you what the differences are and help you decide if Ghost is right for you.
+Ghost is a CMS focused on publishing, built on Node.js. I'd highly recommend checking out our [WordPress comparison page](https://ghost.org/vs/wordpress/), it'll show you what the differences are and help you decide if Ghost is right for you.
 
 > Is he ghosting us?
 >
@@ -43,7 +43,7 @@ I attempted to answer this question during the livestream, but I can't really re
 >
 > – [streamingRafa](https://twitch.tv/streamingRafa/)
 
-I mean, I guess? Ghost would be a good way to write up sandwich recipes? 
+I mean, I guess? Ghost would be a good way to write up sandwich recipes!
 
 > [Is Ghost a sandwich?](https://isthisasandwich.netlify.com/)
 >

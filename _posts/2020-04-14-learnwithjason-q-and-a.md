@@ -143,7 +143,7 @@ You don't have to use GraphQL, you can use the JavaScript Content API that I men
 >
 > – [philhawksworth](https://twitch.tv/philhawksworth/)
 
-I think you're getting confused with the local install of Ghost we used. Ghost is completely [open source](https://github.com/TryGhost/Ghost), you can go ahead and install it locally without barriers. Doing so will create a local install of the Ghost admin interface and a site running alongside it. However for other people to see your site, and for your deployed [JAMstack](https://jamstack.org/) site to retrieve content from it, you'll need to have a hosted installation running somewhere on the internet.
+I think you're getting confused with the local install of Ghost we used. Ghost is completely [open source](https://github.com/TryGhost/Ghost), you can go ahead and install it locally without barriers. Doing so will create a local install of the Ghost admin interface and a site running alongside it. However for other people to see your site, and for your deployed [Jamstack](https://jamstack.org/) site to retrieve content from it, you'll need to have a hosted installation running somewhere on the internet.
 
 For hosting options you could use something like [DigitalOcean](https://www.digitalocean.com/), they even have [a 'Droplet'](https://marketplace.digitalocean.com/apps/ghost) for you to spin up a Ghost installation quickly. While this is probably the cheapest option you do still have to maintain the installation yourself, if you're like me you won't enjoy server maintenance.
 
@@ -153,7 +153,7 @@ The alternative is [signing up for Ghost(Pro)](https://ghost.org/), which is our
 >
 > – [saiyugi](https://twitch.tv/saiyugi/)
 
-Yes! I made this handy snippet that will redirect all your pages to your JAMstack counterpart which you can drop into your site footer code injection area within your Ghost admin:
+Yes! I made this handy snippet that will redirect all your pages to your Jamstack counterpart which you can drop into your site footer code injection area within your Ghost admin:
 
 <script src="https://gist.github.com/daviddarnes/983142e7a2fce94044df0c87ffa7d39c.js"></script>
 

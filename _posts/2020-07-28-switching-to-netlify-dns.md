@@ -53,7 +53,7 @@ Use the DNS records interface to add your domain records. I very much appreciate
 
 The final step of adding your custom domain is adding the nameservers to your domain provider. Nameservers provide the server IP when a domain is requested, essentially the place where all your domain records are kept. Netlify will give you a set of nameservers that look like this:
 
-```
+``` txt
 dns1.p05.nsone.net
 dns2.p05.nsone.net
 dns3.p05.nsone.net
@@ -84,7 +84,7 @@ You do also have full control over your domain records too, letting you point do
 
 This isn't required, but you may want to ensure that your custom domain is the defacto address for your site by redirecting your Netlify app subdomain. Redirecting it can be done by adding the following to a file called `_redirects` to the root of your project:
 
-``` txt
+```
 http://myproject.netlify.app/* http://myproject.com/:splat 301!
 https://myproject.netlify.app/* https://myproject.com/:splat 301!
 ```

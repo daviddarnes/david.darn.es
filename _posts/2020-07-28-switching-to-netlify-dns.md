@@ -11,7 +11,11 @@ image: "/images/netlify-dns/netlify-dns-banner.png"
 
 Domain management can be a real pain, to me at least anyway. I think it's down to the fact that I don't do it very often, and when I am doing it the terminology is slightly misleading or abstracted.
 
-> Do I wan a `CNAME` or a an `A` record? What did I do last time?? Dang, I forgot to redirect the `www` subdomain to the bare domain, how do I do that again???
+> Do I wan a `CNAME` or a an `A` record? What did I do last time??
+>
+> Dang, I forgot to redirect the `www` subdomain to the bare domain… 
+>
+> …how do I do that again???
 
 A few of the questions that go through my brain when sorting out a new domain. If you're wondering where I buy my domains, I use [Gandi](https://gandi.link/f/e20f1f35) and have been for the last 11 years. **Use [this link to get 20% off a domain](https://gandi.link/f/e20f1f35) you buy with Gandi.**
 

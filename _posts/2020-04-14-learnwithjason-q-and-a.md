@@ -164,7 +164,7 @@ This snippet also accounts for previews which will be best shown in the internal
 > – [NMeuleman](https://twitch.tv/NMeuleman/)
 
 <div class="video">
-<iframe src="https://clips.twitch.tv/embed?clip=LongAssiduousZebraRlyTho&autoplay=false" frameborder="0" allowfullscreen="true" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=LongAssiduousZebraRlyTho&parent=david.darn.es" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 </div>
 
 

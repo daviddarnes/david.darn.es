@@ -11,7 +11,7 @@ image: "/images/netlify-dns/netlify-dns-banner.png"
 
 Domain management can be a real pain, to me at least anyway. I think it's down to the fact that I don't do it very often, and when I am doing it the terminology is slightly misleading or abstracted.
 
-> Do I wan a `CNAME` or a an `A` record? What did I do last time??
+> Do I want a `CNAME` or a an `A` record? What did I do last time??
 >
 > Dang, I forgot to redirect the `www` subdomain to the bare domain…
 >
@@ -23,9 +23,9 @@ To alleviate some of these pain points when managing domains I've been switching
 
 ## Prerequisites
 
-The following tutorial assumes you a custom domain ready to use, along with a project hosted on Netlify 👍. You'll also need to sort out any possible caching issues, this is to ensure domains resolve to their correct state when you load them in a browser.
+The following tutorial assumes you have a custom domain ready to use, along with a project hosted on Netlify 👍. You'll also need to sort out any possible caching issues, this is to ensure domains resolve to their correct state when you load them in a browser.
 
-One of the most common caching problems with domains is the TTL, the "Time To Live". A TTL is a numerical value representing the duration of time the server assumes a domain record value before checking again. For example, if the TTL on a domain record is `10800` then the server will not check this record value again for 10800 seconds or 3 hours for us humans. You can find out the TTL of a domain record by using the `dig` command in your CLI tool, `dig yourdomain.com` and hit enter.
+One of the most common caching problems with domains is the TTL, the "Time To Live". A TTL is a numerical value representing the duration of time the server assumes a domain record value before checking again. For example, if the TTL on a domain record is `10800` then the server will not check this record value again for 10800 seconds or 3 hours for us humans. You can find out the TTL of a domain record by using the `dig` command in your CLI tool, type `dig yourdomain.com` and hit enter.
 
 ![Example of the dig command pointing to the TTL (Time To Live) value, which is 20 seconds in this case](/images/netlify-dns/dig-example.png)
 
@@ -37,7 +37,7 @@ Head on over to your Netlify dashboard and click on "Domains". [Here's direct li
 
 ![Domains view in Netlify, focusing on the "Add or register domain button"](/images/netlify-dns/add-domain-button.png)
 
-Click on "Add or register a domain" and enter your domain into the "Domain" field. You can also buy a new custom domain from here too, if you're wanting to keep your stack of services to a minimum.
+Click on "Add or register domain" and enter your domain into the "Domain" field. You can also buy a new custom domain from here too, if you're wanting to keep your stack of services to a minimum.
 
 For people who already own their domain clicking "Verify" will respond with Netlify telling you that the domain already has an owner, which is hopefully you. Click "Yes, add domain".
 
@@ -99,7 +99,7 @@ Note that you'll need to replace the URLs with your actual Netlify subdomain and
 
 ### Removing records
 
-The only gotcha I encountered during this process was around removing records. When you add a custom domain to a project a `NETLIFY` record is automatically created, which under the hood is actually an `A` record. These records can only be controlled via the the project that created them, and at present can't be removed. This isn't entirely an issue, as if the domain is removed from the project a "Not found" error is returned instead.
+The only gotcha I encountered during this process was around removing records. When you add a custom domain to a project a `NETLIFY` record is automatically created, which under the hood is actually an `A` record. These records can only be controlled via the project that created them, and at present can't be removed. This isn't entirely an issue, as if the domain is removed from the project a "Not found" error is returned instead.
 
 If you really want the record removed then [get in touch with the Netlify support team](https://community.netlify.com/) and they'll help you from there.
 

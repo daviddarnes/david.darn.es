@@ -13,7 +13,7 @@ Domain management can be a real pain, to me at least anyway. I think it's down t
 
 > Do I wan a `CNAME` or a an `A` record? What did I do last time??
 >
-> Dang, I forgot to redirect the `www` subdomain to the bare domain… 
+> Dang, I forgot to redirect the `www` subdomain to the bare domain…
 >
 > …how do I do that again???
 
@@ -27,13 +27,15 @@ The following tutorial assumes you a custom domain ready to use, along with a pr
 
 One of the most common caching problems with domains is the TTL, the "Time To Live". A TTL is a numerical value representing the duration of time the server assumes a domain record value before checking again. For example, if the TTL on a domain record is `10800` then the server will not check this record value again for 10800 seconds or 3 hours for us humans. You can find out the TTL of a domain record by using the `dig` command in your CLI tool, `dig yourdomain.com` and hit enter.
 
+![Example of the dig command pointing to the TTL (Time To Live) value, which is 20 seconds in this case](/images/netlify-dns/dig-example.png)
+
 It's recommended you reduce this value to as short as possible and waiting for the full original TTL to finish before going through the Netlify DNS transfer process. That way you'll see the actual results sooner. There's a [guide over on the Netlify community forum on how to update your TTL](https://community.netlify.com/t/support-guide-minimal-downtime-for-a-live-site-dns-migration/141) before switching.
 
 ## Getting started
 
 Head on over to your Netlify dashboard and click on "Domains". [Here's direct link to the Domains UI](https://app.netlify.com/dns) if you're feeling lazy.
 
-![Domains view in Netlify](/images/netlify-dns/add-domain-button.png)
+![Domains view in Netlify, focusing on the "Add or register domain button"](/images/netlify-dns/add-domain-button.png)
 
 Click on "Add or register a domain" and enter your domain into the "Domain" field. You can also buy a new custom domain from here too, if you're wanting to keep your stack of services to a minimum.
 
@@ -43,13 +45,13 @@ _There are some TLDs that Netlify can't sell yet, such as `.es` domains. Even if
 
 ### Prepare DNS records
 
-![Add DNS records view](/images/netlify-dns/add-records.png)
+![Add DNS records view, with "Add records" and "Continue" buttons](/images/netlify-dns/add-records.png)
 
 Before switching the domain over Netlify gives you the opportunity to add any custom records. If the domain is for an existing live project this will hopefully reduce any downtime during the switch.
 
 Anyone who has used Cloudflare for their DNS may recall that when you add a domain they automatically guess the records by looking at the domain's existing records. It's a clever trick, and saves you entering the records yourself. Why doesn't Netlify do this? I believe this is by design, so they don't accidentally add records that will be overwritten when you add a project to a domain using their UI.
 
-![Add DNS record dialog](/images/netlify-dns/add-record-dialog.png)
+![Add DNS record dialog with record type select, name field, value field and TTL field. All inputs have a label above and a smaller more verbose label underneath](/images/netlify-dns/add-record-dialog.png)
 
 Use the DNS records interface to add your domain records. I very much appreciate the additional labels added to the fields here, helps me jog my memory on what needs to be entered. You may only be using the custom domain for a project, in which case you can skip this step.
 

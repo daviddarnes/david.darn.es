@@ -1,8 +1,11 @@
+{% capture styles %}
+  @import "styles";
+{% endcapture %}
+
 {% capture pagestyles %}
 .content--main a {
   color: {{ page.colour }};
 }
 {% endcapture %}
-{% for item in site.pages %}{% if item.styles == true %}
-<style>{{ item.content | scssify }}{% if page.colour %}{{ pagestyles | scssify }}{% endif %}</style>
-{% endif %}{% endfor %}
+
+<style>{{ styles | scssify | strip_newlines }}{% if page.colour %}{{ pagestyles | scssify | strip_newlines }}{% endif %}</style>

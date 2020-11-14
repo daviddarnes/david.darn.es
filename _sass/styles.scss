@@ -1,7 +1,3 @@
----
-styles: true
----
-
 // Variables
 $color--background: #fcfaf2;
 $color--link: #c82a28;
@@ -50,7 +46,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+label {
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -136,7 +133,8 @@ small {
 
 blockquote,
 code,
-.content--main img {
+.content--main img,
+form {
   background: lighten($color--background, 10%);
   border-radius: $border--radius;
   border-color: $color--keyline;
@@ -149,7 +147,8 @@ code,
   border-width: 1px;
 }
 
-blockquote {
+blockquote,
+form {
   position: relative;
   margin: 0;
   padding: 0.6rem 1.8rem 0.6rem 0.8rem;
@@ -478,6 +477,79 @@ div.highlighter-rouge {
   @media (max-width: 500px) {
     margin-left: -5.2rem;
   }
+}
+
+// Forms
+input,
+button {
+  padding: .6em 1em;
+  font-family: inherit;
+  font-size: inherit;
+  color: $color--paragraph;
+  background: white;
+  outline: $color--link;
+  border: 1px solid darken($color--keyline, 15%);
+  border-radius: $border--radius;
+  transition: 0.2s;
+  margin-bottom: .5em;
+}
+
+button {
+  cursor: pointer;
+  color: $color--link;
+  border-color: fade-out($color--link, 0.7);
+}
+
+button,
+input {
+  &:hover,
+  &:focus {
+    border-color: $color--link;
+  }
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+form,
+form.content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 1em;
+  border: 1px solid $color--keyline;
+  padding: 1.4rem 2.6rem 1.5rem 1.3rem;
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+  }
+  &::after {
+    top: 1.4rem;
+    right: 1.3rem;
+    content: "\2709";
+  }
+}
+
+label,
+label + input {
+  grid-column-start: 1;
+}
+
+form div {
+  grid-column: 1 / -1;
+}
+
+form p {
+  margin-bottom: 1.2rem;
+}
+
+form small {
+  color: $color--footnote;
+}
+
+#subscribe {
+  padding: 2rem 0;
 }
 
 @import "syntax";

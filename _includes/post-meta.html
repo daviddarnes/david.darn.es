@@ -1,5 +1,0 @@
-{% assign words = page.content | number_of_words %}
-<meta name="twitter:label1" content="Reading time" />
-<meta name="twitter:data1" content="{% if words < 360 %}1 min{% else %}{{ words | divided_by:180 }} mins{% endif %}" />
-<meta name="twitter:label2" content="As seen on" />
-<meta name="twitter:data2" content="{{ site.url }}" />

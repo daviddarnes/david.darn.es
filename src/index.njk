@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  {% set personalPosts = ghost.posts | filterPosts("internalTags", "hash-personal") %}
+  <h1>{{ personalPosts[0].internalTags[0].name | replace("#", "") }}</h1>
+  
+  <p>{{ personalPosts[0].internalTags[0].description }}</p>
+  <ul>
+    {% for post in personalPosts %}
+      <li><a href="/{{ post.slug }}/">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}

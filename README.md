@@ -1,2 +1,3 @@
-# [david.darn.es](https://david.darn.es)
-My personal blog listing articles, tutorials and other ramblings
+# [darn.es](https://david.darn.es)
+
+Personal blog for David Darnes, it me… being personal
